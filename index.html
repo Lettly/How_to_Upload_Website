@@ -9,15 +9,24 @@
 	<meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
 	<meta name="Resource-type" content="Document" />
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="dist/css/code.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
+
+
+
+	<!-- Bootstrap -->
 
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
+
 	<title>Website Upload</title>
 </head>
 
@@ -25,10 +34,100 @@
 
 
 	<div id="fullpage">
+
 		<div class="section " id="section0">
-			<h1>fullPage.js</h1>
-			<p>Continuous Scrolling Enabled</p>
-		</div>
+
+			<div class="row">
+				
+				<div class="col my-auto">
+					
+					<h3 class="text-right">Scriviamo il <br><span>codice</span></h3>
+					
+				</div>
+				
+				<div class="col my-auto text-left p-0">
+	
+					<!-- <div class="container-code"> -->
+	
+						<div class="stack-container">
+							<div class="card-container">
+								<div class="perspec" style="--spreaddist: 125px; --scaledist: .75; --vertdist: -25px;">
+									<div class="card-code">
+										<div class="writing">
+											<div class="topbar">
+												<div class="red"></div>
+												<div class="yellow"></div>
+												<div class="green"></div>
+											</div>
+											<div class="code">
+												<ul>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-container">
+								<div class="perspec" style="--spreaddist: 100px; --scaledist: .8; --vertdist: -20px;">
+									<div class="card-code">
+										<div class="writing">
+											<div class="topbar">
+												<div class="red"></div>
+												<div class="yellow"></div>
+												<div class="green"></div>
+											</div>
+											<div class="code">
+												<ul>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-container">
+								<div class="perspec" style="--spreaddist:75px; --scaledist: .85; --vertdist: -15px;">
+									<div class="card-code">
+										<div class="writing">
+											<div class="topbar">
+												<div class="red"></div>
+												<div class="yellow"></div>
+												<div class="green"></div>
+											</div>
+											<div class="code">
+												<ul>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card-container">
+								<div class="perspec" style="--spreaddist: 50px; --scaledist: .9; --vertdist: -10px;">
+									<div class="card-code">
+										<div class="writing">
+											<div class="topbar">
+												<div class="red"></div>
+												<div class="yellow"></div>
+												<div class="green"></div>
+											</div>
+											<div class="code">
+												<ul>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					<!-- </div> container (code animation) end -->
+				
+				</div> <!-- col end -->
+			
+			</div> <!-- row end -->
+
+		</div> <!-- section end -->
+
 		<div class="section" id="section1">
 			<div class="intro">
 				<h1>Around the world scrolling</h1>
@@ -45,6 +144,19 @@
 
 
 	<script type="text/javascript" src="dist/fullpage.js"></script>
+	<script type="text/javascript" src="dist/js/main.js"></script>
+	<script type="text/javascript" src="dist/js/code.js"></script>
+
+	<!-- bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+		crossorigin="anonymous"></script>
 
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
