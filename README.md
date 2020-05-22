@@ -1,6 +1,6 @@
 # Pubblicazione di un sito web
 
-## I passaggi necessari per pubblicare un sito
+## Passaggi necessari
 
 - [Avere il sito da pubblicare](#Codice)
 - [Comprare un server](#link_alla_sezione)
