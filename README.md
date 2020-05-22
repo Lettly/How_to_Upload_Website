@@ -1,16 +1,17 @@
 # Pubblicazione di un sito web
+
 ## I passaggi necessari per pubblicare un sito
 
-### 1. Avere il sito da pubblicare
-### 2. Comprare un server
-### 3. Comprare un dominio
-### 4. Configurazione
-####   - Dominio
-#####    - Cloudfare (spigazione e account)
-#####    - Puntare a cloudfare
-#####    - Config. DNS su cloudfare (punta al server)
-####   - Server
-#####    - Installazione del web server (spiegazione)
-#####    - Configurazione del web server
-#####    - Caricamento del sito
-### 5. Crash test
+- [Avere il sito da pubblicare](#Codice)
+- [Comprare un server](#link_alla_sezione)
+- [Comprare un dominio](#link_alla_sezione)
+- [Configurazione](#link_alla_sezione)
+  - [Dominio](#link_alla_sezione)
+  - [Cloudfare (spigazione e account)](#link_alla_sezione)
+  - [Puntare a cloudfare](#link_alla_sezione)
+  - [Config. DNS su cloudfare (punta al server)](#link_alla_sezione)
+- [Server](#link_alla_sezione)
+  - [Installazione del web server (spiegazione)](#_link_alla_sezione)
+  - [Configurazione del web server](#_link_alla_sezione)
+  - [Caricamento del sito](#link_alla_sezione)
+- [Crash test](#link_alla_sezione)
