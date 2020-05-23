@@ -23,6 +23,7 @@ perspec.addEventListener('animationend', function (e) {
     if (e.animationName === 'explode') {
         cardNodes.forEach(function (elem, index) {
 
+
             //add hover animation class
             elem.classList.add('pokeup');
 

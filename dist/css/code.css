@@ -101,7 +101,7 @@ html {
     transition: all .3s ease;
 }
 
-.pokeup:hover {
+.pokeup:hover, .pokeupMy {
     -webkit-transform: translateY(-10px);
             transform: translateY(-10px);
     -webkit-transition: .3s ease;
