@@ -2,7 +2,7 @@
 
 ## Indice dei passaggi
 
-- [Avere il sito da pubblicare](#Avere-il_sito-da-pubblicare)
+- [Avere il sito da pubblicare](#Avere-il-sito-da-pubblicare)
 - [Comprare un server](#Comprare-un-server)
 - [Comprare un dominio](#link_alla_sezione)
 - [Configurazione](#link_alla_sezione)
