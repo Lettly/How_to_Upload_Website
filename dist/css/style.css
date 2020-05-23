@@ -8,6 +8,7 @@ html {
 }
 
 .title {
+    font-size: 42px;
     -webkit-animation: fadein 1.5s forwards, moveRight 1s forwards 1.5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 1.5s forwards, moveRight 1s forwards 1.5s; /* Firefox < 16 */
         -ms-animation: fadein 1.5s forwards, moveRight 1s forwards 1.5s; /* Internet Explorer */
