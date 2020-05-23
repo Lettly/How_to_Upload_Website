@@ -1,6 +1,6 @@
 # Pubblicazione di un sito web
 
-## Passaggi necessari
+## Indice dei passaggi
 
 - [Avere il sito da pubblicare](#Avere_il_sito_da_pubblicare)
 - [Comprare un server](#Comprare_un_server)
