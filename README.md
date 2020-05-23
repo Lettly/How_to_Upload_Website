@@ -4,17 +4,17 @@
 
 - [Avere il sito da pubblicare](#Avere-il-sito-da-pubblicare)
 - [Comprare un server](#Comprare-un-server)
-- [Comprare un dominio](#link_alla_sezione)
-- [Configurazione](#link_alla_sezione)
-  - [Dominio](#link_alla_sezione)
-    - [Cloudfare (spigazione e account)](#link_alla_sezione)
-    - [Puntare a cloudfare](#link_alla_sezione)
-    - [Configurazione DNS su cloudfare (punta al server)](#link_alla_sezione)
-  - [Server](#link_alla_sezione)
-    - [Installazione del web server (spiegazione)](#_link_alla_sezione)
-    - [Configurazione del web server](#_link_alla_sezione)
-    - [Caricamento del sito](#link_alla_sezione)
-- [Crash test](#link_alla_sezione)
+- [Comprare un dominio](#link-alla-sezione)
+- [Configurazione](#link-alla-sezione)
+  - [Dominio](#link-alla-sezione)
+    - [Cloudfare (spigazione e account)](#link-alla-sezione)
+    - [Puntare a cloudfare](#link-alla-sezione)
+    - [Configurazione DNS su cloudfare (punta al server)](#link-alla-sezione)
+  - [Server](#link-alla-sezione)
+    - [Installazione del web server (spiegazione)](#-link-alla-sezione)
+    - [Configurazione del web server](#-link-alla-sezione)
+    - [Caricamento del sito](#link-alla-sezione)
+- [Crash test](#link-alla-sezione)
 
 
 ## Avere il sito da pubblicare
