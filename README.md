@@ -2,7 +2,7 @@
 
 ## Passaggi necessari
 
-- [Avere il sito da pubblicare](#Avere il sito da pubblicare)
+- [Avere il sito da pubblicare](#Avere_il_sito_da_pubblicare)
 - [Comprare un server](#link_alla_sezione)
 - [Comprare un dominio](#link_alla_sezione)
 - [Configurazione](#link_alla_sezione)
