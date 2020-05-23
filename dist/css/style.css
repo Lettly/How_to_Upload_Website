@@ -7,11 +7,11 @@ html {
 }
 
 .title {
-    -webkit-animation: fadein 4s forwards, moveRight 1s forwards 1.5s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s forwards, moveRight 1s forwards 1.5s; /* Firefox < 16 */
-        -ms-animation: fadein 4s forwards, moveRight 1s forwards 1.5s; /* Internet Explorer */
-         -o-animation: fadein 4s forwards, moveRight 1s forwards 1.5s; /* Opera < 12.1 */
-            animation: fadein 4s forwards, moveRight 1s forwards 1.5s;
+    -webkit-animation: fadein 2.5s forwards, moveRight 1s forwards 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s forwards, moveRight 1s forwards 1.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s forwards, moveRight 1s forwards 1.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s forwards, moveRight 1s forwards 1.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s forwards, moveRight 1s forwards 1.5s;
 
 }
 
