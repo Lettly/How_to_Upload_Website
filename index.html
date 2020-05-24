@@ -1,229 +1,393 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Continuous Vertical scrolling - fullPage.js</title>
+        <meta name="author" content="Matthew Howell" />
+        <meta
+            name="description"
+            content="fullPage continuous scrolling demo."
+        />
+        <meta
+            name="keywords"
+            content="fullpage,jquery,demo,scroll,loop,continuous"
+        />
+        <meta name="Resource-type" content="Document" />
 
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Continuous Vertical scrolling - fullPage.js</title>
-	<meta name="author" content="Matthew Howell" />
-	<meta name="description" content="fullPage continuous scrolling demo." />
-	<meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
-	<meta name="Resource-type" content="Document" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/code.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
 
-	<link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
-	<link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
-	<link rel="stylesheet" type="text/css" href="dist/css/code.css">
-	<link rel="stylesheet" type="text/css" href="dist/css/style.css">
+        <!-- Bootstrap -->
 
+        <!--[if IE]>
+            <script type="text/javascript">
+                var console = { log: function () {} };
+            </script>
+        <![endif]-->
 
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="imgs/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="imgs/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="imgs/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="imgs/favicon/site.webmanifest" />
+        <link rel="stylesheet" href="dist/css/domini.css" />
 
-	<!-- Bootstrap -->
+        <title>Website Upload</title>
+    </head>
 
-	<!--[if IE]>
-		<script type="text/javascript">
-			 var console = { log: function() {} };
-		</script>
-	<![endif]-->
+    <body>
+        <div id="fullpage">
+            <div class="section" id="section0">
+                <div class="row">
+                    <div class="col my-auto">
+                        <h3 class="text-right title marquee">
+                            Scriviamo il nostro sito web
+                        </h3>
+                    </div>
 
-	<!-- favicon -->
-	<link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png">
-	<link rel="manifest" href="imgs/favicon/site.webmanifest">
-	<link rel="stylesheet" href="dist/css/domini.css">
+                    <div class="col my-auto text-left p-0">
+                        <!-- <div class="container-code"> -->
 
-	<title>Website Upload</title>
-</head>
+                        <div class="stack-container">
+                            <div class="card-container" id="last">
+                                <div
+                                    class="perspec"
+                                    style="
+                                        --spreaddist: 100px;
+                                        --scaledist: 0.9;
+                                        --vertdist: -15px;
+                                    "
+                                >
+                                    <div class="card-code">
+                                        <div class="writing">
+                                            <div class="topbar">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
+                                                <div class="title-code mr-2">
+                                                    <strong>Javascript</strong>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <ul></ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container" id="second">
+                                <div
+                                    class="perspec"
+                                    style="
+                                        --spreaddist: 75px;
+                                        --scaledist: 0.95;
+                                        --vertdist: -10px;
+                                    "
+                                >
+                                    <div class="card-code">
+                                        <div class="writing">
+                                            <div class="topbar">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
+                                                <div class="title-code mr-2">
+                                                    <strong>CSS 3</strong>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <ul></ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-container" id="first">
+                                <div
+                                    class="perspec"
+                                    style="
+                                        --spreaddist: 50px;
+                                        --scaledist: 1;
+                                        --vertdist: -5px;
+                                    "
+                                >
+                                    <div class="card-code">
+                                        <div class="writing">
+                                            <div class="topbar">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
+                                                <div class="title-code mr-2">
+                                                    <strong>HTML5</strong>
+                                                </div>
+                                            </div>
+                                            <div class="code">
+                                                <ul></ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-<body>
-
-
-	<div id="fullpage">
-
-		<div class="section " id="section0">
-
-			<div class="row">
-				
-				<div class="col my-auto">
-					
-					<h3 class="text-right title marquee">Scriviamo il nostro sito web</h3>
-					
-				</div>
-				
-				<div class="col my-auto text-left p-0">
-	
-					<!-- <div class="container-code"> -->
-	
-						<div class="stack-container">
-							<div class="card-container" id="last">
-								<div class="perspec" style="--spreaddist: 100px; --scaledist: .9; --vertdist: -15px;">
-									<div class="card-code">
-										<div class="writing">
-											<div class="topbar">
-												<div class="red"></div>
-												<div class="yellow"></div>
-												<div class="green"></div>
-												<div class="title-code mr-2"><strong>Javascript</strong></div>
-											</div>
-											<div class="code">
-												<ul>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card-container" id="second">
-								<div class="perspec" style="--spreaddist:75px; --scaledist: .95; --vertdist: -10px;">
-									<div class="card-code">
-										<div class="writing">
-											<div class="topbar">
-												<div class="red"></div>
-												<div class="yellow"></div>
-												<div class="green"></div>
-												<div class="title-code mr-2"><strong>CSS 3</strong></div>
-											</div>
-											<div class="code">
-												<ul>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="card-container" id="first">
-								<div class="perspec" style="--spreaddist: 50px; --scaledist: 1; --vertdist: -5px;">
-									<div class="card-code">
-										<div class="writing">
-											<div class="topbar">
-												<div class="red"></div>
-												<div class="yellow"></div>
-												<div class="green"></div>
-												<div class="title-code mr-2"><strong>HTML5</strong></div>
-											</div>
-											<div class="code">
-												<ul>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					<!-- container (code animation) end
+                        <!-- container (code animation) end
 					</div> -->
-				</div> <!-- col end -->
-			
-			</div> <!-- row end -->
+                    </div>
+                    <!-- col end -->
+                </div>
+                <!-- row end -->
+            </div>
+            <!-- section end -->
 
-		</div> <!-- section end -->
+            <div
+                class="section"
+                id="section1"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #459bf9,
+                        #32a8fd,
+                        #25b4ff,
+                        #26bfff,
+                        #36caff
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col">
+                            <div class="connecting-domine-text">
+                                CONNECTING
+                            </div>
+                            <div class="connecting-domine-box">
+                                <div class="connecting-domine-comp"></div>
+                                <div class="connecting-domine-loader"></div>
+                                <div class="connecting-domine-con"></div>
+                                <div class="connecting-domine-byte"></div>
+                                <div class="connecting-domine-server"></div>
+                            </div>
+                        </div>
+                        <div class="col text-left">
+                            <h3 class="display-1">I DOMINI</h3>
+                            <br />
+                            <h3 class="">www.google.com</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="section"
+                id="section2"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #36caff,
+                        #2e98cd,
+                        #256a99,
+                        #173f67,
+                        #051937
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        www.google<span
+                            class="rounded p-1 text-white display-1"
+                            style="background-color: #0f084b;"
+                            >.com</span
+                        >
+                    </p>
+                    <br />
+                    <h3 class="">Primo livello</h3>
+                </div>
+            </div>
+            <div
+                class="section"
+                id="section3"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #051937,
+                        #003b5e,
+                        #006081,
+                        #00889e,
+                        #00b1b1
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        www<span
+                            class="rounded p-1 text-white display-1"
+                            style="background-color: #0f084b;"
+                            >.google</span
+                        >.com
+                    </p>
+                    <br />
+                    <h3 class="">Secondo Livello</h3>
+                </div>
+            </div>
+            <div
+                class="section"
+                id="section4"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #00b1b1,
+                        #00aa9a,
+                        #00a27f,
+                        #009a60,
+                        #13903e
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        <span
+                            class="rounded p-1 text-white display-1"
+                            style="background-color: #0f084b;"
+                            >www</span
+                        >.google.com
+                    </p>
+                    <br />
+                    <h3 class="">Terzo Livello</h3>
+                </div>
+            </div>
+            <div
+                class="section"
+                id="section5"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #13903e,
+                        #49a13c,
+                        #70b13b,
+                        #96c03b,
+                        #bccf3d
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">Come lo ottengo?</p>
+                    <br />
+                    <span class="h3" id="hostinglist"></span>
+                </div>
+            </div>
+        </div>
 
-		<div class="section" id="section1" style="background-image: linear-gradient(to bottom, #459bf9, #32a8fd, #25b4ff, #26bfff, #36caff);">
-			<div class="intro text-center">
-				<div class="row">
-					<div class="col">
-						<div class="connecting-domine-text">
-							CONNECTING
-						  </div>
-						  <div class="connecting-domine-box">
-							<div class="connecting-domine-comp"></div>
-							<div class="connecting-domine-loader"></div>
-							<div class="connecting-domine-con"></div>
-							<div class="connecting-domine-byte"></div>
-							<div class="connecting-domine-server"></div>
-						  </div>
-					</div>
-					<div class="col text-left">
-						
-						<h3 class="display-1">I DOMINI</h3>
-						<br>
-						<h3 class="">www.google.com</h3>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section" id="section2" style="background-image: linear-gradient(to bottom, #36caff, #2e98cd, #256a99, #173f67, #051937);">
-			<div class="intro text-center">
-				<p class="display-3">www.google<span class="rounded p-1 text-white display-1" style="background-color: #0F084B;">.com</span></p>
-				<br>
-				<h3 class="">Primo livello</h3>
-			</div>
-		</div>
-		<div class="section" id="section3" style="background-image: linear-gradient(to bottom, #051937, #003b5e, #006081, #00889e, #00b1b1);">
-			<div class="intro text-center">
-				<p class="display-3">www<span class="rounded p-1 text-white display-1" style="background-color: #0F084B;">.google</span>.com</p>
-				<br>
-				<h3 class="">Secondo Livello</h3>
-			</div>
-		</div>
-		<div class="section" id="section4" style="background-image: linear-gradient(to bottom, #00b1b1, #00aa9a, #00a27f, #009a60, #13903e);">
-			<div class="intro text-center">
-				<p class="display-3"><span class="rounded p-1 text-white display-1" style="background-color: #0F084B;">www</span>.google.com</p>
-				<br>
-				<h3 class="">Terzo Livello</h3>
-			</div>
-		</div>
-	</div>
+        <script type="text/javascript" src="dist/fullpage.js"></script>
+        <script type="text/javascript" src="dist/js/main.js"></script>
+        <script type="text/javascript" src="dist/js/code.js"></script>
 
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
-	<script type="text/javascript" src="dist/fullpage.js"></script>
-	<script type="text/javascript" src="dist/js/main.js"></script>
-	<script type="text/javascript" src="dist/js/code.js"></script>
+        <!-- bootstrap -->
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"
+        ></script>
 
-	<!-- bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-		crossorigin="anonymous"></script>
+        <!-- Scrittura animata -->
+        <script>
+            //Lista hosting slide5
+            var typed = new Typed("#hostinglist", {
+                strings: [
+                    "Aruba...",
+                    "OVH...",
+                    "GoDaddy...",
+                    "Namecheap...",
+                    "Domain.com...",
+                    "Bluehost...",
+                    "HostGator...",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 60,
+                backDelay: 1500,
+                loopCount: Infinity,
+                smartBackspace: false,
+            });
+        </script>
 
-	<script type="text/javascript">
-		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#000', '#459BF9', '#A6CFD5 ', 'whitesmoke', '#ccddff'],
-			menu: '#menu',
-			//   continuousVertical: true,
-			afterLoad: function (anchorLink, index) {
-				console.log("AFTER LOAD - anchorLink:" + anchorLink + " index:" + index);
-			},
-			onLeave: function (index, nextIndex, direction) {
-				console.log("ONLEAVE - index:" + index + " nextIndex:" + nextIndex + " direction:" + direction);
+        <script type="text/javascript">
+            var myFullpage = new fullpage("#fullpage", {
+                sectionsColor: [
+                    "#000",
+                    "#459BF9",
+                    "#A6CFD5 ",
+                    "whitesmoke",
+                    "#ccddff",
+                ],
+                menu: "#menu",
+                //   continuousVertical: true,
+                afterLoad: function (anchorLink, index) {
+                    console.log(
+                        "AFTER LOAD - anchorLink:" +
+                            anchorLink +
+                            " index:" +
+                            index
+                    );
+                },
+                onLeave: function (index, nextIndex, direction) {
+                    console.log(
+                        "ONLEAVE - index:" +
+                            index +
+                            " nextIndex:" +
+                            nextIndex +
+                            " direction:" +
+                            direction
+                    );
+                },
+            });
+        </script>
 
-			},
-		});
-	</script>
+        <script>
+            window.onload = (function () {
+                var interval;
+                setTimeout(function () {
+                    interval = setInterval(function () {
+                        $("#last").toggleClass("pokeupMy");
+                    }, 400);
+                }, 8000);
 
-	<script>
-		window.onload = function () {
-			
-			var interval;
-			setTimeout(function() {
-
-				interval = setInterval(function() {
-
-					$("#last").toggleClass("pokeupMy");
-
-				}, 400);
-
-			}, 8000);
-
-			$("#first, #second, #last").hover(function(){
-				clearInterval(interval);
-				$("#last").removeClass("pokeupMy");
-			});
-			
-		}();
-
-
-
-	</script>
-
-</body>
-
+                $("#first, #second, #last").hover(function () {
+                    clearInterval(interval);
+                    $("#last").removeClass("pokeupMy");
+                });
+            })();
+        </script>
+    </body>
 </html>
