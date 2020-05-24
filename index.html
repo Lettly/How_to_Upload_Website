@@ -32,6 +32,7 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png">
 	<link rel="manifest" href="imgs/favicon/site.webmanifest">
+	<link rel="stylesheet" href="dist/css/domini.css">
 
 	<title>Website Upload</title>
 </head>
@@ -120,16 +121,49 @@
 
 		</div> <!-- section end -->
 
-		<div class="section" id="section1">
-			<div class="intro">
-				<h1>Around the world scrolling</h1>
-				<p>Go to the first section and scroll up or to the last one and scroll down to see how it works.</p>
+		<div class="section" id="section1" style="background-image: linear-gradient(to bottom, #459bf9, #32a8fd, #25b4ff, #26bfff, #36caff);">
+			<div class="intro text-center">
+				<div class="row">
+					<div class="col">
+						<div class="connecting-domine-text">
+							CONNECTING
+						  </div>
+						  <div class="connecting-domine-box">
+							<div class="connecting-domine-comp"></div>
+							<div class="connecting-domine-loader"></div>
+							<div class="connecting-domine-con"></div>
+							<div class="connecting-domine-byte"></div>
+							<div class="connecting-domine-server"></div>
+						  </div>
+					</div>
+					<div class="col text-left">
+						
+						<h3 class="display-1">I DOMINI</h3>
+						<br>
+						<h3 class="">www.google.com</h3>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="section" id="section2">
-			<div class="intro">
-				<h1>Scroll Down</h1>
-				<p>And it will animate down to the first section</p>
+		<div class="section" id="section2" style="background-image: linear-gradient(to bottom, #36caff, #2e98cd, #256a99, #173f67, #051937);">
+			<div class="intro text-center">
+				<p class="display-3">www.google<span class="rounded p-1 text-white display-1" style="background-color: #0F084B;">.com</span></p>
+				<br>
+				<h3 class="">Primo livello</h3>
+			</div>
+		</div>
+		<div class="section" id="section3" style="background-image: linear-gradient(to bottom, #051937, #003b5e, #006081, #00889e, #00b1b1);">
+			<div class="intro text-center">
+				<p class="display-3">www<span class="rounded p-1 text-white display-1" style="background-color: #0F084B;">.google</span>.com</p>
+				<br>
+				<h3 class="">Secondo Livello</h3>
+			</div>
+		</div>
+		<div class="section" id="section4" style="background-image: linear-gradient(to bottom, #00b1b1, #00aa9a, #00a27f, #009a60, #13903e);">
+			<div class="intro text-center">
+				<p class="display-3"><span class="rounded p-1 text-white display-1" style="background-color: #0F084B;">www</span>.google.com</p>
+				<br>
+				<h3 class="">Terzo Livello</h3>
 			</div>
 		</div>
 	</div>
@@ -152,8 +186,7 @@
 
 	<script type="text/javascript">
 		var myFullpage = new fullpage('#fullpage', {
-			sectionsColor: ['#000', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
-			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+			sectionsColor: ['#000', '#459BF9', '#A6CFD5 ', 'whitesmoke', '#ccddff'],
 			menu: '#menu',
 			//   continuousVertical: true,
 			afterLoad: function (anchorLink, index) {
