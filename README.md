@@ -24,7 +24,32 @@ La prima cosa da fare prima di pubblicare il nostro sito è scriverlo, sappiamo 
 
 ## Comprare un server
 
-Dopo aver scritto il codice, che costituisce la nostra pagina, possiamo iniziare a capire come pubblicarlo. La prima cosa da fare è acquistare una macchina server. Capiamo però cosa è e cosa fa questa [macchina](https://it.wikipedia.org/wiki/Server).  
+Dopo aver scritto il codice, che costituisce la nostra pagina, possiamo iniziare a capire come pubblicarlo. La prima cosa da fare è acquistare una macchina server. Capiamo però cos'è questa [macchina](https://it.wikipedia.org/wiki/Server).
+Server
+
+
+Il server è un programma o, un dispositivo, che fornisce un servizio a un altro computer, detto client. Queste macchine e/o programmi attendono e soddisfano richieste. Vengono classificate in base al tipo di servizio che offrono, molti di questi li usiamo quotidianamente anche senza rendercene conto, di altri ne abbiamo più consapebolezza. 
+Di seguito sono elecanti quelli più comuni:
+  - [Mail Server](#Mail-Server)
+  - [FTP Server](#FTP-Server)
+  - [Web Server](#Web-Server)
+  - [DHCP Server](#DHCP-Server)
+  - [DNS Server](#DNS-Server)
+
+Ci sono vari sistemi in cui caricare i nostri server, questi variano in base alle diverse necessità delle varie aziende. 
+
+- Per le piccole e medie imprese solitamente viene utilizzato un server tower, ovvero un computer assemblato in un case tower appunto, simile ai personal computer ma, con una grande capacità di storage e il supporto RAID. Altre caratteristiche fondamentali di questa tipologia sono: *[la virtualizzazione](#la-virtualizzazione)*, *la gestione dei file e del sito web, delle applicazioni e dei dispositivi condivisi*. 
+Somigliando per forma ai personal computers si ha il vantaggio di un facile raffreddamento, possono però, sorgere alcune probblematiche, come la rumorosità, la voluminosità e la complessità nel camblaggio. In questi casi si può optare per delle varianti come il [server rack](#Server-Rack) e il [server blade](#Server-Blade). 
+  - #### Server Rack
+    In questo caso avremo un sistema standard d’installazione per i componenti, questa struttura ha dimensioni specifiche di 48,26cm in larghezza e di 4,445cm in altezza per ogni unità che ospita. I server poggiano su delle slitte in metallo e sono composti da due parti, quella posteriore dove si può agire sui vari collegamenti e, quella anteriore dove si possono maneggiare i comandi fisici, collegando eventualmente un monitor e una tastiera. Tuttavia la riduzione dello spazio occupato porta ad un aumento della densità delle componenti elettriche, la quale a sua volta necessita di un sistema di condizionamento che faccia rimanere la temperatura attorno ai 20 °C.
+  - #### Server Rack
+
+
+
+
+
+
+
 
 ## Cosa è un dominio e dove si compra
 
