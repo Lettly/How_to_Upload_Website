@@ -40,9 +40,9 @@ Ci sono vari sistemi in cui caricare i nostri server, questi variano in base all
 
 - Per le piccole e medie imprese solitamente viene utilizzato un server tower, ovvero un computer assemblato in un case tower appunto, simile ai personal computer ma, con una grande capacità di storage e il supporto RAID. Altre caratteristiche fondamentali di questa tipologia sono: *[la virtualizzazione](#la-virtualizzazione)*, *la gestione dei file e del sito web, delle applicazioni e dei dispositivi condivisi*. 
 Somigliando per forma ai personal computers si ha il vantaggio di un facile raffreddamento, possono però, sorgere alcune probblematiche, come la rumorosità, la voluminosità e la complessità nel camblaggio. In questi casi si può optare per delle varianti come il [server rack](#Server-Rack) e il [server blade](#Server-Blade). 
-  - #### Server Rack
+  - **Server Rack**
     In questo caso avremo un sistema standard d’installazione per i componenti, questa struttura ha dimensioni specifiche di 48,26cm in larghezza e di 4,445cm in altezza per ogni unità che ospita. I server poggiano su delle slitte in metallo e sono composti da due parti, quella posteriore dove si può agire sui vari collegamenti e, quella anteriore dove si possono maneggiare i comandi fisici, collegando eventualmente un monitor e una tastiera. Tuttavia la riduzione dello spazio occupato porta ad un aumento della densità delle componenti elettriche, la quale a sua volta necessita di un sistema di condizionamento che faccia rimanere la temperatura attorno ai 20 °C.
-  - #### Server Rack
+  - **Server Blade**
 
 
 
