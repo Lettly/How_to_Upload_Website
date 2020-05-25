@@ -25,6 +25,7 @@
         <link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
         <link rel="stylesheet" type="text/css" href="dist/css/code.css" />
         <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/terminal.css" />
 
         <!-- Bootstrap -->
 
@@ -62,7 +63,6 @@
         <div id="fullpage">
             <div
                 class="section"
-                id="section0"
                 style="
                     background-image: linear-gradient(
                         to bottom,
@@ -174,7 +174,6 @@
 
             <div
                 class="section"
-                id="section1"
                 style="
                     background-image: linear-gradient(
                         to bottom,
@@ -210,7 +209,6 @@
             </div>
             <div
                 class="section"
-                id="section2"
                 style="
                     background-image: linear-gradient(
                         to bottom,
@@ -234,7 +232,6 @@
             </div>
             <div
                 class="section"
-                id="section3"
                 style="
                     background-image: linear-gradient(
                         to bottom,
@@ -258,7 +255,6 @@
             </div>
             <div
                 class="section"
-                id="section4"
                 style="
                     background-image: linear-gradient(
                         to bottom,
@@ -281,7 +277,6 @@
             </div>
             <div
                 class="section"
-                id="section5"
                 style="
                     background-image: linear-gradient(
                         to bottom,
@@ -299,11 +294,64 @@
                     <span class="h3" id="hostinglist"></span>
                 </div>
             </div>
+
+            <!-- ////////////////////////////////// SERVER -->
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #459bf9,
+                        #32a8fd,
+                        #25b4ff,
+                        #26bfff,
+                        #36caff
+                    );
+                "
+            >
+                <div class="intro">
+                    <div class="row">
+                        <div class="col mx-auto">
+                            <div
+                                class="mx-auto"
+                                id="termynal"
+                                data-termynal
+                                data-termynal
+                                data-ty-typeDelay="40"
+                                data-ty-lineDelay="700"
+                            >
+                                <span data-ty="input">sudo apt update</span>
+                                <span data-ty="progress"></span>
+                                <span data-ty
+                                    >80 packages can be upgraded.</span
+                                >
+                                <span data-ty="input">sudo apt upgrade</span>
+                                <span data-ty="progress"></span>
+                                <span data-ty>Updated successfully</span>
+                                <span data-ty></span>
+                                <span data-ty="input">sudo apt install apache2</span>
+                                <span data-ty>The following NEW packages will be installed:
+                                    apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap ssl-cert<br>
+                                    Do you want to continue?
+                                </span>
+                                <span data-ty="input" data-ty-prompt="[Y/n]">y</span>
+                                <span data-ty="progress"></span>
+                                
+                                <span data-ty></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <script type="text/javascript" src="dist/fullpage.js"></script>
         <script type="text/javascript" src="dist/js/main.js"></script>
         <script type="text/javascript" src="dist/js/code.js"></script>
+
+        <!-- Terminale animato -->
+        <script src="dist/js/termynal.min.js"></script>
 
         <!-- Scritte Animate -->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
@@ -312,6 +360,11 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <!-- terminale animato -->
+        <script>
+            var termynal = new Termynal("#termynal");
+        </script>
 
         <!-- Scrittura animata -->
         <script>
@@ -337,6 +390,7 @@
 
         <script type="text/javascript">
             var myFullpage = new fullpage("#fullpage", {
+                scrollingSpeed: 0, //da togliere alla fine (rende più facile scorrere durante la programmazione)
                 afterLoad: function (anchorLink, index) {
                     console.log(
                         "AFTER LOAD - anchorLink:" +
