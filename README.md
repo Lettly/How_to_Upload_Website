@@ -45,14 +45,19 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 
 - I **data center** sono soluzioni pensate principalmente per grandi aziende che, in Italia, conosciamo come CED *Centro Elaborazione dati*. Tutti i dati e le informazioni che viaggiano in rete sono conservate in questi data center. All’interno di questi data center vengono collocati una serie di server che prendono il nome di Server Farm o Web-Server. All’interno di questi luoghi spesso viene costituito un sistema di cluster per gestire carichi di lavoro pesanti garantendo affidabilità e tolleranza ai guasti tramite una ridondanza fisica degli apparati.
 
-| **Vantaggi** di un data center interno | **Svantaggi** di un data center interno |
+| Vantaggi di un data center interno | Svantaggi di un data center interno |
 | --- | --- |
 | Possibilità di agire fisicamente in tempi rapidi in caso di malfunzionamenti. | Necessità di aree da destinare a tale uso, con l’aumento dei costi di affitto degli uffici.|
 | Possibilità di avere un rapporto fisico tra l’area amministrativa e operativa di unázienda e l’area sistemi e sviluppo. | Acquisto dell’hardware e delle risorse per gestire i dati. |
 | Controllo diretto sulla riservatezza dei dati a garanzia della privacy di dipendenti e clienti. | Costi per l’aggiornamento dei server e per la formazione. |
 | Controllo diretto sulla sicurezza dei dati in caso di instrusione e potenziali minacce software (virus). | Costi per la sicurezza anti intrusione, backup e coservazione dell’integrità dei dati. |
 
-
+  - Le **Server Farm** sono aree fisiche, ubicate solitamente nel sottosuolo, che possono ospitare centinaia di macchine server. Queste aree devono avere caratteristiche specifiche:
+                            - sicurezza fisica e sistemi di anti intrusione;
+                            - alimentazione ridondata (duplicata), con gruppi di continuità;
+                            - impianto di condizionamento per mantenere la temperatura bassa;
+                            - connettività a Internet stabile, garantita e affidabile;
+                            - sicurezza software tramite firewall e protezione logica delle macchine;
 
 
 ## Cosa è un dominio e dove si compra
