@@ -60,17 +60,28 @@
 
     <body>
         <div id="fullpage">
-            <div class="section" id="section0" style="background-image: linear-gradient(to bottom, #8365bc, #7a73cd, #6e80dd, #5d8eec, #459bf9);">
+            <div
+                class="section"
+                id="section0"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #8365bc,
+                        #7a73cd,
+                        #6e80dd,
+                        #5d8eec,
+                        #459bf9
+                    );
+                "
+            >
                 <div class="row">
                     <div class="col my-auto">
                         <h3 class="text-right title display-4">
-                            SCRIVIAMO IL<br>NOSTRO SITO WEB
+                            SCRIVIAMO IL<br />NOSTRO SITO WEB
                         </h3>
                     </div>
 
                     <div class="col my-auto text-left p-0">
-                        <!-- <div class="container-code"> -->
-
                         <div class="stack-container">
                             <div class="card-container" id="last">
                                 <div
@@ -201,14 +212,19 @@
                 class="section"
                 id="section2"
                 style="
-                    background-image: linear-gradient(to bottom, #36caff, #00c8ea, #00c4d0, #00beb3, #39b796);
+                    background-image: linear-gradient(
+                        to bottom,
+                        #36caff,
+                        #00c8ea,
+                        #00c4d0,
+                        #00beb3,
+                        #39b796
+                    );
                 "
             >
                 <div class="intro text-center">
                     <p class="display-3">
-                        www.google<span
-                            class="rounded p-1 text-white display-1"
-                            
+                        www.google<span class="rounded p-1 text-white display-1"
                             >.com</span
                         >
                     </p>
@@ -220,14 +236,19 @@
                 class="section"
                 id="section3"
                 style="
-                    background-image: linear-gradient(to bottom, #39b796, #5fbd83, #83c170, #a8c460, #cdc355);
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
                 "
             >
                 <div class="intro text-center">
                     <p class="display-3">
-                        www<span
-                            class="rounded p-1 text-white display-1"
-                            
+                        www<span class="rounded p-1 text-white display-1"
                             >.google</span
                         >.com
                     </p>
@@ -239,15 +260,19 @@
                 class="section"
                 id="section4"
                 style="
-                    background-image: linear-gradient(to bottom, #cdc355, #d7a84f, #d78e54, #ce775c, #bc6565);
+                    background-image: linear-gradient(
+                        to bottom,
+                        #cdc355,
+                        #d7a84f,
+                        #d78e54,
+                        #ce775c,
+                        #bc6565
+                    );
                 "
             >
                 <div class="intro text-center">
                     <p class="display-3">
-                        <span
-                            class="rounded p-1 text-white display-1"
-                            
-                            >www</span
+                        <span class="rounded p-1 text-white display-1">www</span
                         >.google.com
                     </p>
                     <br />
@@ -258,7 +283,14 @@
                 class="section"
                 id="section5"
                 style="
-                    background-image: linear-gradient(to bottom, #bc6565, #c86279, #ce6193, #ca66b1, #bb70d1);
+                    background-image: linear-gradient(
+                        to bottom,
+                        #bc6565,
+                        #c86279,
+                        #ce6193,
+                        #ca66b1,
+                        #bb70d1
+                    );
                 "
             >
                 <div class="intro text-center">
@@ -273,24 +305,13 @@
         <script type="text/javascript" src="dist/js/main.js"></script>
         <script type="text/javascript" src="dist/js/code.js"></script>
 
+        <!-- Scritte Animate -->
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
         <!-- bootstrap -->
-        <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-            crossorigin="anonymous"
-        ></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
         <!-- Scrittura animata -->
         <script>
@@ -316,15 +337,6 @@
 
         <script type="text/javascript">
             var myFullpage = new fullpage("#fullpage", {
-                sectionsColor: [
-                    "#000",
-                    "#459BF9",
-                    "#A6CFD5 ",
-                    "whitesmoke",
-                    "#ccddff",
-                ],
-                menu: "#menu",
-                //   continuousVertical: true,
                 afterLoad: function (anchorLink, index) {
                     console.log(
                         "AFTER LOAD - anchorLink:" +
@@ -347,6 +359,7 @@
         </script>
 
         <script>
+            // Prima slide schede che saltellano
             window.onload = (function () {
                 var interval;
                 setTimeout(function () {
