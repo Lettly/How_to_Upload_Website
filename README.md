@@ -58,6 +58,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   - connettività a Internet stabile, garantita e affidabile;
   - impianto di condizionamento per mantenere la temperatura bassa;
   - sicurezza software tramite firewall e protezione logica delle macchine;
+
 Questi sistemi generalmente offrono dei servizi detti di hosting, che consistono nell'installare la propria applicazione web in server di proprietà del provider e gestiti dal provider stesso. Ogni hosting può avere costi, prestazioni e opzioni differenti, in base al fornitore.
 
 ## Cosa è un dominio e dove si compra
