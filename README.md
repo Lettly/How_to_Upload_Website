@@ -53,11 +53,11 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 | Controllo diretto sulla sicurezza dei dati in caso di instrusione e potenziali minacce software (virus). | Costi per la sicurezza anti intrusione, backup e coservazione dell’integrità dei dati. |
 
   - Le **Server Farm** sono aree fisiche, ubicate solitamente nel sottosuolo, che possono ospitare centinaia di macchine server. Queste aree devono avere caratteristiche specifiche:
-                            - sicurezza fisica e sistemi di anti intrusione;
-                            - alimentazione ridondata (duplicata), con gruppi di continuità;
-                            - impianto di condizionamento per mantenere la temperatura bassa;
-                            - connettività a Internet stabile, garantita e affidabile;
-                            - sicurezza software tramite firewall e protezione logica delle macchine;
+    - sicurezza fisica e sistemi di anti intrusione;
+    - alimentazione ridondata (duplicata), con gruppi di continuità;
+    - impianto di condizionamento per mantenere la temperatura bassa;
+    - connettività a Internet stabile, garantita e affidabile;
+    - sicurezza software tramite firewall e protezione logica delle macchine;
 
 
 ## Cosa è un dominio e dove si compra
