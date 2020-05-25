@@ -1,10 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,400);
-
-body{
-  margin: 0;
-  padding: 0;
-  background: #459BF9;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400);
 
 .connecting-domine-box{
   width: 240px;
@@ -18,7 +12,7 @@ body{
 
 .connecting-domine-text{
   font-family: 'Lato', sans-serif;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 300;
   font-size: 45px;
   position: absolute;
@@ -26,7 +20,7 @@ body{
   top: -webkit-calc(50% - 105px);
   left: calc(50% - 160px);
   left: -webkit-calc(50% - 160px);
-  oapcity: 1;
+  opacity: 1;
   -webkit-animation: fade-in-out 2.5s infinite; 
   -moz-animation: fade-in-out 2.5s infinite; 
   -o-animation: fade-in-out 2.5s infinite; 
@@ -38,7 +32,7 @@ body{
   top: 0px;
   width: 80px;
   height: 55px;
-  border: 3px solid #fff;
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 5px;
 }
 
@@ -51,7 +45,7 @@ body{
   width: 65px;
   height: 10px;
   border-radius: 360px;
-  border: 3px solid #fff;
+  border: 3px solid rgb(0, 0, 0);
 }
 
 .connecting-domine-loader{
@@ -62,7 +56,7 @@ body{
   width: 8px;
   height: 8px;
   border-radius: 360px;
-  background: #fff;
+  background: rgb(0, 0, 0);
   -webkit-animation: loader 5s infinite linear 0.5s;
   -moz-animation: loader 5s infinite linear 0.5s;
   -o-animation: loader 5s infinite linear 0.5s;
@@ -75,7 +69,7 @@ body{
   left: 85px;
   width: 100px;
   height: 3px;
-  background: #fff;
+  background: rgb(0, 0, 0);
 }
 
 .connecting-domine-byte{
@@ -84,7 +78,7 @@ body{
   left: 80px;
   height: 9px;
   width: 9px;
-  background: #fff;
+  background: rgb(0, 0, 0)7, 7, 7);
   border-radius: 360px;
   z-index: 6;
   opacity: 0;
@@ -101,8 +95,8 @@ body{
   width: 35px;
   height: 35px;
   z-index: 1;
-  border: 3px solid #fff;
-  background: #459BF9;
+  border: 3px solid rgb(0, 0, 0);
+  /* background: #459BF9; */
   border-radius: 360px;
   -webkit-transform: rotateX(58deg);
   -moz-transform: rotateX(58deg);
@@ -118,8 +112,8 @@ body{
   width: 35px;
   height: 35px;
   z-index: 20;
-  border: 3px solid #fff;
-  background: #459BF9;
+  border: 3px solid rgb(0, 0, 0);
+  /* background: #459BF9; */
   border-radius: 360px;
 }
 
@@ -127,12 +121,12 @@ body{
   position: absolute;
   top: -26px;
   left: -3px;
-  border-left: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-left: 3px solid rgb(0, 0, 0);
+  border-right: 3px solid rgb(0, 0, 0);
   width: 35px;
   height: 40px;
   z-index: 17;
-  background: #459BF9;
+  /* background: #459BF9; */
   content: '';
 }
 
