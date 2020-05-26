@@ -87,6 +87,12 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   
   **server virtuali**
 
+  | Vantaggi del server virtuale | Svantaggi del server virtuale |
+  | --- | --- |
+  | Costi bassi. | Mancanza di una macchina fisica a uso esclusivo come server. |
+  | Delega di cura tecnica e sicurezza del server fisico alla società che fornisce il servizio. | Possibilità di problemi legati allo scarso setup della virtualizzazione di uno degli utenti presenti sul server virtuali. |
+  | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
+
 
 ## Cosa è un dominio e dove si compra
 
