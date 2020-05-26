@@ -98,14 +98,14 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 
 Il secondo punto, per caricare il nostro sito web nella rete appunto, è la compera di un dominio; ovvero di un indirizzo univoco attraverso il quale richiameremo il sito in internet. 
 
-Un dominio è costituito da una serie di stringhe separate da punti, in cui è presente una gerarchia molto rigida. Nel dominio che tutti noi conosciamo, `www.google.com`, il dominio radice è `.com` detto anche il di primo livello, *top-level domain (TLD)*. Questi si distinguono in nazionali come `.it` (italia), `.fr` (francia) o quelli generici come `.net` (per i network), `.org` (dedicato alle organizzazioni), `.com` (per le organizzazioni commerciali) e molti altri.__
-Il dominio di secondo livello, riamendo nell'esempio sopracitato, è `google`; questo, può, in caso si presentino altri sottodomini, prendere il nome di *intermedio*. Questa sezione può essere liberamente scelta dall’utente.__
+Un dominio è costituito da una serie di stringhe separate da punti, in cui è presente una gerarchia molto rigida. Nel dominio che tutti noi conosciamo, `www.google.com`, il dominio radice è `.com` detto anche il di primo livello, *top-level domain (TLD)*. Questi si distinguono in nazionali come `.it` (italia), `.fr` (francia) o quelli generici come `.net` (per i network), `.org` (dedicato alle organizzazioni), `.com` (per le organizzazioni commerciali) e molti altri.<br />
+Il dominio di secondo livello, riamendo nell'esempio sopracitato, è `google`; questo, può, in caso si presentino altri sottodomini, prendere il nome di *intermedio*. Questa sezione può essere liberamente scelta dall’utente.<br />
 All’estrema sinistra troviamo `www.`, ovvero un dominio di terzo livello; non essendoci altri sottodomini, questo, prende il nome di *dominio radice*.
 
-I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name System (DNS)*.__
+I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name System (DNS)*.<br />
 Quest'ultimo rappresenta una risorsa IP, come un server che ospita un sito web o il sito web stesso.
 
 
-Come comprare un dominio?__
+Come comprare un dominio?<br />
 Per ottenere un domino bisogna rivolgersi a un domain reseller, questa società, dietro un compenso, si occuperà della registrazione del dominio e fornirà l’infrastruttura necessaria a farlo funzionare. Esistono molte aziende che fanno ciò tra le più famose possiamo menzionare GoDaddy, OVH, NameCheap, e molti altri. Di solito la registrazione di un dominio è annua e univoca, di conseguenza se il dominio google.com è già occupato noi non potremmo compralo.
 
