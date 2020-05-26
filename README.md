@@ -26,11 +26,16 @@ Dopo aver scritto il codice, che costituisce la nostra pagina, possiamo iniziare
 
 Il server è un programma o, un dispositivo, che fornisce un servizio a un altro computer, detto client. Queste macchine e/o programmi attendono e soddisfano richieste. Vengono classificate in base al tipo di servizio che offrono, molti di questi li usiamo quotidianamente anche senza rendercene conto, di altri ne abbiamo più consapebolezza. 
 Di seguito sono elecanti quelli più comuni:
-- [Mail Server](#Mail-Server)
-- [FTP Server](#FTP-Server)
-- [Web Server](#Web-Server)
-- [DHCP Server](#DHCP-Server)
-- [DNS Server](#DNS-Server)
+- Mail Server:
+  * I *Mail server* sono server che, utilizzando le porte 25, 587, 465, 110, 143 e 993, permettono di inviare e smistare mail da un pc all'altro.
+- FTP Server:
+  * Il *File Transport Protocol* è un server che permette il trasferimento di file tra host e client, lavorando sulla porta 21.
+- Web Server:
+  * Il *Web Server* è un server in grado di gestire le richieste di trasferimento di pagine web, utilizza la porta 80 e 443.
+- DHCP Server:
+  * Il *DHCP Server* permette ai dispositivi di una rete locale di ricevere automaticamente la configurazione IP necessaria per stabilire una connessione e operare in rete, svolge questo servizio utilizzando la porta 67.
+- [DNS Server](#Cosa-è-un-dominio-e-dove-si-compra):
+  * Il *Domain Name System* è un server che fa da rubrica telefonica di internet, svolge questo servizio sulla porta 53.
 
 Ci sono vari sistemi in cui caricare i nostri server, questi variano in base alle diverse necessità delle varie aziende. 
 
@@ -61,7 +66,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 
   Questi sistemi generalmente offrono dei servizi detti di hosting, che consistono nell'installare la propria applicazione web in server di proprietà del provider e gestiti dal provider stesso. Ogni hosting può avere costi, prestazioni e opzioni differenti, in base al fornitore. 
   
-  
+
     - Un'altro servizio che offrono queste server farm è il colocation in housing, ovvero un azienda compra il server e pagherà alla server farm solo il prezzo di locazione (affitto, alimentazione, rete, ecc.). In caso di interventi sulla macchina è necessario concordare un appuntamento con il fornitore del servizio, il che potrebbe ritardare l'intervento.
 
     | Vantaggi della colocation in housing | Svantaggi della colocation in housing |
