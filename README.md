@@ -39,7 +39,7 @@ Di seguito sono elecanti quelli più comuni:
 
 Ci sono vari sistemi in cui caricare i nostri server, questi variano in base alle diverse necessità delle varie aziende. 
 
-- Per le piccole e medie imprese solitamente viene utilizzato un **server tower**, ovvero un computer assemblato in un case tower appunto, simile ai personal computer ma, con una grande capacità di storage e il supporto RAID. Altre caratteristiche fondamentali di questa tipologia sono: *[la virtualizzazione](#la-virtualizzazione)*, *la gestione dei file e del sito web, delle applicazioni e dei dispositivi condivisi*. 
+- Per le piccole e medie imprese solitamente viene utilizzato un **server tower**, ovvero un computer assemblato in un case tower appunto, simile ai personal computer ma, con una grande capacità di storage e il supporto RAID. Altre caratteristiche fondamentali di questa tipologia sono: *la virtualizzazione*, *la gestione dei file e del sito web, delle applicazioni e dei dispositivi condivisi*. 
 Somigliando per forma ai personal computer si ha il vantaggio di un facile raffreddamento, possono però, sorgere alcune probblematiche, come la rumorosità, la voluminosità e la complessità nel camblaggio. In questi casi si può optare per delle varianti come il **server rack** e il *server blade**. 
   - Per i **Server Rack** avremo un sistema standard d’installazione per i componenti, questa struttura ha dimensioni specifiche di 48,26cm in larghezza e di 4,445cm in altezza per ogni unità che ospita. I server poggiano su delle slitte in metallo e sono composti da due parti, quella posteriore dove si può agire sui vari collegamenti e, quella anteriore dove si possono maneggiare i comandi fisici, collegando eventualmente un monitor e una tastiera. Tuttavia la riduzione dello spazio occupato porta ad un aumento della densità delle componenti elettriche, la quale a sua volta necessita di un sistema di condizionamento che faccia rimanere la temperatura attorno ai 20 °C.
   
@@ -105,5 +105,5 @@ I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name S
 
 
 Come comprare un dominio?<br />
-Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](https://it.godaddy.com/domains/), [OVH](https://www.ovh.it/domini/), [NameCheap](https://www.namecheap.com/domains/), e molti altri. La registrazione di un dominio è univoca e, solitamente, annua.
+Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](https://it.godaddy.com/domains/), [OVH](https://www.ovh.it/domini/), [NameCheap](https://www.namecheap.com/domains/), e molti altri. La registrazione è univoca e, solitamente, annua.
 
