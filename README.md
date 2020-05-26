@@ -94,7 +94,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
 
 ***Come comprare un server?***<br />
-Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale. **to be continued**
+Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale. **to be continued...**
 
 
 ## Il dominio
