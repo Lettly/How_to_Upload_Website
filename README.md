@@ -4,7 +4,7 @@
 
 - [Avere il sito da pubblicare](#Avere-il-sito-da-pubblicare)
 - [Comprare un server](#Comprare-un-server)
-- [Comprare un dominio](#link-alla-sezione)
+- [Comprare un dominio](#Il-dominio)
 - [Configurazione](#link-alla-sezione)
 - [Dominio](#link-alla-sezione)
 - [Cloudfare (spigazione e account)](#link-alla-sezione)
@@ -34,7 +34,7 @@ Di seguito sono elecanti quelli più comuni:
   * Il *Web Server* è un server in grado di gestire le richieste di trasferimento di pagine web, utilizza la porta 80 e 443.
 - DHCP Server:
   * Il *DHCP Server* permette ai dispositivi di una rete locale di ricevere automaticamente la configurazione IP necessaria per stabilire una connessione e operare in rete, svolge questo servizio utilizzando la porta 67.
-- [DNS Server](#Cosa-è-un-dominio-e-dove-si-compra):
+- [DNS Server](#Il-dominio):
   * Il *Domain Name System* è un server che fa da rubrica telefonica di internet, svolge questo servizio sulla porta 53.
 
 Ci sono vari sistemi in cui caricare i nostri server, questi variano in base alle diverse necessità delle varie aziende. 
@@ -94,24 +94,18 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
 
 
-## Cosa è un dominio e dove si compra
+## Il dominio
 
-Ok, adesso che ci siamo procurati un server è il momento di trovare un dominio. Ma prima partiamo spiegando cosa è un dominio.
-Un dominio è indirizzo univoco attraverso il quale si richiama un sito internet sulla rete.
-Volendo fare un paragone alla vita di tutti i giorni, un dominio è come una via e un numero civico, un modo semplice e facile da ricordare per trovare un determinato posto.
-Un dominio è costituito da una serie di stringhe separate da punti.
+Il secondo punto, per caricare il nostro sito web nella rete appunto, è la compera di un dominio; ovvero di un indirizzo univoco attraverso il quale richiameremo il sito in internet. 
 
+Un dominio è costituito da una serie di stringhe separate da punti, in cui è presente una gerarchia molto rigida. Nel dominio che tutti noi conosciamo, `www.google.com`, il dominio radice è `.com` detto anche il di primo livello, *top-level domain (TLD)*. Questi si distinguono in nazionali come `.it` (italia), `.fr` (francia) o quelli generici come `.net` (per i network), `.org` (dedicato alle organizzazioni), `.com` (per le organizzazioni commerciali) e molti altri.__
+Il dominio di secondo livello, riamendo nell'esempio sopracitato, è `google`; questo, può, in caso si presentino altri sottodomini, prendere il nome di *intermedio*. Questa sezione può essere liberamente scelta dall’utente.__
+All’estrema sinistra troviamo `www.`, ovvero un dominio di terzo livello; non essendoci altri sottodomini, questo, prende il nome di *dominio radice*.
 
-Nei domini è presente una gerarchia molto stringente, prendiamo, per esempio www.google.com e analizziamolo da destra verso sinistra.
-Il dominio radice è .com detto anche il dominio di primo livello: top-level domain (TLD). I domini di primo livello si distinguono in domini di primo livello nazionali come .it (italia) .fr (francia) o quelli generici come .net (dedicato ai network) .org (dedicato alle organizzazioni) .com (dedicato alle organizzazioni commerciali) e molti altri.
-Continuando a muoverci verso sinistra troviamo: google questo è il dominio di secondo livello, questa parte può essere liberamente scelta dall’utente. Se sono presenti altri sottodomini, come in questo caso, il dominio prende il nome di dominio intermedio.
-All’estrema sinistra possiamo trovare www, questo è un dominio di terzo livello. In questo caso specifico non ci sono altri sottodomini perciò questo dominio viene chiamato dominio radice.
+I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name System (DNS)*.__
+Quest'ultimo rappresenta una risorsa IP, come un server che ospita un sito web o il sito web stesso.
 
 
-I nomi di dominio sono formati dalle regole e dalle procedure del Domain Name System (DNS).
-In generale, un nome di dominio rappresenta una risorsa IP, ad esempio un server che ospita un sito web o il sito web stesso.
-
-
-Ma come mi posso procurare un dominio?
+Come comprare un dominio?__
 Per ottenere un domino bisogna rivolgersi a un domain reseller, questa società, dietro un compenso, si occuperà della registrazione del dominio e fornirà l’infrastruttura necessaria a farlo funzionare. Esistono molte aziende che fanno ciò tra le più famose possiamo menzionare GoDaddy, OVH, NameCheap, e molti altri. Di solito la registrazione di un dominio è annua e univoca, di conseguenza se il dominio google.com è già occupato noi non potremmo compralo.
 
