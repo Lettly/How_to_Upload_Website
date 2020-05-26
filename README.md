@@ -61,6 +61,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 
   Questi sistemi generalmente offrono dei servizi detti di hosting, che consistono nell'installare la propria applicazione web in server di proprietà del provider e gestiti dal provider stesso. Ogni hosting può avere costi, prestazioni e opzioni differenti, in base al fornitore. 
   
+  
     - Un'altro servizio che offrono queste server farm è il colocation in housing, ovvero un azienda compra il server e pagherà alla server farm solo il prezzo di locazione (affitto, alimentazione, rete, ecc.). In caso di interventi sulla macchina è necessario concordare un appuntamento con il fornitore del servizio, il che potrebbe ritardare l'intervento.
 
     | Vantaggi della colocation in housing | Svantaggi della colocation in housing |
@@ -68,6 +69,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
     | Proprietà dell'hardware e risparmio del canone del noleggio del server dedicato. | Impossibilità di intervenire con rapidità in caso di danno hardware, procedura a carico della server farm in caso di noleggio. |
     | Configurazione totale: il sistema operativo e i software sono installati dell'azienda di housing prima di posizionare la macchina in server farm. | Costo iniziale di startup che comprende l'acquisto della macchina e la configurazione di base. |
     | Possibilità di amministrare totalmente la macchina e di fare aggiornamenti software in qualsiasi momento. | Aggiornamento di sicurezza e dei sistemi a carico del cliente. |
+
 
     - I data center possono mettere a disposizione delle aziende clienti alcuni server a uso esclusivo. La differenza con il sistema in colocation housing sta nel fatto che in questo caso saremo noi a noleggiare l'hardware messo a disposizione dall'azienda. L'amministrazione software è completamente a carico del cliente, in questo modo nel caso di guasti satà il provider del servizio a doversene occupare; questa tipologia di hosting si è diffusa tra le poccole aziende.
 
