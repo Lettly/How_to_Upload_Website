@@ -105,5 +105,5 @@ I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name S
 
 
 Come comprare un dominio?<br />
-Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](#https://it.godaddy.com/domains/), [OVH](#https://www.ovh.it/domini/), [NameCheap](#https://www.namecheap.com/domains/), e molti altri. La registrazione di un dominio è univoca e, solitamente, annua.
+Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](https://it.godaddy.com/domains/), [OVH](https://www.ovh.it/domini/), [NameCheap](https://www.namecheap.com/domains/), e molti altri. La registrazione di un dominio è univoca e, solitamente, annua.
 
