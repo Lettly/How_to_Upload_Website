@@ -85,7 +85,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
     | Costo di affitto dei server noto a priori e distribuito in pagamenti mensili. | Impossibilità di ricevere sin da subito una macchina personalizzata, poiché il noleggio di server dedicati nella maggior parte delle server farm non consente personalizzazioni di default particolari, se non con costi aggiuntivi. |
 
   
-  **server virtuali**
+  I **server virtuali** o *VPS (Virtual Private Server)* permettono  di  avere una porzione di hardware condiviso con altri sistemi virtuali. Il provider del servizio mette a disposizione una macchina virtuale collocata su un server fisico che conterrà altre macchine virtuali. Il cliente gestirà la sua macchina virtuale mentre, il fornitore del servizio penserà alla macchina fisica. I software attualmente utilizzati permettono anche di dividere il carico di CPU e RAM allocati a ogni cliente, assicurando così a ognuno l'adeguata capacità di elaborazione.
 
   | Vantaggi del server virtuale | Svantaggi del server virtuale |
   | --- | --- |
@@ -96,16 +96,30 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 
 ## Cosa è un dominio e dove si compra
 
-Ok, adesso che ci siamo procurati un server è il momento di trovare un dominio. Ma prima partiamo spiegando cosa è un dominio.<br>
-Un dominio è indirizzo univoco attraverso il quale si richiama un sito internet sulla rete.<br>
-Volendo fare un paragone alla vita di tutti i giorni, un dominio è come una via e un numero civico, un modo semplice e facile da ricordare per trovare un determinato posto.<br>
-Un dominio è costituito da una serie di stringhe separate da punti. <br><br>
-Nei domini è presente una gerarchia molto stringente, prendiamo, per esempio www.google.com e analizziamolo da destra verso sinistra.<br>
-Il dominio radice è .com detto anche il dominio di primo livello: top-level domain (TLD). I domini di primo livello si distinguono in domini di primo livello nazionali come .it (italia) .fr (francia) o quelli generici come .net (dedicato ai network) .org (dedicato alle organizzazioni) .com (dedicato alle organizzazioni commerciali) e molti altri.<br>
-Continuando a muoverci verso sinistra troviamo: google questo è il dominio di secondo livello, questa parte può essere liberamente scelta dall’utente. Se sono presenti altri sottodomini, come in questo caso, il dominio prende il nome di dominio intermedio.<br>
-All’estrema sinistra possiamo trovare www, questo è un dominio di terzo livello. In questo caso specifico non ci sono altri sottodomini perciò questo dominio viene chiamato dominio radice.<br><br>
-I nomi di dominio sono formati dalle regole e dalle procedure del Domain Name System (DNS). <br>
-In generale, un nome di dominio rappresenta una risorsa IP, ad esempio un server che ospita un sito web o il sito web stesso.<br><br>
-Ma come mi posso procurare un dominio?<br>
+Ok, adesso che ci siamo procurati un server è il momento di trovare un dominio. Ma prima partiamo spiegando cosa è un dominio.
+
+Un dominio è indirizzo univoco attraverso il quale si richiama un sito internet sulla rete.
+
+Volendo fare un paragone alla vita di tutti i giorni, un dominio è come una via e un numero civico, un modo semplice e facile da ricordare per trovare un determinato posto.
+
+Un dominio è costituito da una serie di stringhe separate da punti.
+
+
+Nei domini è presente una gerarchia molto stringente, prendiamo, per esempio www.google.com e analizziamolo da destra verso sinistra.
+
+Il dominio radice è .com detto anche il dominio di primo livello: top-level domain (TLD). I domini di primo livello si distinguono in domini di primo livello nazionali come .it (italia) .fr (francia) o quelli generici come .net (dedicato ai network) .org (dedicato alle organizzazioni) .com (dedicato alle organizzazioni commerciali) e molti altri.
+
+Continuando a muoverci verso sinistra troviamo: google questo è il dominio di secondo livello, questa parte può essere liberamente scelta dall’utente. Se sono presenti altri sottodomini, come in questo caso, il dominio prende il nome di dominio intermedio.
+
+All’estrema sinistra possiamo trovare www, questo è un dominio di terzo livello. In questo caso specifico non ci sono altri sottodomini perciò questo dominio viene chiamato dominio radice.
+
+
+I nomi di dominio sono formati dalle regole e dalle procedure del Domain Name System (DNS).
+
+In generale, un nome di dominio rappresenta una risorsa IP, ad esempio un server che ospita un sito web o il sito web stesso.
+
+
+Ma come mi posso procurare un dominio?
+
 Per ottenere un domino bisogna rivolgersi a un domain reseller, questa società, dietro un compenso, si occuperà della registrazione del dominio e fornirà l’infrastruttura necessaria a farlo funzionare. Esistono molte aziende che fanno ciò tra le più famose possiamo menzionare GoDaddy, OVH, NameCheap, e molti altri. Di solito la registrazione di un dominio è annua e univoca, di conseguenza se il dominio google.com è già occupato noi non potremmo compralo.
 
