@@ -67,7 +67,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   Questi sistemi generalmente offrono dei servizi detti di hosting, che consistono nell'installare la propria applicazione web in server di proprietà del provider e gestiti dal provider stesso. Ogni hosting può avere costi, prestazioni e opzioni differenti, in base al fornitore. 
   
 
-    Un'altro servizio che offrono queste server farm è il colocation in housing, ovvero un azienda compra il server e pagherà alla server farm solo il prezzo di locazione (affitto, alimentazione, rete, ecc.). In caso di interventi sulla macchina è necessario concordare un appuntamento con il fornitore del servizio, il che potrebbe ritardare l'intervento.
+    Un'altro servizio che offrono queste server farm è il **colocation in housing**, ovvero un azienda compra il server e pagherà alla server farm solo il prezzo di locazione (affitto, alimentazione, rete, ecc.). In caso di interventi sulla macchina è necessario concordare un appuntamento con il fornitore del servizio, il che potrebbe ritardare l'intervento.
 
     | Vantaggi della colocation in housing | Svantaggi della colocation in housing |
     | --- | --- |
@@ -76,7 +76,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
     | Possibilità di amministrare totalmente la macchina e di fare aggiornamenti software in qualsiasi momento. | Aggiornamento di sicurezza e dei sistemi a carico del cliente. |
 
 
-    I data center possono mettere a disposizione delle aziende clienti alcuni server a uso esclusivo. La differenza con il sistema in colocation housing sta nel fatto che in questo caso saremo noi a noleggiare l'hardware messo a disposizione dall'azienda. L'amministrazione software è completamente a carico del cliente, in questo modo nel caso di guasti satà il provider del servizio a doversene occupare; questa tipologia di hosting si è diffusa tra le poccole aziende.
+    I data center possono mettere a disposizione delle aziende clienti alcuni **server a uso esclusivo**. La differenza con il sistema in colocation housing sta nel fatto che in questo caso saremo noi a noleggiare l'hardware messo a disposizione dall'azienda. L'amministrazione software è completamente a carico del cliente, in questo modo nel caso di guasti satà il provider del servizio a doversene occupare; questa tipologia di hosting si è diffusa tra le poccole aziende.
 
     | Vantaggi del noleggio di server dedicati | Svantaggi del noleggio di server dedicati |
     | --- | --- |
@@ -84,6 +84,8 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
     | Nessun costo di acquisto iniziale della machhina e di installazione e configurazione iniziale. | Costo di affitto mensile dei server che può risultare alto in caso di applicazioni di rete critiche, in aggiunta al costo di connettività e di affitto dello spazio del rack (colocation). |
     | Costo di affitto dei server noto a priori e distribuito in pagamenti mensili. | Impossibilità di ricevere sin da subito una macchina personalizzata, poiché il noleggio di server dedicati nella maggior parte delle server farm non consente personalizzazioni di default particolari, se non con costi aggiuntivi. |
 
+  
+  **server virtuali**
 
 
 ## Cosa è un dominio e dove si compra
