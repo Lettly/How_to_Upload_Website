@@ -67,6 +67,16 @@ Questi sistemi generalmente offrono dei servizi detti di hosting, che consistono
 | Configurazione totale: il sistema operativo e i software sono installati dell'azienda di housing prima di posizionare la macchina in server farm. | Costo iniziale di startup che comprende l'acquisto della macchina e la configurazione di base. |
 | Possibilità di amministrare totalmente la macchina e di fare aggiornamenti software in qualsiasi momento. | Aggiornamento di sicurezza e dei sistemi a carico del cliente. |
 
+I data center possono mettere a disposizione delle aziende clienti alcuni server a uso esclusivo. La differenza con il sistema in colocation housing sta nel fatto che in questo caso saremo noi a noleggiare l'hardware messo a disposizione dall'azienda. L'amministrazione software è completamente a carico del cliente, in questo modo nel caso di guasti satà il provider del servizio a doversene occupare; questa tipologia di hosting si è diffusa tra le poccole aziende.
+
+| Vantaggi del noleggio di server dedicati | Svantaggi del noleggio di server dedicati |
+| --- | --- |
+| Delaga degli aggiornamenti di sicurezza allo staff del supporto sistemistico della server farm o dell'azienda che rivende il servizio. | Delega del funzionamento allo staff della server farm, operazione che richiede fiducia e competenza in caso di applicazioni critiche. |
+| Nessun costo di acquisto iniziale della machhina e di installazione e configurazione iniziale. | Costo di affitto mensile dei server che può risultare alto in caso di applicazioni di rete critiche, in aggiunta al costo di connettività e di affitto dello spazio del rack (colocation). |
+| Costo di affitto dei server noto a priori e distribuito in pagamenti mensili. | Impossibilità di ricevere sin da subito una macchina personalizzata, poiché il noleggio di server dedicati nella maggior parte delle server farm non consente personalizzazioni di default particolari, se non con costi aggiuntivi. |
+
+
+
 ## Cosa è un dominio e dove si compra
 
 Ok, adesso che ci siamo procurati un server è il momento di trovare un dominio. Ma prima partiamo spiegando cosa è un dominio.<br>
