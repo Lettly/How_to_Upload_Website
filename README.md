@@ -22,7 +22,7 @@ La prima cosa da fare prima di pubblicare il nostro sito è scriverlo, sappiamo 
 
 ## Comprare un server
 
-Dopo aver scritto il codice, che costituisce la nostra pagina, possiamo iniziare a capire come pubblicarlo. La prima cosa da fare è acquistare una macchina server. Capiamo però cos'è questa [macchina](https://it.wikipedia.org/wiki/Server).
+Dopo aver scritto il codice, che costituisce la nostra pagina, possiamo iniziare a capire come pubblicarlo. La prima cosa da fare è acquistare una macchina server. Capiamo però cos'è questa macchina.
 
 Il server è un programma o, un dispositivo, che fornisce un servizio a un altro computer, detto client. Queste macchine e/o programmi attendono e soddisfano richieste. Vengono classificate in base al tipo di servizio che offrono, molti di questi li usiamo quotidianamente anche senza rendercene conto, di altri ne abbiamo più consapebolezza. 
 Di seguito sono elecanti quelli più comuni:
