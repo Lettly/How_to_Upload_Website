@@ -93,7 +93,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Delega di cura tecnica e sicurezza del server fisico alla società che fornisce il servizio. | Possibilità di problemi legati allo scarso setup della virtualizzazione di uno degli utenti presenti sul server virtuali. |
   | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
 
-Come comprare un server?<br />
+***Come comprare un server?***<br />
 Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale.
 
 
@@ -107,6 +107,6 @@ Un dominio è costituito da una serie di stringhe separate da punti, in cui è p
 I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name System (DNS)*. Quest'ultimo rappresenta una risorsa IP, come un server che ospita un sito web o il sito web stesso.
 
 
-Come comprare un dominio?<br />
+***Come comprare un dominio?***<br />
 Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](https://it.godaddy.com/domains/), [OVH](https://www.ovh.it/domini/), [NameCheap](https://www.namecheap.com/domains/), e molti altri. La registrazione è univoca e, solitamente, annua.
 
