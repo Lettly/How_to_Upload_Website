@@ -202,11 +202,148 @@
                             </div>
                         </div>
                         <div class="col text-left">
-                            <h3 class="display-1">I DOMINI</h3>
+                            <h3 class="display-1">I SERVER</h3>
                             <br />
-                            <h3 class="">www.google.com</h3>
+                            <h3 class="">Come fornire un servizio?</h3>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        Cosa è un server?
+                    </p>
+                    <br />
+                    
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        Che server esistono?
+                    </p>
+                    <span class="h3" id="serverlist"></span><span class="h3"> è uno dei tanti tipi di server</span> 
+                    <br />
+                    
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        Server per le piccole e medie imprese
+                    </p>
+                    <span class="h3">Server Rack o Server Blade quali sono le differenze?</span> 
+                    <br />
+                    
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        E per le grandi imprese?
+                    </p>
+                    <span class="h3"></span> 
+                    <br />
+                    
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        Cosa sono i Data Center?
+                    </p>
+                    <span class="h3">Quali sono i vantaggi di un data center interno</span> 
+                    <br />
+                    
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #39b796,
+                        #5fbd83,
+                        #83c170,
+                        #a8c460,
+                        #cdc355
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        Cosa sono le Server Farm?
+                    </p>
+                    <span class="h3">Quali sono i vantaggi delle Server Farm</span> 
+                    <br />
+                    
                 </div>
             </div>
 
@@ -417,6 +554,23 @@
                     "Domain.com...",
                     "Bluehost...",
                     "HostGator...",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 60,
+                backDelay: 1500,
+                loopCount: Infinity,
+                smartBackspace: false,
+            });
+
+            //Lista server 
+            var typed = new Typed("#serverlist", {
+                strings: [
+                    "Mail Server",
+                    "FTP Server",
+                    "Web Server",
+                    "DHCP Server",
+                    "DNS Server",
                 ],
                 loop: true,
                 typeSpeed: 100,
