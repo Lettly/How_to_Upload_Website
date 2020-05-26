@@ -18,7 +18,7 @@
 
 ## Avere il sito da pubblicare
 
-La prima cosa da fare prima di pubblicare il nostro sito è scriverlo, sappiamo tutti come si fa. Attraverso i linguaggi che abbiamo studiato, [HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) per la parte visiva e strutturale, [Javascript](https://en.wikipedia.org/wiki/JavaScript) e [PHP](https://en.wikipedia.org/wiki/PHP) per le funzioni logiche e di backend e, ultimo ma non per importanza il [MySQLi](https://en.wikipedia.org/wiki/MySQLi) che ci permette di sviluppare e manipolare il nostro Database.
+Prima di pubblicare un sito web dobbiamo necessariamente averne uno, in caso contrario lo si dovrà scrivere. Questo può avvenire attraverso linguaggi come: [HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) per la parte grafica, [Javascript](https://en.wikipedia.org/wiki/JavaScript) e [PHP](https://en.wikipedia.org/wiki/PHP) per il backend, mentre, per sviluppare il nostro Database potremmo sfruttare il [MySQLi](https://en.wikipedia.org/wiki/MySQLi).
 
 ## Comprare un server
 
@@ -37,7 +37,7 @@ Di seguito sono elecanti quelli più comuni:
 - [DNS Server](#Il-dominio):
   * Il *Domain Name System* è un server che fa da rubrica telefonica di internet, svolge questo servizio sulla porta 53.
 
-Ci sono vari sistemi in cui caricare i nostri server, questi variano in base alle diverse necessità delle varie aziende. 
+Ci sono molti sistemi in cui caricare i nostri server, questi cambiano in base alle diverse necessità delle varie aziende. 
 
 - Per le piccole e medie imprese solitamente viene utilizzato un **server tower**, ovvero un computer assemblato in un case tower appunto, simile ai personal computer ma, con una grande capacità di storage e il supporto RAID. Altre caratteristiche fondamentali di questa tipologia sono: *la virtualizzazione*, *la gestione dei file e del sito web, delle applicazioni e dei dispositivi condivisi*. 
 Somigliando per forma ai personal computer si ha il vantaggio di un facile raffreddamento, possono però, sorgere alcune probblematiche, come la rumorosità, la voluminosità e la complessità nel camblaggio. In questi casi si può optare per delle varianti come il **server rack** e il *server blade**. 
@@ -85,13 +85,16 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
     | Costo di affitto dei server noto a priori e distribuito in pagamenti mensili. | Impossibilità di ricevere sin da subito una macchina personalizzata, poiché il noleggio di server dedicati nella maggior parte delle server farm non consente personalizzazioni di default particolari, se non con costi aggiuntivi. |
 
   
-  I **server virtuali** o *VPS (Virtual Private Server)* permettono  di  avere una porzione di hardware condiviso con altri sistemi virtuali. Il provider del servizio mette a disposizione una macchina virtuale collocata su un server fisico che conterrà altre macchine virtuali. Il cliente gestirà la sua macchina virtuale mentre, il fornitore del servizio penserà alla macchina fisica. I software attualmente utilizzati permettono anche di dividere il carico di CPU e RAM allocati a ogni cliente, assicurando così a ognuno l'adeguata capacità di elaborazione.
+  - I **server virtuali** o *VPS (Virtual Private Server)* permettono  di  avere una porzione di hardware condiviso con altri sistemi virtuali. Il provider del servizio mette a disposizione una macchina virtuale collocata su un server fisico che conterrà altre macchine virtuali. Il cliente gestirà la sua macchina virtuale mentre, il fornitore del servizio penserà alla macchina fisica. I software attualmente utilizzati permettono anche di dividere il carico di CPU e RAM allocati a ogni cliente, assicurando così a ognuno l'adeguata capacità di elaborazione.
 
   | Vantaggi del server virtuale | Svantaggi del server virtuale |
   | --- | --- |
   | Costi bassi. | Mancanza di una macchina fisica a uso esclusivo come server. |
   | Delega di cura tecnica e sicurezza del server fisico alla società che fornisce il servizio. | Possibilità di problemi legati allo scarso setup della virtualizzazione di uno degli utenti presenti sul server virtuali. |
   | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
+
+Come comprare un server?<br />
+Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale.
 
 
 ## Il dominio
