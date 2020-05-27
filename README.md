@@ -85,7 +85,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Costo di affitto dei server noto a priori e distribuito in pagamenti mensili. | Impossibilità di ricevere sin da subito una macchina personalizzata, poiché il noleggio di server dedicati nella maggior parte delle server farm non consente personalizzazioni di default particolari, se non con costi aggiuntivi. |
 
   
-  I **server virtuali** o *VPS (Virtual Private Server)* permettono  di  avere una porzione di hardware condiviso con altri sistemi virtuali. Il provider del servizio mette a disposizione una macchina virtuale collocata su un server fisico che conterrà altre macchine virtuali. Il cliente gestirà la sua macchina virtuale mentre, il fornitore del servizio penserà alla macchina fisica. I software attualmente utilizzati permettono anche di dividere il carico di CPU e RAM allocati a ogni cliente, assicurando così a ognuno l'adeguata capacità di elaborazione.
+  I **server virtuali** o *VPS (Virtual Private Server)* permettono di avere una porzione di hardware condiviso con altri sistemi virtuali. Il provider del servizio mette a disposizione una macchina virtuale collocata su un server fisico che conterrà altre macchine virtuali. Il cliente gestirà la sua macchina virtuale mentre, il fornitore del servizio penserà alla macchina fisica. I software attualmente utilizzati permettono anche di dividere il carico di CPU e RAM allocati a ogni cliente, assicurando così a ognuno l'adeguata capacità di elaborazione.
 
   | Vantaggi del server virtuale | Svantaggi del server virtuale |
   | --- | --- |
@@ -94,7 +94,9 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
 
 ***Come comprare un server?***<br />
-Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale. **To be continued...**
+Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale. 
+
+Ok, ma partiamo dall'inizio, prima di tutto bisogna scegliere un hosting, ci solo tante scelte li fuori, alcuni dei principali hosting italiani e non, sono: Aruba, GameHosting, OVH, NFOServer. Noi personalmente abbiamo utilizzato Contabo poiche ha un ottimo rapporto qualità prezzo. In questo caso, non avendo bisogno di tanta potenza abbiamo deciso di adottare il paino più economico. Adesso che ci siamo procurati una VPS, possiamo prosegure.
 
 
 ## Il dominio
