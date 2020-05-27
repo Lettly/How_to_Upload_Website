@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Continuous Vertical scrolling - fullPage.js</title>
+        <meta name="author" content="Matthew Howell" />
+        <meta
+            name="description"
+            content="fullPage continuous scrolling demo."
+        />
+        <meta
+            name="keywords"
+            content="fullpage,jquery,demo,scroll,loop,continuous"
+        />
+        <meta name="Resource-type" content="Document" />
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Continuous Vertical scrolling - fullPage.js</title>
-    <meta name="author" content="Matthew Howell" />
-    <meta name="description" content="fullPage continuous scrolling demo." />
-    <meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
-    <meta name="Resource-type" content="Document" />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+            crossorigin="anonymous"
+        />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/code.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="dist/css/terminal.css" />
 
-    <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
-    <link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
-    <link rel="stylesheet" type="text/css" href="dist/css/code.css" />
-    <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="dist/css/terminal.css" />
+        <!-- Bootstrap -->
 
-    <!-- Bootstrap -->
-
-    <!--[if IE]>
+        <!--[if IE]>
             <script type="text/javascript">
                 var console = { log: function () {} };
             </script>
         <![endif]-->
 
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="imgs/favicon/site.webmanifest" />
-    <link rel="stylesheet" href="dist/css/domini.css" />
-    <link rel="stylesheet" href="dist/css/server.css">
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="imgs/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="imgs/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="imgs/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="imgs/favicon/site.webmanifest" />
+        <link rel="stylesheet" href="dist/css/domini.css" />
+        <link rel="stylesheet" href="dist/css/server.css" />
 
-    <title>Website Upload</title>
-</head>
+        <title>Website Upload</title>
+    </head>
 
-<body>
-    <div id="fullpage">
-        <!-- ////////////////////////////////// CODICE SITO -->
-        <div class="section" style="
+    <body>
+        <div id="fullpage">
+            <!-- ////////////////////////////////// CODICE SITO -->
+            <div
+                class="section"
+                style="
                     background-image: linear-gradient(
                         to bottom,
                         #8365bc,
@@ -49,98 +74,110 @@
                         #5d8eec,
                         #459bf9
                     );
-                ">
-            <div class="row">
-                <div class="col my-auto">
-                    <h3 class="text-right title display-4">
-                        SCRIVIAMO IL<br />NOSTRO SITO WEB
-                    </h3>
-                </div>
+                "
+            >
+                <div class="row">
+                    <div class="col my-auto">
+                        <h3 class="text-right title display-4">
+                            SCRIVIAMO IL<br />NOSTRO SITO WEB
+                        </h3>
+                    </div>
 
-                <div class="col my-auto text-left p-0">
-                    <div class="stack-container">
-                        <div class="card-container" id="last">
-                            <div class="perspec" style="
+                    <div class="col my-auto text-left p-0">
+                        <div class="stack-container">
+                            <div class="card-container" id="last">
+                                <div
+                                    class="perspec"
+                                    style="
                                         --spreaddist: 100px;
                                         --scaledist: 0.9;
                                         --vertdist: -15px;
-                                    ">
-                                <div class="card-code">
-                                    <div class="writing">
-                                        <div class="topbar">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                            <div class="title-code mr-2">
-                                                <strong>Javascript</strong>
+                                    "
+                                >
+                                    <div class="card-code">
+                                        <div class="writing">
+                                            <div class="topbar">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
+                                                <div class="title-code mr-2">
+                                                    <strong>Javascript</strong>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="code">
-                                            <ul></ul>
+                                            <div class="code">
+                                                <ul></ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-container" id="second">
-                            <div class="perspec" style="
+                            <div class="card-container" id="second">
+                                <div
+                                    class="perspec"
+                                    style="
                                         --spreaddist: 75px;
                                         --scaledist: 0.95;
                                         --vertdist: -10px;
-                                    ">
-                                <div class="card-code">
-                                    <div class="writing">
-                                        <div class="topbar">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                            <div class="title-code mr-2">
-                                                <strong>CSS 3</strong>
+                                    "
+                                >
+                                    <div class="card-code">
+                                        <div class="writing">
+                                            <div class="topbar">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
+                                                <div class="title-code mr-2">
+                                                    <strong>CSS 3</strong>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="code">
-                                            <ul></ul>
+                                            <div class="code">
+                                                <ul></ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-container" id="first">
-                            <div class="perspec" style="
+                            <div class="card-container" id="first">
+                                <div
+                                    class="perspec"
+                                    style="
                                         --spreaddist: 50px;
                                         --scaledist: 1;
                                         --vertdist: -5px;
-                                    ">
-                                <div class="card-code">
-                                    <div class="writing">
-                                        <div class="topbar">
-                                            <div class="red"></div>
-                                            <div class="yellow"></div>
-                                            <div class="green"></div>
-                                            <div class="title-code mr-2">
-                                                <strong>HTML5</strong>
+                                    "
+                                >
+                                    <div class="card-code">
+                                        <div class="writing">
+                                            <div class="topbar">
+                                                <div class="red"></div>
+                                                <div class="yellow"></div>
+                                                <div class="green"></div>
+                                                <div class="title-code mr-2">
+                                                    <strong>HTML5</strong>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="code">
-                                            <ul></ul>
+                                            <div class="code">
+                                                <ul></ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- container (code animation) end
+                        <!-- container (code animation) end
 					</div> -->
+                    </div>
+                    <!-- col end -->
                 </div>
-                <!-- col end -->
+                <!-- row end -->
             </div>
-            <!-- row end -->
-        </div>
-        <!-- section end -->
+            <!-- section end -->
 
-        <!-- ////////////////////////////////// SERVER -->
-        <div class="section" style="
+            <!-- ////////////////////////////////// SERVER -->
+            <div
+                class="section"
+                style="
                     background-image: linear-gradient(
                         to bottom,
                         #459bf9,
@@ -149,281 +186,266 @@
                         #26bfff,
                         #36caff
                     );
-                ">
-            <!-- cambia animazione -->
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-left">
-                        <div class="center">
-                            <div class="spinner-wrapper">
-                                <div class="server-wrapper">
-                                    <div class="server">
-                                        <div class="HDD"></div>
-                                        <div class="indicator"></div>
+                "
+            >
+                <!-- cambia animazione -->
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-left">
+                            <div class="center">
+                                <div class="spinner-wrapper">
+                                    <div class="server-wrapper">
+                                        <div class="server">
+                                            <div class="HDD"></div>
+                                            <div class="indicator"></div>
+                                        </div>
+                                        <div class="server">
+                                            <div class="HDD"></div>
+                                            <div class="indicator"></div>
+                                        </div>
+                                        <div class="server">
+                                            <div class="HDD"></div>
+                                            <div class="indicator"></div>
+                                        </div>
+                                        <div class="server">
+                                            <div class="HDD"></div>
+                                            <div class="indicator"></div>
+                                        </div>
+                                        <div class="server">
+                                            <div class="HDD"></div>
+                                            <div class="indicator"></div>
+                                        </div>
                                     </div>
-                                    <div class="server">
-                                        <div class="HDD"></div>
-                                        <div class="indicator"></div>
+                                    <div class="spinner">
+                                        <div class="rect1"></div>
+                                        <div class="rect2"></div>
+                                        <div class="rect3"></div>
+                                        <div class="rect4"></div>
+                                        <div class="rect5"></div>
+                                        <div class="rect6"></div>
+                                        <div class="rect7"></div>
+                                        <div class="rect8"></div>
+                                        <div class="rect9"></div>
+                                        <div class="rect10"></div>
+                                        <br />
+                                        <br />
+                                        <div class="rect11"></div>
+                                        <div class="rect12"></div>
+                                        <div class="rect13"></div>
+                                        <div class="rect14"></div>
+                                        <div class="rect15"></div>
+                                        <div class="rect16"></div>
+                                        <div class="rect17"></div>
+                                        <div class="rect18"></div>
+                                        <div class="rect19"></div>
+                                        <div class="rect20"></div>
                                     </div>
-                                    <div class="server">
-                                        <div class="HDD"></div>
-                                        <div class="indicator"></div>
-                                    </div>
-                                    <div class="server">
-                                        <div class="HDD"></div>
-                                        <div class="indicator"></div>
-                                    </div>
-                                    <div class="server">
-                                        <div class="HDD"></div>
-                                        <div class="indicator"></div>
-                                    </div>
-                                </div>
-                                <div class="spinner">
-                                    <div class="rect1"></div>
-                                    <div class="rect2"></div>
-                                    <div class="rect3"></div>
-                                    <div class="rect4"></div>
-                                    <div class="rect5"></div>
-                                    <div class="rect6"></div>
-                                    <div class="rect7"></div>
-                                    <div class="rect8"></div>
-                                    <div class="rect9"></div>
-                                    <div class="rect10"></div>
-                                    <br>
-                                    <br>
-                                    <div class="rect11"></div>
-                                    <div class="rect12"></div>
-                                    <div class="rect13"></div>
-                                    <div class="rect14"></div>
-                                    <div class="rect15"></div>
-                                    <div class="rect16"></div>
-                                    <div class="rect17"></div>
-                                    <div class="rect18"></div>
-                                    <div class="rect19"></div>
-                                    <div class="rect20"></div>
-                                </div>
-                                <div class="probe">
-                                    <div class="screen">
-                                        <br>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <div class="slit"></div>
-                                        <!--
-                                <div class="blue"></div>
-                                -->
+                                    <div class="probe">
+                                        <div class="screen">
+                                            <br />
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                            <div class="slit"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col text-left">
-                        <h3 class="display-1">I SERVER</h3>
-                        <br />
-                        <h3 class="">Servono? Sì, ma a cosa?</h3>
+                        <div class="col text-left">
+                            <h3 class="display-1">I SERVER</h3>
+                            <br />
+                            <h3 class="">Servono? Sì, ma a cosa?</h3>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- rimuovi -->
-        <!-- <div
+            <div
                 class="section"
                 style="
                     background-image: linear-gradient(
                         to bottom,
-                        #39b796,
-                        #5fbd83,
-                        #83c170,
-                        #a8c460,
-                        #cdc355
+                        #36caff,
+                        #00d7fd,
+                        #00e2f5,
+                        #08ede8,
+                        #4df6d8
                     );
                 "
             >
                 <div class="intro text-center">
                     <p class="display-3">
-                        Cosa è un server?
+                        Quanti ne esistono?
                     </p>
+                    <span class="h3" id="serverlist"></span>
                     <br />
-                    
-                </div> 
-            </div> -->
-
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #39b796,
-                        #5fbd83,
-                        #83c170,
-                        #a8c460,
-                        #cdc355
-                    ); */
-                    background-image: linear-gradient(to bottom, #36caff, #00d7fd, #00e2f5, #08ede8, #4df6d8);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">
-                    Quanti ne esistono?
-                </p>
-                <span class="h3" id="serverlist"></span>
-                <br />
-
+                </div>
             </div>
-        </div>
 
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #39b796,
-                        #5fbd83,
-                        #83c170,
-                        #a8c460,
-                        #cdc355
-                    ); */
-                    background-image: linear-gradient(to bottom, #4df6d8, #4ff6ca, #58f6b9, #65f5a8, #74f495);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-right m-auto">
-                        <p class="display-3">
-                            Piccole imprese
-                        </p>
-                        <span class="h3">Tower, Rack o Blade?</span>
-                        <br />
-                    </div>
-                    <div class="col text-left">
-
-                        <section class="container body-section">
-                            <div class="animation-wrapper">
-                                <div class="animation-content">
-                                    <aside></aside>
-                                    <aside></aside>
-                                    <div><span></span><span></span>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li>PH0</li>
-                                        </ul>
-                                    </div>
-                                    <div><span></span><span></span>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li>PH1</li>
-                                        </ul>
-                                    </div>
-                                    <div><span></span><span></span>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li>PH2</li>
-                                        </ul>
-                                    </div>
-                                    <div><span></span><span></span>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li>PH3</li>
-                                        </ul>
-                                    </div>
-                                    <div><span></span><span></span>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li>PH4</li>
-                                        </ul>
-                                    </div>
-                                    <div><span></span><span></span>
-                                        <ul>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li></li>
-                                            <li>PH5</li>
-                                        </ul>
+                        #4df6d8,
+                        #4ff6ca,
+                        #58f6b9,
+                        #65f5a8,
+                        #74f495
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-right m-auto">
+                            <p class="display-3">
+                                Piccole imprese
+                            </p>
+                            <span class="h3">Tower, Rack o Blade?</span>
+                            <br />
+                        </div>
+                        <div class="col text-left">
+                            <section class="container body-section">
+                                <div class="animation-wrapper">
+                                    <div class="animation-content">
+                                        <aside></aside>
+                                        <aside></aside>
+                                        <div>
+                                            <span></span><span></span>
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li>PH0</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <span></span><span></span>
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li>PH1</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <span></span><span></span>
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li>PH2</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <span></span><span></span>
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li>PH3</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <span></span><span></span>
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li>PH4</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <span></span><span></span>
+                                            <ul>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li></li>
+                                                <li>PH5</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #39b796,
-                        #5fbd83,
-                        #83c170,
-                        #a8c460,
-                        #cdc355
-                    ); */
-                    background-image: linear-gradient(to bottom, #74f495, #8ff495, #a4f496, #b7f499, #c7f49e);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">
-                    Grandi aziende
-                </p>
-                <span class="h3">Data center e Server Farm</span>
-                <br />
-
+                        #74f495,
+                        #8ff495,
+                        #a4f496,
+                        #b7f499,
+                        #c7f49e
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        Grandi aziende
+                    </p>
+                    <span class="h3">Data center e Server Farm</span>
+                    <br />
+                </div>
             </div>
-        </div>
 
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #bc6565,
-                        #c86279,
-                        #ce6193,
-                        #ca66b1,
-                        #bb70d1
-                    ); */
-                    background-image: linear-gradient(to bottom, #c7f49e, #d4f098, #e0ec93, #ece890, #f6e48f);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">Come lo ottengo?</p>
-                <br />
-                <span class="h3" id="hostingServerList"></span>
+                        #c7f49e,
+                        #d4f098,
+                        #e0ec93,
+                        #ece890,
+                        #f6e48f
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">Come lo ottengo?</p>
+                    <br />
+                    <span class="h3" id="hostingServerList"></span>
+                </div>
             </div>
-        </div>
 
-
-        <!-- rimuovere(?) -->
-        <!-- <div
+            <!-- rimuovere(?) -->
+            <!-- <div
                 class="section"
                 style="
                     background-image: linear-gradient(
@@ -469,463 +491,540 @@
                 </div>
             </div> -->
 
-        <!-- ////////////////////////////////// DOMINIO -->
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <!-- ////////////////////////////////// DOMINIO -->
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col">
-                        <div class="connecting-domine-text">
-                            CONNECTING
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col">
+                            <div class="connecting-domine-text">
+                                CONNECTING
+                            </div>
+                            <div class="connecting-domine-box">
+                                <div class="connecting-domine-comp"></div>
+                                <div class="connecting-domine-loader"></div>
+                                <div class="connecting-domine-con"></div>
+                                <div class="connecting-domine-byte"></div>
+                                <div class="connecting-domine-server"></div>
+                            </div>
                         </div>
-                        <div class="connecting-domine-box">
-                            <div class="connecting-domine-comp"></div>
-                            <div class="connecting-domine-loader"></div>
-                            <div class="connecting-domine-con"></div>
-                            <div class="connecting-domine-byte"></div>
-                            <div class="connecting-domine-server"></div>
-                        </div>
-                    </div>
-                    <div class="col text-left">
-                        <h3 class="display-1">I DOMINI</h3>
-                        <br />
-                        <h3 class="">www.google.com</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #36caff,
-                        #00c8ea,
-                        #00c4d0,
-                        #00beb3,
-                        #39b796
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6c598, #f7bd96, #f8b495, #f8ac96, #f6a498);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">
-                    www.google<span class="rounded p-1 text-white display-1">.com</span>
-                </p>
-                <br />
-                <h3 class="">Primo livello</h3>
-            </div>
-        </div>
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #39b796,
-                        #5fbd83,
-                        #83c170,
-                        #a8c460,
-                        #cdc355
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6a498, #f89f99, #fa9b9b, #fc969d, #fd92a0);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">
-                    www.<span class="rounded p-1 text-white display-1">google</span>.com
-                </p>
-                <br />
-                <h3 class="">Secondo Livello</h3>
-            </div>
-        </div>
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #cdc355,
-                        #d7a84f,
-                        #d78e54,
-                        #ce775c,
-                        #bc6565
-                    ); */
-                    background-image: linear-gradient(to bottom, #fd92a0, #ff93ae, #ff95be, #ff98ce, #fb9cde);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">
-                    <span class="rounded p-1 text-white display-1">www.</span>google.com
-                </p>
-                <br />
-                <h3 class="">Terzo Livello</h3>
-            </div>
-        </div>
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #bc6565,
-                        #c86279,
-                        #ce6193,
-                        #ca66b1,
-                        #bb70d1
-                    ); */
-                    background-image: linear-gradient(to bottom, #fb9cde, #f7a1e7, #f2a5ef, #edaaf7, #e7afff);
-                ">
-            <div class="intro text-center">
-                <p class="display-3">Come lo ottengo?</p>
-                <br />
-                <span class="h3" id="hostinglist"></span>
-            </div>
-        </div>
-
-        <!-- ////////////////////////////////// CLOUDFLARE -->
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col">
-                        <img src="imgs\illustration_secure-teams-devices.svg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col text-left my-auto">
-                        <h3 class="display-1">ColoudFlare</h3>
-                        <br />
-                        <h3 class="">Cosa è?</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-right my-auto">
-                        <h3 class="display-4">Come posso configurare<br>CloudFlare e i server DNS?</h3>
-                    </div>
-                    <div class="col">
-                        <img src="imgs\illustration_protect-presence.svg" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ////////////////////////////////// Web Server -->
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-center my-auto">
-                        <h3 class="display-1">Installiamo il web server</h3>
-                        <span class="h3">Apache2</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ////////////////////////////////// Shell -->
-        <div class="section" style="
-                    /* background-image: linear-gradient(
-                        to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #e7afff, #ccb1ff, #b1b3ff, #97b3fc, #7eb3f4);
-                ">
-            <div class="intro">
-                <div class="row">
-                    <div class="col mx-auto">
-                        <div class="mx-auto" id="termynal" data-termynal data-termynal data-ty-typeDelay="40"
-                            data-ty-lineDelay="700">
-                            <span data-ty="input">sudo apt update</span>
-                            <span data-ty="progress"></span>
-                            <span data-ty>80 packages can be upgraded.</span>
-                            <span data-ty="input">sudo apt upgrade</span>
-                            <span data-ty="progress"></span>
-                            <span data-ty>Updated successfully</span>
-                            <span data-ty></span>
-                            <span data-ty="input">sudo apt install apache2</span>
-                            <span data-ty>The following NEW packages will be installed:
-                                apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
-                                libaprutil1-dbd-sqlite3 libaprutil1-ldap ssl-cert<br>
-                                Do you want to continue?
-                            </span>
-                            <span data-ty="input" data-ty-prompt="[Y/n]">y</span>
-                            <span data-ty="progress"></span>
-
-                            <span data-ty></span>
+                        <div class="col text-left">
+                            <h3 class="display-1">I DOMINI</h3>
+                            <br />
+                            <h3 class="">www.google.com</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!-- ////////////////////////////////// Web Server -->
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-center my-auto">
-                        <h3 class="display-1">Pubblichiamo il sito</h3>
-                        <!-- <span class="h3"></span> -->
-                    </div>
+                        #f6c598,
+                        #f7bd96,
+                        #f8b495,
+                        #f8ac96,
+                        #f6a498
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        www.google<span class="rounded p-1 text-white display-1"
+                            >.com</span
+                        >
+                    </p>
+                    <br />
+                    <h3 class="">Primo livello</h3>
                 </div>
             </div>
-        </div>
-
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #e7afff, #ccb1ff, #b1b3ff, #97b3fc, #7eb3f4);
-                ">
-            <div class="intro">
-                <div class="row">
-                    <div class="col mx-auto">
-                        <div class="mx-auto" id="termynal-ftp-upload" data-termynal data-termynal data-ty-typeDelay="40"
-                            data-ty-lineDelay="700">
-                            <span data-ty="input">scp ilMioBellissimoSito/ root@152.154.15.514:/var/www/html/</span>
-                            <span data-ty="input" data-ty-prompt="Password">****************</span>
-                            <span data-ty></span>
-                            <span data-ty="progress"></span>
-                            <span data-ty>Upload complete</span>
-                            <span data-ty></span>
+                        #f6a498,
+                        #f89f99,
+                        #fa9b9b,
+                        #fc969d,
+                        #fd92a0
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        www.<span class="rounded p-1 text-white display-1"
+                            >google</span
+                        >.com
+                    </p>
+                    <br />
+                    <h3 class="">Secondo Livello</h3>
+                </div>
+            </div>
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #fd92a0,
+                        #ff93ae,
+                        #ff95be,
+                        #ff98ce,
+                        #fb9cde
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">
+                        <span class="rounded p-1 text-white display-1"
+                            >www.</span
+                        >google.com
+                    </p>
+                    <br />
+                    <h3 class="">Terzo Livello</h3>
+                </div>
+            </div>
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #fb9cde,
+                        #f7a1e7,
+                        #f2a5ef,
+                        #edaaf7,
+                        #e7afff
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <p class="display-3">Come lo ottengo?</p>
+                    <br />
+                    <span class="h3" id="hostinglist"></span>
+                </div>
+            </div>
+
+            <!-- ////////////////////////////////// CLOUDFLARE -->
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col">
+                            <img
+                                src="imgs\illustration_secure-teams-devices.svg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col text-left my-auto">
+                            <h3 class="display-1">ColoudFlare</h3>
+                            <br />
+                            <h3 class="">Cosa è?</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-        <!-- ////////////////////////////////// Funziona tutto -->
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-center my-auto">
-                        <h3 class="display-4">Controlliamo se tutto funziona</h3>
-                        <br>
-                        <div class="container my-auto">
-                            <!-- <div class="jumbotron jumbotron-fluid">
-                                <h1 class="display-4">Example Domain</h1>
-                                <p class="lead">This domain is for use in illustrative examples in documents. You may
-                                    use this domain in literature without prior coordination or asking for permission.
-                                </p>
-                                <a href="#">More information...</a>
-                            </div> -->
-                            <div class="card" style="width: 50rem;">
-                                <div class="card-body">
-                                  <h2 class="card-title">Example Domain</h2>
-                                  <p class="card-text">This domain is for use in illustrative examples in documents. You may
-                                    use this domain in literature without prior coordination or asking for permission.</p>
-                                  <a href="javascript:console.log('no more information sorry')">More information...</a>
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-right my-auto">
+                            <h3 class="display-4">
+                                Come posso configurare<br />CloudFlare e i
+                                server DNS?
+                            </h3>
+                        </div>
+                        <div class="col">
+                            <img
+                                src="imgs\illustration_protect-presence.svg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ////////////////////////////////// Web Server -->
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-center my-auto">
+                            <h3 class="display-1">Installiamo il web server</h3>
+                            <span class="h3">Apache2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ////////////////////////////////// Shell -->
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #e7afff,
+                        #ccb1ff,
+                        #b1b3ff,
+                        #97b3fc,
+                        #7eb3f4
+                    );
+                "
+            >
+                <div class="intro">
+                    <div class="row">
+                        <div class="col mx-auto">
+                            <div
+                                class="mx-auto"
+                                id="termynal"
+                                data-termynal
+                                data-termynal
+                                data-ty-typeDelay="40"
+                                data-ty-lineDelay="700"
+                            >
+                                <span data-ty="input">sudo apt update</span>
+                                <span data-ty="progress"></span>
+                                <span data-ty
+                                    >80 packages can be upgraded.</span
+                                >
+                                <span data-ty="input">sudo apt upgrade</span>
+                                <span data-ty="progress"></span>
+                                <span data-ty>Updated successfully</span>
+                                <span data-ty></span>
+                                <span data-ty="input"
+                                    >sudo apt install apache2</span
+                                >
+                                <span data-ty
+                                    >The following NEW packages will be
+                                    installed: apache2 apache2-bin apache2-data
+                                    apache2-utils libapr1 libaprutil1
+                                    libaprutil1-dbd-sqlite3 libaprutil1-ldap
+                                    ssl-cert<br />
+                                    Do you want to continue?
+                                </span>
+                                <span data-ty="input" data-ty-prompt="[Y/n]"
+                                    >y</span
+                                >
+                                <span data-ty="progress"></span>
+
+                                <span data-ty></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ////////////////////////////////// Web Server -->
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-center my-auto">
+                            <h3 class="display-1">Pubblichiamo il sito</h3>
+                            <!-- <span class="h3"></span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #e7afff,
+                        #ccb1ff,
+                        #b1b3ff,
+                        #97b3fc,
+                        #7eb3f4
+                    );
+                "
+            >
+                <div class="intro">
+                    <div class="row">
+                        <div class="col mx-auto">
+                            <div
+                                class="mx-auto"
+                                id="termynal-ftp-upload"
+                                data-termynal
+                                data-termynal
+                                data-ty-typeDelay="40"
+                                data-ty-lineDelay="700"
+                            >
+                                <span data-ty="input"
+                                    >scp ilMioBellissimoSito/
+                                    root@152.154.15.514:/var/www/html/</span
+                                >
+                                <span data-ty="input" data-ty-prompt="Password"
+                                    >****************</span
+                                >
+                                <span data-ty></span>
+                                <span data-ty="progress"></span>
+                                <span data-ty>Upload complete</span>
+                                <span data-ty></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ////////////////////////////////// Funziona tutto -->
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
+                        to bottom,
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-center my-auto">
+                            <h3 class="display-4">
+                                Controlliamo se tutto funziona
+                            </h3>
+                            <br />
+                            <div class="container my-auto">
+                                <div class="row">
+                                    <div class="col-7 mx-auto">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h2 class="card-title">
+                                                    Example Domain
+                                                </h2>
+                                                <p class="card-text">
+                                                    This domain is for use in
+                                                    illustrative examples in
+                                                    documents. You may use this
+                                                    domain in literature without
+                                                    prior coordination or asking
+                                                    for permission.
+                                                </p>
+                                                <a
+                                                    href="javascript:console.log('no more information sorry')"
+                                                    >More information...</a
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>                              
+                            </div>
                         </div>
-                        <!-- <iframe class="rounded" style="border:none;" height="500px" width="1000px" src="http://example.com/"></iframe> -->
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="section" style="
-                    /* background-image: linear-gradient(
+            <div
+                class="section"
+                style="
+                    background-image: linear-gradient(
                         to bottom,
-                        #459bf9,
-                        #32a8fd,
-                        #25b4ff,
-                        #26bfff,
-                        #36caff
-                    ); */
-                    background-image: linear-gradient(to bottom, #f6e48f, #f9dc90, #fad392, #f9cc95, #f6c598);
-                ">
-            <div class="intro text-center">
-                <div class="row">
-                    <div class="col text-center my-auto">
-                        <h3 class="display-4">FINE</h3>
+                        #f6e48f,
+                        #f9dc90,
+                        #fad392,
+                        #f9cc95,
+                        #f6c598
+                    );
+                "
+            >
+                <div class="intro text-center">
+                    <div class="row">
+                        <div class="col text-center my-auto">
+                            <h3 class="display-4">FINE</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </div>
+        <script type="text/javascript" src="dist/fullpage.js"></script>
+        <script type="text/javascript" src="dist/js/main.js"></script>
+        <script type="text/javascript" src="dist/js/code.js"></script>
 
-    <script type="text/javascript" src="dist/fullpage.js"></script>
-    <script type="text/javascript" src="dist/js/main.js"></script>
-    <script type="text/javascript" src="dist/js/code.js"></script>
+        <!-- Terminale animato -->
+        <script src="dist/js/termynal.min.js"></script>
 
-    <!-- Terminale animato -->
-    <script src="dist/js/termynal.min.js"></script>
+        <!-- Scritte Animate -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
-    <!-- Scritte Animate -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <!-- bootstrap -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
-    <!-- bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <!-- terminale animato -->
+        <script>
+            // var termynal = new Termynal("#termynal");
+        </script>
 
-    <!-- terminale animato -->
-    <script>
-        // var termynal = new Termynal("#termynal");
-    </script>
-
-    <!-- Scrittura animata -->
-    <script>
-        //Lista hosting slide5
-        var typed = new Typed("#hostinglist", {
-            strings: [
-                "Aruba...",
-                "OVH...",
-                "GoDaddy...",
-                "Namecheap...",
-                "Domain.com...",
-                "Bluehost...",
-                "HostGator...",
-                "Lucia 6 unica...",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 60,
-            backDelay: 1500,
-            loopCount: Infinity,
-            smartBackspace: false,
-        });
-
-        //Lista server 
-        var typed = new Typed("#serverlist", {
-            strings: [
-                "Mail Server...",
-                "Server FTP...",
-                "Web Server...",
-                "DHCP Server...",
-                "DNS Server...",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 60,
-            backDelay: 1500,
-            loopCount: Infinity,
-            smartBackspace: false,
-        });
-
-        //Lista hosting server 
-        var typed = new Typed("#hostingServerList", {
-            strings: [
-                "Aruba...",
-                "GameHosting...",
-                "OVH...",
-                "NFOServer...",
-                "Contabo...",
-            ],
-            loop: true,
-            typeSpeed: 100,
-            backSpeed: 60,
-            backDelay: 1500,
-            loopCount: Infinity,
-            smartBackspace: false,
-        });        
-    </script>
-
-    <script type="text/javascript">
-        var myFullpage = new fullpage("#fullpage", {
-            scrollingSpeed: 0, //da togliere alla fine (rende più facile scorrere durante la programmazione) [`dillo`: son deficente lo so!]
-            afterLoad: function (anchorLink, index) {
-                console.log(
-                    "AFTER LOAD - anchorLink:" +
-                    anchorLink +
-                    " index:" +
-                    index
-                );
-            },
-            onLeave: function (index, nextIndex, direction) {
-                if (nextIndex.index == 14 && direction == "down") { //Crea il terminale animato (install apache)
-                    var termynal = new Termynal("#termynal");
-                }
-
-                if (nextIndex.index == 16 && direction == "down") { //Crea il terminale animato (trasferimento file)
-                    var termynal = new Termynal("#termynal-ftp-upload");
-                }
-                console.log(
-                    "ONLEAVE - index:" +
-                    index +
-                    " nextIndex:" +
-                    nextIndex +
-                    " direction:" +
-                    direction
-                );
-            },
-        });
-    </script>
-
-    <script>
-        // Prima slide schede che saltellano
-        window.onload = (function () {
-            var interval;
-            setTimeout(function () {
-                interval = setInterval(function () {
-                    $("#last").toggleClass("pokeupMy");
-                }, 400);
-            }, 8000);
-
-            $("#first, #second, #last").hover(function () {
-                clearInterval(interval);
-                $("#last").removeClass("pokeupMy");
+        <!-- Scrittura animata -->
+        <script>
+            //Lista hosting slide5
+            var typed = new Typed("#hostinglist", {
+                strings: [
+                    "Aruba...",
+                    "OVH...",
+                    "GoDaddy...",
+                    "Namecheap...",
+                    "Domain.com...",
+                    "Bluehost...",
+                    "HostGator...",
+                    "Lucia 6 unica...",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 60,
+                backDelay: 1500,
+                loopCount: Infinity,
+                smartBackspace: false,
             });
-        })();
-    </script>
-</body>
 
+            //Lista server
+            var typed = new Typed("#serverlist", {
+                strings: [
+                    "Mail Server...",
+                    "Server FTP...",
+                    "Web Server...",
+                    "DHCP Server...",
+                    "DNS Server...",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 60,
+                backDelay: 1500,
+                loopCount: Infinity,
+                smartBackspace: false,
+            });
+
+            //Lista hosting server
+            var typed = new Typed("#hostingServerList", {
+                strings: [
+                    "Aruba...",
+                    "GameHosting...",
+                    "OVH...",
+                    "NFOServer...",
+                    "Contabo...",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 60,
+                backDelay: 1500,
+                loopCount: Infinity,
+                smartBackspace: false,
+            });
+        </script>
+
+        <script type="text/javascript">
+            var myFullpage = new fullpage("#fullpage", {
+                scrollingSpeed: 0, //da togliere alla fine (rende più facile scorrere durante la programmazione) [`dillo`: son deficente lo so!]
+                afterLoad: function (anchorLink, index) {
+                    console.log(
+                        "AFTER LOAD - anchorLink:" +
+                            anchorLink +
+                            " index:" +
+                            index
+                    );
+                },
+                onLeave: function (index, nextIndex, direction) {
+                    if (nextIndex.index == 14 && direction == "down") {
+                        //Crea il terminale animato (install apache)
+                        var termynal = new Termynal("#termynal");
+                    }
+
+                    if (nextIndex.index == 16 && direction == "down") {
+                        //Crea il terminale animato (trasferimento file)
+                        var termynal = new Termynal("#termynal-ftp-upload");
+                    }
+                    console.log(
+                        "ONLEAVE - index:" +
+                            index +
+                            " nextIndex:" +
+                            nextIndex +
+                            " direction:" +
+                            direction
+                    );
+                },
+            });
+        </script>
+
+        <script>
+            // Prima slide schede che saltellano
+            window.onload = (function () {
+                var interval;
+                setTimeout(function () {
+                    interval = setInterval(function () {
+                        $("#last").toggleClass("pokeupMy");
+                    }, 400);
+                }, 8000);
+
+                $("#first, #second, #last").hover(function () {
+                    clearInterval(interval);
+                    $("#last").removeClass("pokeupMy");
+                });
+            })();
+        </script>
+    </body>
 </html>
