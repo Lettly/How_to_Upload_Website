@@ -5,7 +5,7 @@
 - [Avere il sito da pubblicare](#Avere-il-sito-da-pubblicare)
 - [Comprare un server](#Comprare-un-server)
 - [Comprare un dominio](#Il-dominio)
-- Configurazione
+- [Configurazione](#Configurazione)
   - Dominio
     - [Cloudfare (spigazione e account)](#Cloudflare-(opzionale))
     - [Puntare a cloudfare](#Configurazione-dominio-e-cloudflare)
@@ -113,66 +113,49 @@ I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name S
 Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](https://it.godaddy.com/domains/), [OVH](https://www.ovh.it/domini/), [NameCheap](https://www.namecheap.com/domains/), e molti altri. La registrazione è univoca e, solitamente, annua.
 
 
-## Cloudflare (opzionale)
-((***rivedere***))
+## Configurazione
 
-CloudFlare è un caching reverse proxy, ovvero un server che si pone tra il server dove risiede il tuo sito e il visitatore.
-CloudFlare, in questo modo, si occupa dell'ottimizzazzione dei tempi di caricamento: minimizzando css, il js e memorizzandeli nelle proprie cache in modo da ridurre drasticamente i tempo richiesto per visualizzare una paggina e riducendo il carico sui propri server.
-Ma CloudFlare non ha solo questa funzione. Cloudflare si pone fra il sito e il visitatore filtrando il traffico e frapponedosi a mo'di firewall. In questo modo riesce a fornire una protezione agli attacchi Dos o DDos, nascondendo il reale ip della macchina e reidirizzando tutto il traffico in arrivo prima su i suoi server. In questo modo cloudflare riesce a scindere il traffico reale da un traffico fittizzio, e procede ad inoltrare solo il promo e rifiutando il secondo. Ciò vuol dire che fintato il reale ip della macchina rimane sconosciuto al pubblico, le possibilità di ricevere un attacco Ddos sono praticamente pari a 0.
-Oltre a tutto ciò il piano base di cloudflare è gratuito.
+  - ### Cloudflare (opzionale)
 
-## Configurazione dominio e cloudflare
-***Come posso cominciare ad usare cloudflare?***
-((***rivedere***))
+  CloudFlare è un caching reverse proxy, ovvero un server che si pone tra host e client. Ottimizza i tempi di caricamento, minimizzando css e js, memorizzandoli, poi, nelle proprie cache così da ridurre l'attesa per il completo caricamento della paggina. In oltre, funge da firewall, nasconde il reale ip della nostra macchina e reindirizza il traffico in arrivo sui suoi server; così facendo offre protezione dagli attacchi Dos o DDos.
 
-Prima di tutto bisognerà crearci un account cloudflare e registrarci un dominio. Una volta registrato il dominio su cloudflare, esso ti fornirà dei Name Server (NS) da usare per il proprio dominio. 
-Adesso bisognera andare nel pannello fornito dal proprio hosting e modificare i NS del dominio. 
+  - ### Configurazione dominio e cloudflare
 
-***Come posso cofigurare i dns?***
-((***rivedere***))
+  ***Come posso cominciare a usare cloudflare?***<br />
+  Prima di tutto dovremo creare un account e registrare il nome per il sito, precedentemente acquistato, cloudfare fornirà dei *Name Server (NS)*. Questi ultimi dovranno essere sostituiti a quelli di default del provider del nostro dominio. 
 
-Cambiati i Name Server, il proprio dominio sarà completamente configurabile attraverso cloudflare.  
-Bisognerà, adesso, impostare un record A che punti all'ip della macchina, o nel nostro caso alla VPS. 
+  ***Come posso configurare i DNS?***<br />
+  Sostituiti i *Name Server*, per completare la configurazione del dominio si dovrà impostare un record `A` che punti all'*ip della macchina* o, nel nostro caso, alla *VPS*. 
 
 
-## Configurazione VPS
-***Installazione pacchetti***
-((***rivedere***))
+  - ### Configurazione VPS
 
-Adesso che abbiamo configurato il nostro dominio, bisogna passare all' inizializzazione della VPS. Prima di tutto recuperiamo le credenziali per accedere all' SSH della mcchina.
-Una volta effettuato l' accesso all' SSH attraverso programmi come Putty o MobaXTerm, possiamo proseguire con l'installazione dei pacchetti necessari.
-Ci sono una serie di passaggi necessari per installare apache2 (il web server da noi scelto) su Ubuntu server 20.04 (la distro linux da noi scelta):
+  ***Installazione pacchetti***<br />
+  Adesso che abbiamo configurato il dominio, bisognerà inizializzare la *VPS*. Recuperate le credenziali per accedervi tramite *SSH*, possiamo proseguire con l'installazione dei pacchetti necessari.
 
-- Scarichiamo la lista aggiornata dei pacchetti e delle nuove versioni disponibili nei repository
-  ```shell
-  sudo apt-get update 
-  ```
+  *Distribuzione utilizzata: ***Ubuntu Server 20.04***
 
-- Scarichiamo ed installiamo le ultime versioni dei pacchetti e delle dipendenze
-  ```shell
-  sudo apt-get upgrade 
-  ```
+  - Aggiorniamo, scarichiamo e installiamo le ultime versione di pacchetti e dipendenze disponibili:
+    ```shell
+    sudo apt-get update && sudo apt-get -y upgrade
+    ```
 
-- Scarichiamo ed installiamo l'ultima versione disponibile di apache2 e delle sua dipendenze
-  ```shell
-  sudo apt-get install -y apache2 
-  ```
+  - Scarichiamo e installiamo l'ultima versione disponibile di apache2 e di eventuali dipendenze*:
+    ```shell
+    sudo apt-get install -y apache2 
+    ```
 
+  **I pacchetti che dovremo installare possono variare in base al tipo di sito web e/o alle caratteristiche del nostro OS.*
 
-***Configurazione web server***
-((***rivedere***))
+  ***Configurazione web server***<br />
+  Arrivati a questo punto si dovrà configurare il web server ma, in questo caso, le impostazioni di base erano concordi ai nostri bisogni. Se avessimo bisogno di effettuarvi delle modifiche, esiste un file apposito. Ogni sistema operativo ha la sua documentazione per trovarlo, su quello da noi scelto è: `/etc/apache2`.
 
-In questo caso la configurazione del web server è molto semplice
-Non bisognerà apportare alcuna modifica alle configurazioni di base per farlo funzionare.
-In generale, se necessario, le configurazioni si trovano al seguente percorso:
-```/etc/apache2``` (su ubuntu)
 
 ## Messa in produzione
-((***rivedere***))
 
-L' ultimo passaggio da fare è quello di caricare i file del nostro sito, sulla macchina. Per fare questo basterà collegarsi al server attraverso un clinet FTP, come FileZilla o MobaXTerm, e caricare i file del proprio sito all'interno della cartella ```/var/www/html```. Questa è la cartella dove apach2 di base andra a prendere i file per creare un web server
+Come ultima cosa bisognerà necessariamente caricare i file, con il codice del nostro sito, sulla macchina. Per fare questo, basterà collegarsi al server tramite un clinet *FTP* ed effettuare l'upload nella cartella `/var/www/html`. Quesata è dove apache2, di base, andrà a prendere i file per creare un web server.
+
 
 ## Crash test
-((***Secondo me è perfetto***))
 
-Adesso non ci resta che morire (collegarci al sito e provare se tutto funziona)
+Per non saper ne leggere ne scrivere, io, proverei a vedere se funziona come dovrebbe. `:)`
