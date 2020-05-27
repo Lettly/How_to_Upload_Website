@@ -24,7 +24,7 @@ Prima di pubblicare un sito web dobbiamo necessariamente averne uno, in caso con
 
 Dopo aver scritto il codice, che costituisce la nostra pagina, possiamo iniziare a capire come pubblicarlo. La prima cosa da fare è acquistare una macchina server. Capiamo però cos'è questa macchina.
 
-Il server è un programma o, un dispositivo, che fornisce un servizio a un altro computer, detto client. Queste macchine e/o programmi attendono e soddisfano richieste. Vengono classificate in base al tipo di servizio che offrono, molti di questi li usiamo quotidianamente anche senza rendercene conto, di altri ne abbiamo più consapebolezza. 
+Il server è un programma o, un dispositivo, che fornisce un servizio a un altro computer, detto client. Queste macchine e/o programmi attendono e soddisfano richieste. Vengono classificate in base al tipo di servizio che offrono, molti di questi li usiamo quotidianamente anche senza rendercene conto, di altri ne abbiamo più consapevolezza. 
 Di seguito sono elecanti quelli più comuni:
 - Mail Server:
   * I *Mail server* sono server che, utilizzando le porte 25, 587, 465, 110, 143 e 993, permettono di inviare e smistare mail da un pc all'altro.
@@ -76,12 +76,12 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Possibilità di amministrare totalmente la macchina e di fare aggiornamenti software in qualsiasi momento. | Aggiornamento di sicurezza e dei sistemi a carico del cliente. |
 
 
-  I data center possono mettere a disposizione delle aziende clienti alcuni **server a uso esclusivo**. La differenza con il sistema in colocation housing sta nel fatto che in questo caso saremo noi a noleggiare l'hardware messo a disposizione dall'azienda. L'amministrazione software è completamente a carico del cliente, in questo modo nel caso di guasti satà il provider del servizio a doversene occupare; questa tipologia di hosting si è diffusa tra le poccole aziende.
+  I data center possono mettere a disposizione delle aziende clienti alcuni **server a uso esclusivo**. La differenza con il sistema in colocation housing sta nel fatto che in questo caso saremo noi a noleggiare l'hardware messo a disposizione dall'azienda. L'amministrazione software è completamente a carico del cliente, in questo modo nel caso di guasti sarà il provider del servizio a doversene occupare; questa tipologia di hosting si è diffusa tra le piccole aziende.
 
   | Vantaggi del noleggio di server dedicati | Svantaggi del noleggio di server dedicati |
   | --- | --- |
   | Delaga degli aggiornamenti di sicurezza allo staff del supporto sistemistico della server farm o dell'azienda che rivende il servizio. | Delega del funzionamento allo staff della server farm, operazione che richiede fiducia e competenza in caso di applicazioni critiche. |
-  | Nessun costo di acquisto iniziale della machhina e di installazione e configurazione iniziale. | Costo di affitto mensile dei server che può risultare alto in caso di applicazioni di rete critiche, in aggiunta al costo di connettività e di affitto dello spazio del rack (colocation). |
+  | Nessun costo di acquisto iniziale della macchina e di installazione e configurazione iniziale. | Costo di affitto mensile dei server che può risultare alto in caso di applicazioni di rete critiche, in aggiunta al costo di connettività e di affitto dello spazio del rack (colocation). |
   | Costo di affitto dei server noto a priori e distribuito in pagamenti mensili. | Impossibilità di ricevere sin da subito una macchina personalizzata, poiché il noleggio di server dedicati nella maggior parte delle server farm non consente personalizzazioni di default particolari, se non con costi aggiuntivi. |
 
   
@@ -96,7 +96,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 ***Come comprare un server?***<br />
 Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo preso uno di tipo virtuale. 
 
-I principali rivenditori sono: [Aruba](https://www.cloud.it/vps/vps-hosting.aspx), [GameHosting](https://www.gamehosting.it/vps-winlinux), [OVH](https://www.ovhcloud.com/it/vps/) e [NFOServer](https://www.nfoservers.com/virtual-dedicated-private-server-rentals.php). Noi abbiamo utilizzato [Contabo](https://contabo.com/?show=vps) poiché ha un ottimo rapporto tra qualità e prezzo. In questo caso, non avendo bisogno di tanta potenza, abbiamo optato per il paino più economico, che comprende 4 GB di RAM, 2 CPU cores e 300 GB di spazio su disco.
+I principali rivenditori sono: [Aruba](https://www.cloud.it/vps/vps-hosting.aspx), [GameHosting](https://www.gamehosting.it/vps-winlinux), [OVH](https://www.ovhcloud.com/it/vps/) e [NFOServer](https://www.nfoservers.com/virtual-dedicated-private-server-rentals.php). Noi abbiamo utilizzato [Contabo](https://contabo.com/?show=vps) poiché ha un ottimo rapporto tra qualità e prezzo. In questo caso, non avendo bisogno di tanta potenza, abbiamo optato per il piano più economico, che comprende 4 GB di RAM, 2 CPU cores e 300 GB di spazio su disco.
 
 
 ## Il dominio
