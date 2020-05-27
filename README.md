@@ -117,38 +117,38 @@ Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivendito
 
   - ### Cloudflare (opzionale)
 
-  CloudFlare è un caching reverse proxy, ovvero un server che si pone tra host e client. Ottimizza i tempi di caricamento, minimizzando css e js, memorizzandoli, poi, nelle proprie cache così da ridurre l'attesa per il completo caricamento della paggina. In oltre, funge da firewall, nasconde il reale ip della nostra macchina e reindirizza il traffico in arrivo sui suoi server; così facendo offre protezione dagli attacchi Dos o DDos.
+    CloudFlare è un caching reverse proxy, ovvero un server che si pone tra host e client. Ottimizza i tempi di caricamento, minimizzando css e js, memorizzandoli, poi, nelle proprie cache così da ridurre l'attesa per il completo caricamento della paggina. In oltre, funge da firewall, nasconde il reale ip della nostra macchina e reindirizza il traffico in arrivo sui suoi server; così facendo offre protezione dagli attacchi Dos o DDos.
 
   - ### Configurazione dominio e cloudflare
 
-  ***Come posso cominciare a usare cloudflare?***<br />
-  Prima di tutto dovremo creare un account e registrare il nome per il sito, precedentemente acquistato, cloudfare fornirà dei *Name Server (NS)*. Questi ultimi dovranno essere sostituiti a quelli di default del provider del nostro dominio. 
+    ***Come posso cominciare a usare cloudflare?***<br />
+    Prima di tutto dovremo creare un account e registrare il nome per il sito, precedentemente acquistato, cloudfare fornirà dei *Name Server (NS)*. Questi ultimi dovranno essere sostituiti a quelli di default del provider del nostro dominio. 
 
-  ***Come posso configurare i DNS?***<br />
-  Sostituiti i *Name Server*, per completare la configurazione del dominio si dovrà impostare un record `A` che punti all'*ip della macchina* o, nel nostro caso, alla *VPS*. 
+    ***Come posso configurare i DNS?***<br />
+    Sostituiti i *Name Server*, per completare la configurazione del dominio si dovrà impostare un record `A` che punti all'*ip della macchina* o, nel nostro caso, alla *VPS*. 
 
 
   - ### Configurazione VPS
 
-  ***Installazione pacchetti***<br />
-  Adesso che abbiamo configurato il dominio, bisognerà inizializzare la *VPS*. Recuperate le credenziali per accedervi tramite *SSH*, possiamo proseguire con l'installazione dei pacchetti necessari.
+    ***Installazione pacchetti***<br />
+    Adesso che abbiamo configurato il dominio, bisognerà inizializzare la *VPS*. Recuperate le credenziali per accedervi tramite *SSH*, possiamo proseguire con l'installazione dei pacchetti necessari.
 
-  *Distribuzione utilizzata: ***Ubuntu Server 20.04***
+    *Distribuzione utilizzata: ***Ubuntu Server 20.04***
 
-  - Aggiorniamo, scarichiamo e installiamo le ultime versione di pacchetti e dipendenze disponibili:
-    ```shell
-    sudo apt-get update && sudo apt-get -y upgrade
-    ```
+    - Aggiorniamo, scarichiamo e installiamo le ultime versione di pacchetti e dipendenze disponibili:
+      ```shell
+      sudo apt-get update && sudo apt-get -y upgrade
+      ```
 
-  - Scarichiamo e installiamo l'ultima versione disponibile di apache2 e di eventuali dipendenze*:
-    ```shell
-    sudo apt-get install -y apache2 
-    ```
+    - Scarichiamo e installiamo l'ultima versione disponibile di apache2 e di eventuali dipendenze*:
+      ```shell
+      sudo apt-get install -y apache2 
+      ```
 
-  **I pacchetti che dovremo installare possono variare in base al tipo di sito web e/o alle caratteristiche del nostro OS.*
+    **I pacchetti che dovremo installare possono variare in base al tipo di sito web e/o alle caratteristiche del nostro OS.*
 
-  ***Configurazione web server***<br />
-  Arrivati a questo punto si dovrà configurare il web server ma, in questo caso, le impostazioni di base erano concordi ai nostri bisogni. Se avessimo bisogno di effettuarvi delle modifiche, esiste un file apposito. Ogni sistema operativo ha la sua documentazione per trovarlo, su quello da noi scelto è: `/etc/apache2`.
+    ***Configurazione web server***<br />
+    Arrivati a questo punto si dovrà configurare il web server ma, in questo caso, le impostazioni di base erano concordi ai nostri bisogni. Se avessimo bisogno di effettuarvi delle modifiche, esiste un file apposito. Ogni sistema operativo ha la sua documentazione per trovarlo, su quello da noi scelto è: `/etc/apache2`.
 
 
 ## Messa in produzione
