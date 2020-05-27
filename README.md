@@ -94,6 +94,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
   | Separazione netta tra gli ambienti occupati da diverse aziende che affittano lo stesso server fisico. | La garanzia delle prestazioni dipende dalla capacità di dividere il carico di lavoro tra gli utenti senza personalizzazioni. |
 
 ***Come comprare un server?***<br />
+//DA COREGGERE
 Come abbiamo visto dobbiamo scegliere il server a noi più funzionale e conveniente, in questo caso nè abbiamo scelto uno di tipo virtuale. 
 
 Ok, ma partiamo dall'inizio, prima di tutto bisogna scegliere un hosting, ci solo tante scelte li fuori, alcuni dei principali hosting italiani e non, sono: Aruba, GameHosting, OVH, NFOServer. Noi personalmente abbiamo utilizzato Contabo poiche ha un ottimo rapporto qualità prezzo. In questo caso, non avendo bisogno di tanta potenza abbiamo deciso di adottare il paino più economico. Adesso che ci siamo procurati una VPS, possiamo prosegure.
@@ -112,3 +113,18 @@ I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name S
 ***Come comprare un dominio?***<br />
 Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivenditore autorizzato di domini; si occuperà della registrazione e fornirà l’infrastruttura necessaria a renderlo funzionante. Molte aziende svolgono questo servizio, tra le più famose possiamo citare [GoDaddy](https://it.godaddy.com/domains/), [OVH](https://www.ovh.it/domini/), [NameCheap](https://www.namecheap.com/domains/), e molti altri. La registrazione è univoca e, solitamente, annua.
 
+## Capiamo cosa è cloudflare (Opzionale)
+//DA COREGGERE
+CloudFlare è un caching reverse proxy, ovvero un server che si pone tra il server dove risiede il tuo sito e il visitatore.
+CloudFlare, in questo modo, si occupa dell'ottimizzazzione dei tempi di caricamento: minimizzando css, il js e memorizzandeli nelle proprie cache in modo da ridurre drasticamente i tempo richiesto per visualizzare una paggina e riducendo il carico sui propri server.
+Ma CloudFlare non ha solo questa funzione. Cloudflare si pone fra il sito e il visitatore filtrando il traffico e frapponedosi a mo'di firewall. In questo modo riesce a fornire una protezione agli attacchi Dos o DDos, nascondendo il reale ip della macchina e reidirizzando tutto il traffico in arrivo prima su i suoi server. In questo modo cloudflare riesce a scindere il traffico reale da un traffico fittizzio, e procede ad inoltrare solo il promo e rifiutando il secondo. Ciò vuol dire che fintato il reale ip della macchina rimane sconosciuto al pubblico, le possibilità di ricevere un attacco Ddos sono praticamente pari a 0.
+Oltre a tutto ciò il piano base di cloudflare è gratuito.
+
+## Configurazione dominio e cloudflare
+***Come posso cominciare ad usare cloudflare?***
+Prima di tutto bisognerà crearci un account cloudflare e registrarci un dominio. Una volta registrato il dominio su cloudflare, esso ti fornirà dei Name Server (NS) da usare per il proprio dominio. 
+Adesso bisognera andare nel pannello fornito dal proprio hosting e modificare i NS del dominio. 
+
+***Come posso cofigurare i dns?***
+Cambiati i Name Server, il proprio dominio sarà completamente configurabile attraverso cloudflare.  
+Bisognerà, adesso, impostare un record A che punti all'ip della macchina, o nel nostro caso alla VPS. 
