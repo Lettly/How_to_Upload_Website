@@ -5,7 +5,7 @@
 - [Avere il sito da pubblicare](#Avere-il-sito-da-pubblicare)
 - [Comprare un server](#Comprare-un-server)
 - [Comprare un dominio](#Il-dominio)
-- [Configurazione](#link-alla-sezione)
+- Configurazione
   - Dominio
     - [Cloudfare (spigazione e account)](#Cloudflare)
     - [Puntare a cloudfare](#Configurazione-dominio-e-cloudflare)
