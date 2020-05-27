@@ -7,7 +7,7 @@
 - [Comprare un dominio](#Il-dominio)
 - Configurazione
   - Dominio
-    - [Cloudfare (spigazione e account)](#Cloudflare)
+    - [Cloudfare (spigazione e account)](#Cloudflare-(opzionale))
     - [Puntare a cloudfare](#Configurazione-dominio-e-cloudflare)
     - [Configurazione DNS su cloudfare (punta al server)](#Configurazione-dominio-e-cloudflare)
   - Server
