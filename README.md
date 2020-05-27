@@ -7,9 +7,9 @@
 - [Comprare un dominio](#Il-dominio)
 - [Configurazione](#Configurazione)
   - Dominio
-    - [Cloudfare (spigazione e account)](#Cloudflare-(opzionale))
-    - [Puntare a cloudfare](#Configurazione-dominio-e-cloudflare)
-    - [Configurazione DNS su cloudfare (punta al server)](#Configurazione-dominio-e-cloudflare)
+    - [Cloudflare (spigazione e account)](#Cloudflare-(opzionale))
+    - [Puntare a cloudflare](#Configurazione-dominio-e-cloudflare)
+    - [Configurazione DNS su cloudflare (punta al server)](#Configurazione-dominio-e-cloudflare)
   - Server
     - [Installazione del web server (spiegazione)](#Configurazione-VPS)
     - [Configurazione del web server](#Configurazione-VPS)
@@ -122,7 +122,7 @@ Per ottenere uno bisogna rivolgersi a un *domain reseller*, ovvero, un rivendito
   - ### Configurazione dominio e cloudflare
 
     ***Come posso cominciare a usare cloudflare?***<br />
-    Prima di tutto dovremo creare un account e registrare il nome per il sito, precedentemente acquistato, cloudfare fornirà dei *Name Server (NS)*. Questi ultimi dovranno essere sostituiti a quelli di default del provider del nostro dominio. 
+    Prima di tutto dovremo creare un account e registrare il nome per il sito, precedentemente acquistato, cloudflare fornirà dei *Name Server (NS)*. Questi ultimi dovranno essere sostituiti a quelli di default del provider del nostro dominio. 
 
     ***Come posso configurare i DNS?***<br />
     Sostituiti i *Name Server*, per completare la configurazione del dominio si dovrà impostare un record `A` che punti all'*ip della macchina* o, nel nostro caso, alla *VPS*. 
