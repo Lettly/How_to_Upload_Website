@@ -16,6 +16,8 @@
 - [Caricamento del sito](#Messa-in-produzione)
 - [Crash test](#Crash-test)
 
+- [Fonti](#Fonti)
+
 ## Avere il sito da pubblicare
 
 Prima di pubblicare un sito web dobbiamo necessariamente averne uno, in caso contrario lo si dovrà scrivere. Questo può avvenire attraverso linguaggi come: [HTML](https://en.wikipedia.org/wiki/HTML) & [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) per la parte grafica, [Javascript](https://en.wikipedia.org/wiki/JavaScript) e [PHP](https://en.wikipedia.org/wiki/PHP) per il backend, mentre, per sviluppare il nostro Database potremmo sfruttare il [MySQLi](https://en.wikipedia.org/wiki/MySQLi).
