@@ -183,3 +183,5 @@ Per non saper ne leggere ne scrivere, io, proverei a vedere se funziona come dov
 - https://github.com/ines/termynal
 - https://alvarotrigo.com/fullPage/
 - https://codepen.io/
+- https://www.miur.gov.it/nuovo-dominio-edu.it
+- https://www.iana.org/domains/root/servers
