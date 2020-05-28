@@ -53,7 +53,7 @@ Somigliando per forma ai personal computer si ha il vantaggio di un facile raffr
 | Vantaggi di un data center interno | Svantaggi di un data center interno |
 | --- | --- |
 | Possibilità di agire fisicamente in tempi rapidi in caso di malfunzionamenti. | Necessità di aree da destinare a tale uso, con l’aumento dei costi di affitto degli uffici.|
-| Possibilità di avere un rapporto fisico tra l’area amministrativa e operativa di unázienda e l’area sistemi e sviluppo. | Acquisto dell’hardware e delle risorse per gestire i dati. |
+| Possibilità di avere un rapporto fisico tra l’area amministrativa e operativa di un'azienda e l’area sistemi e sviluppo. | Acquisto dell’hardware e delle risorse per gestire i dati. |
 | Controllo diretto sulla riservatezza dei dati a garanzia della privacy di dipendenti e clienti. | Costi per l’aggiornamento dei server e per la formazione. |
 | Controllo diretto sulla sicurezza dei dati in caso di instrusione e potenziali minacce software (virus). | Costi per la sicurezza anti intrusione, backup e coservazione dell’integrità dei dati. |
 
