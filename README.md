@@ -37,7 +37,7 @@ Di seguito sono elecanti quelli più comuni:
 - [DNS Server](#Il-dominio):
   * Il *Domain Name System* è un server che fa da rubrica telefonica di internet, svolge questo servizio sulla porta 53.
 
-Ci sono molti sistemi in cui caricare i nostri server, questi cambiano in base alle diverse necessità delle varie aziende. 
+Ci sono molti sistemi nei quali possiamo caricare i nostri server, questi cambiano in base alle diverse necessità delle varie aziende. 
 
 - Per le piccole e medie imprese solitamente viene utilizzato un **server tower**, ovvero un computer assemblato in un case tower appunto, simile ai personal computer ma, con una grande capacità di storage e il supporto RAID. Altre caratteristiche fondamentali di questa tipologia sono: *la virtualizzazione*, *la gestione dei file e del sito web, delle applicazioni e dei dispositivi condivisi*. 
 Somigliando per forma ai personal computer si ha il vantaggio di un facile raffreddamento, possono però, sorgere alcune probblematiche, come la rumorosità, la voluminosità e la complessità nel camblaggio. In questi casi si può optare per delle varianti come il **server rack** e il *server blade**. 
