@@ -167,3 +167,17 @@ Come ultima cosa bisognerà necessariamente caricare i file, con il codice del n
 ## Crash test
 
 Per non saper ne leggere ne scrivere, io, proverei a vedere se funziona come dovrebbe. `:)`
+
+
+## Fonti
+
+- Internetworking sistemi e reti (ISBN 978-88-7485-595-7)
+- https://www.cloudflare.com/
+- https://www.robertoiacono.it/cloudflare-cdn-come-quando-perche/
+- https://www.britannica.com/technology/domain-name
+- https://codepen.io/symro/pen/zXoBrK
+- https://codepen.io/tannersatch/pen/vLpQYV
+- https://mycolor.space/
+- https://github.com/ines/termynal
+- https://alvarotrigo.com/fullPage/
+- https://codepen.io/
