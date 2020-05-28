@@ -1,0 +1,58 @@
+
+  #ad_percent {
+    animation: animation-3 4s infinite ease-in-out;
+  }
+  #talk-left-2 {
+    animation: animation-3 4s infinite ease-in-out;
+  }
+  #talk-left-1 {
+    animation: animation-2 4s infinite ease-in-out;
+  }
+  #store{
+    animation: animation-1 4s infinite ease-in-out;
+  }
+  #people{
+    animation: animation-1 4s infinite ease-in-out;
+  }
+  #lines{
+  }
+  #_talk-right-2{
+    animation: animation-2 4s infinite ease-in-out;
+  }
+  #talk-right-1{
+    animation: animation-3 4s infinite ease-in-out;
+  }
+  
+  @keyframes animation-1 {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    36% {
+      transform: translate(0px, 10px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  @keyframes animation-2 {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    45% {
+      transform: translate(0px, 15px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  @keyframes animation-3 {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    55% {
+      transform: translate(0px, 15px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }

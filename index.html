@@ -1,71 +1,48 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Continuous Vertical scrolling - fullPage.js</title>
-        <meta name="author" content="Matthew Howell" />
-        <meta
-            name="description"
-            content="fullPage continuous scrolling demo."
-        />
-        <meta
-            name="keywords"
-            content="fullpage,jquery,demo,scroll,loop,continuous"
-        />
-        <meta name="Resource-type" content="Document" />
 
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-            crossorigin="anonymous"
-        />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Continuous Vertical scrolling - fullPage.js</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords" content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
 
-        <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
-        <link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
-        <link rel="stylesheet" type="text/css" href="dist/css/code.css" />
-        <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="dist/css/terminal.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
-        <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/code.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/terminal.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/domini.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/server.css" />
+    <link rel="stylesheet" type="text/css" href="dist/css/questions.css" />
 
-        <!--[if IE]>
+    <!-- Bootstrap -->
+
+    <!--[if IE]>
             <script type="text/javascript">
                 var console = { log: function () {} };
             </script>
         <![endif]-->
 
-        <!-- favicon -->
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="imgs/favicon/apple-touch-icon.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="imgs/favicon/favicon-32x32.png"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="imgs/favicon/favicon-16x16.png"
-        />
-        <link rel="manifest" href="imgs/favicon/site.webmanifest" />
-        <link rel="stylesheet" href="dist/css/domini.css" />
-        <link rel="stylesheet" href="dist/css/server.css" />
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="imgs/favicon/site.webmanifest" />
 
-        <title>Website Upload</title>
-    </head>
 
-    <body>
-        <div id="fullpage">
-            <!-- ////////////////////////////////// CODICE SITO -->
-            <div
-                class="section"
-                style="
+    <title>Website Upload</title>
+</head>
+
+<body>
+    <div id="fullpage">
+        <!-- ////////////////////////////////// CODICE SITO -->
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #8365bc,
@@ -74,110 +51,98 @@
                         #5d8eec,
                         #459bf9
                     );
-                "
-            >
-                <div class="row">
-                    <div class="col my-auto">
-                        <h3 class="text-right title display-4">
-                            SCRIVIAMO IL<br />NOSTRO SITO WEB
-                        </h3>
-                    </div>
+                ">
+            <div class="row">
+                <div class="col my-auto">
+                    <h3 class="text-right title display-4">
+                        SCRIVIAMO IL<br />NOSTRO SITO WEB
+                    </h3>
+                </div>
 
-                    <div class="col my-auto text-left p-0">
-                        <div class="stack-container">
-                            <div class="card-container" id="last">
-                                <div
-                                    class="perspec"
-                                    style="
+                <div class="col my-auto text-left p-0">
+                    <div class="stack-container">
+                        <div class="card-container" id="last">
+                            <div class="perspec" style="
                                         --spreaddist: 100px;
                                         --scaledist: 0.9;
                                         --vertdist: -15px;
-                                    "
-                                >
-                                    <div class="card-code">
-                                        <div class="writing">
-                                            <div class="topbar">
-                                                <div class="red"></div>
-                                                <div class="yellow"></div>
-                                                <div class="green"></div>
-                                                <div class="title-code mr-2">
-                                                    <strong>Javascript</strong>
-                                                </div>
-                                            </div>
-                                            <div class="code">
-                                                <ul></ul>
+                                    ">
+                                <div class="card-code">
+                                    <div class="writing">
+                                        <div class="topbar">
+                                            <div class="red"></div>
+                                            <div class="yellow"></div>
+                                            <div class="green"></div>
+                                            <div class="title-code mr-2">
+                                                <strong>Javascript</strong>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-container" id="second">
-                                <div
-                                    class="perspec"
-                                    style="
-                                        --spreaddist: 75px;
-                                        --scaledist: 0.95;
-                                        --vertdist: -10px;
-                                    "
-                                >
-                                    <div class="card-code">
-                                        <div class="writing">
-                                            <div class="topbar">
-                                                <div class="red"></div>
-                                                <div class="yellow"></div>
-                                                <div class="green"></div>
-                                                <div class="title-code mr-2">
-                                                    <strong>CSS 3</strong>
-                                                </div>
-                                            </div>
-                                            <div class="code">
-                                                <ul></ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-container" id="first">
-                                <div
-                                    class="perspec"
-                                    style="
-                                        --spreaddist: 50px;
-                                        --scaledist: 1;
-                                        --vertdist: -5px;
-                                    "
-                                >
-                                    <div class="card-code">
-                                        <div class="writing">
-                                            <div class="topbar">
-                                                <div class="red"></div>
-                                                <div class="yellow"></div>
-                                                <div class="green"></div>
-                                                <div class="title-code mr-2">
-                                                    <strong>HTML5</strong>
-                                                </div>
-                                            </div>
-                                            <div class="code">
-                                                <ul></ul>
-                                            </div>
+                                        <div class="code">
+                                            <ul></ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- container (code animation) end
-					</div> -->
+                        <div class="card-container" id="second">
+                            <div class="perspec" style="
+                                        --spreaddist: 75px;
+                                        --scaledist: 0.95;
+                                        --vertdist: -10px;
+                                    ">
+                                <div class="card-code">
+                                    <div class="writing">
+                                        <div class="topbar">
+                                            <div class="red"></div>
+                                            <div class="yellow"></div>
+                                            <div class="green"></div>
+                                            <div class="title-code mr-2">
+                                                <strong>CSS 3</strong>
+                                            </div>
+                                        </div>
+                                        <div class="code">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-container" id="first">
+                            <div class="perspec" style="
+                                        --spreaddist: 50px;
+                                        --scaledist: 1;
+                                        --vertdist: -5px;
+                                    ">
+                                <div class="card-code">
+                                    <div class="writing">
+                                        <div class="topbar">
+                                            <div class="red"></div>
+                                            <div class="yellow"></div>
+                                            <div class="green"></div>
+                                            <div class="title-code mr-2">
+                                                <strong>HTML5</strong>
+                                            </div>
+                                        </div>
+                                        <div class="code">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <!-- col end -->
-                </div>
-                <!-- row end -->
-            </div>
-            <!-- section end -->
 
-            <!-- ////////////////////////////////// SERVER -->
-            <div
-                class="section"
-                style="
+                    <!-- container (code animation) end
+					</div> -->
+                </div>
+                <!-- col end -->
+            </div>
+            <!-- row end -->
+        </div>
+        <!-- section end -->
+
+        <!-- ////////////////////////////////// SERVER -->
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #459bf9,
@@ -186,89 +151,86 @@
                         #26bfff,
                         #36caff
                     );
-                "
-            >
-                <!-- cambia animazione -->
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-left">
-                            <div class="center">
-                                <div class="spinner-wrapper">
-                                    <div class="server-wrapper">
-                                        <div class="server">
-                                            <div class="HDD"></div>
-                                            <div class="indicator"></div>
-                                        </div>
-                                        <div class="server">
-                                            <div class="HDD"></div>
-                                            <div class="indicator"></div>
-                                        </div>
-                                        <div class="server">
-                                            <div class="HDD"></div>
-                                            <div class="indicator"></div>
-                                        </div>
-                                        <div class="server">
-                                            <div class="HDD"></div>
-                                            <div class="indicator"></div>
-                                        </div>
-                                        <div class="server">
-                                            <div class="HDD"></div>
-                                            <div class="indicator"></div>
-                                        </div>
+                ">
+            <!-- cambia animazione -->
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-left">
+                        <div class="center">
+                            <div class="spinner-wrapper">
+                                <div class="server-wrapper">
+                                    <div class="server">
+                                        <div class="HDD"></div>
+                                        <div class="indicator"></div>
                                     </div>
-                                    <div class="spinner">
-                                        <div class="rect1"></div>
-                                        <div class="rect2"></div>
-                                        <div class="rect3"></div>
-                                        <div class="rect4"></div>
-                                        <div class="rect5"></div>
-                                        <div class="rect6"></div>
-                                        <div class="rect7"></div>
-                                        <div class="rect8"></div>
-                                        <div class="rect9"></div>
-                                        <div class="rect10"></div>
-                                        <br />
-                                        <br />
-                                        <div class="rect11"></div>
-                                        <div class="rect12"></div>
-                                        <div class="rect13"></div>
-                                        <div class="rect14"></div>
-                                        <div class="rect15"></div>
-                                        <div class="rect16"></div>
-                                        <div class="rect17"></div>
-                                        <div class="rect18"></div>
-                                        <div class="rect19"></div>
-                                        <div class="rect20"></div>
+                                    <div class="server">
+                                        <div class="HDD"></div>
+                                        <div class="indicator"></div>
                                     </div>
-                                    <div class="probe">
-                                        <div class="screen">
-                                            <br />
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                            <div class="slit"></div>
-                                        </div>
+                                    <div class="server">
+                                        <div class="HDD"></div>
+                                        <div class="indicator"></div>
+                                    </div>
+                                    <div class="server">
+                                        <div class="HDD"></div>
+                                        <div class="indicator"></div>
+                                    </div>
+                                    <div class="server">
+                                        <div class="HDD"></div>
+                                        <div class="indicator"></div>
+                                    </div>
+                                </div>
+                                <div class="spinner">
+                                    <div class="rect1"></div>
+                                    <div class="rect2"></div>
+                                    <div class="rect3"></div>
+                                    <div class="rect4"></div>
+                                    <div class="rect5"></div>
+                                    <div class="rect6"></div>
+                                    <div class="rect7"></div>
+                                    <div class="rect8"></div>
+                                    <div class="rect9"></div>
+                                    <div class="rect10"></div>
+                                    <br />
+                                    <br />
+                                    <div class="rect11"></div>
+                                    <div class="rect12"></div>
+                                    <div class="rect13"></div>
+                                    <div class="rect14"></div>
+                                    <div class="rect15"></div>
+                                    <div class="rect16"></div>
+                                    <div class="rect17"></div>
+                                    <div class="rect18"></div>
+                                    <div class="rect19"></div>
+                                    <div class="rect20"></div>
+                                </div>
+                                <div class="probe">
+                                    <div class="screen">
+                                        <br />
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
+                                        <div class="slit"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col text-left">
-                            <h3 class="display-1">I SERVER</h3>
-                            <br />
-                            <h3 class="">Servono? Sì, ma a cosa?</h3>
-                        </div>
+                    </div>
+                    <div class="col text-left">
+                        <h3 class="display-1">I SERVER</h3>
+                        <br />
+                        <h3 class="">Servono? Sì, ma a cosa?</h3>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div
-                class="section"
-                style="
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #36caff,
@@ -277,20 +239,17 @@
                         #08ede8,
                         #4df6d8
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">
-                        Quanti ne esistono?
-                    </p>
-                    <span class="h3" id="serverlist"></span>
-                    <br />
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">
+                    Quanti ne esistono?
+                </p>
+                <span class="h3" id="serverlist"></span>
+                <br />
             </div>
+        </div>
 
-            <div
-                class="section"
-                style="
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #4df6d8,
@@ -299,112 +258,109 @@
                         #65f5a8,
                         #74f495
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-right m-auto">
-                            <p class="display-3">
-                                Piccole imprese
-                            </p>
-                            <span class="h3">Tower, Rack o Blade?</span>
-                            <br />
-                        </div>
-                        <div class="col text-left">
-                            <section class="container body-section">
-                                <div class="animation-wrapper">
-                                    <div class="animation-content">
-                                        <aside></aside>
-                                        <aside></aside>
-                                        <div>
-                                            <span></span><span></span>
-                                            <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li>PH0</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <span></span><span></span>
-                                            <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li>PH1</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <span></span><span></span>
-                                            <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li>PH2</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <span></span><span></span>
-                                            <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li>PH3</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <span></span><span></span>
-                                            <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li>PH4</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <span></span><span></span>
-                                            <ul>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li>PH5</li>
-                                            </ul>
-                                        </div>
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-right m-auto">
+                        <p class="display-3">
+                            Piccole imprese
+                        </p>
+                        <span class="h3">Tower, Rack o Blade?</span>
+                        <br />
+                    </div>
+                    <div class="col text-left">
+                        <section class="container body-section">
+                            <div class="animation-wrapper">
+                                <div class="animation-content">
+                                    <aside></aside>
+                                    <aside></aside>
+                                    <div>
+                                        <span></span><span></span>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>PH0</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span></span><span></span>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>PH1</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span></span><span></span>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>PH2</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span></span><span></span>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>PH3</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span></span><span></span>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>PH4</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <span></span><span></span>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li>PH5</li>
+                                        </ul>
                                     </div>
                                 </div>
-                            </section>
-                        </div>
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div
-                class="section"
-                style="
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #74f495,
@@ -413,20 +369,17 @@
                         #b7f499,
                         #c7f49e
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">
-                        Grandi aziende
-                    </p>
-                    <span class="h3">Data center e Server Farm</span>
-                    <br />
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">
+                    Grandi aziende
+                </p>
+                <span class="h3">Data center e Server Farm</span>
+                <br />
             </div>
+        </div>
 
-            <div
-                class="section"
-                style="
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #c7f49e,
@@ -435,17 +388,16 @@
                         #ece890,
                         #f6e48f
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">Come lo ottengo?</p>
-                    <br />
-                    <span class="h3" id="hostingServerList"></span>
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">Come lo ottengo?</p>
+                <br />
+                <span class="h3" id="hostingServerList"></span>
             </div>
+        </div>
 
-            <!-- rimuovere(?) -->
-            <!-- <div
+        <!-- rimuovere(?) -->
+        <!-- <div
                 class="section"
                 style="
                     background-image: linear-gradient(
@@ -491,10 +443,8 @@
                 </div>
             </div> -->
 
-            <!-- ////////////////////////////////// DOMINIO -->
-            <div
-                class="section"
-                style="
+        <!-- ////////////////////////////////// DOMINIO -->
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #f6e48f,
@@ -503,33 +453,30 @@
                         #f9cc95,
                         #f6c598
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col">
-                            <div class="connecting-domine-text">
-                                CONNECTING
-                            </div>
-                            <div class="connecting-domine-box">
-                                <div class="connecting-domine-comp"></div>
-                                <div class="connecting-domine-loader"></div>
-                                <div class="connecting-domine-con"></div>
-                                <div class="connecting-domine-byte"></div>
-                                <div class="connecting-domine-server"></div>
-                            </div>
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col">
+                        <div class="connecting-domine-text">
+                            CONNECTING
                         </div>
-                        <div class="col text-left">
-                            <h3 class="display-1">I DOMINI</h3>
-                            <br />
-                            <h3 class="">www.google.com</h3>
+                        <div class="connecting-domine-box">
+                            <div class="connecting-domine-comp"></div>
+                            <div class="connecting-domine-loader"></div>
+                            <div class="connecting-domine-con"></div>
+                            <div class="connecting-domine-byte"></div>
+                            <div class="connecting-domine-server"></div>
                         </div>
+                    </div>
+                    <div class="col text-left">
+                        <h3 class="display-1">I DOMINI</h3>
+                        <br />
+                        <h3 class="">www.google.com</h3>
                     </div>
                 </div>
             </div>
-            <div
-                class="section"
-                style="
+        </div>
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #f6c598,
@@ -538,21 +485,16 @@
                         #f8ac96,
                         #f6a498
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">
-                        www.google<span class="rounded p-1 text-white display-1"
-                            >.com</span
-                        >
-                    </p>
-                    <br />
-                    <h3 class="">Primo livello</h3>
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">
+                    www.google<span class="rounded p-1 text-white display-1">.com</span>
+                </p>
+                <br />
+                <h3 class="">Primo livello</h3>
             </div>
-            <div
-                class="section"
-                style="
+        </div>
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #f6a498,
@@ -561,21 +503,16 @@
                         #fc969d,
                         #fd92a0
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">
-                        www.<span class="rounded p-1 text-white display-1"
-                            >google</span
-                        >.com
-                    </p>
-                    <br />
-                    <h3 class="">Secondo Livello</h3>
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">
+                    www.<span class="rounded p-1 text-white display-1">google</span>.com
+                </p>
+                <br />
+                <h3 class="">Secondo Livello</h3>
             </div>
-            <div
-                class="section"
-                style="
+        </div>
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #fd92a0,
@@ -584,21 +521,16 @@
                         #ff98ce,
                         #fb9cde
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">
-                        <span class="rounded p-1 text-white display-1"
-                            >www.</span
-                        >google.com
-                    </p>
-                    <br />
-                    <h3 class="">Terzo Livello</h3>
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">
+                    <span class="rounded p-1 text-white display-1">www.</span>google.com
+                </p>
+                <br />
+                <h3 class="">Terzo Livello</h3>
             </div>
-            <div
-                class="section"
-                style="
+        </div>
+        <div class="section" style="
                     background-image: linear-gradient(
                         to bottom,
                         #fb9cde,
@@ -607,357 +539,902 @@
                         #edaaf7,
                         #e7afff
                     );
-                "
-            >
-                <div class="intro text-center">
-                    <p class="display-3">Come lo ottengo?</p>
-                    <br />
-                    <span class="h3" id="hostinglist"></span>
-                </div>
+                ">
+            <div class="intro text-center">
+                <p class="display-3">Come lo ottengo?</p>
+                <br />
+                <span class="h3" id="hostinglist"></span>
             </div>
+        </div>
 
-            <!-- ////////////////////////////////// CLOUDFLARE -->
-            <div
-                class="section"
-                style="
+        <!-- ////////////////////////////////// CLOUDFLARE -->
+        <div class="section" style="
                     background-image: linear-gradient(to bottom, #e7afff, #dcb0ff, #d0b1ff, #c5b1ff, #bab2ff);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col">
-                            <img
-                                src="imgs\illustration_secure-teams-devices.svg"
-                                class="img-fluid"
-                                alt=""
-                            />
-                        </div>
-                        <div class="col text-left my-auto">
-                            <h3 class="display-1">ColoudFlare</h3>
-                            <br />
-                            <h3 class="">Cosa è?</h3>
-                        </div>
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col">
+                        <img src="imgs\illustration_secure-teams-devices.svg" class="img-fluid" alt="" />
+                    </div>
+                    <div class="col text-left my-auto">
+                        <h3 class="display-1">ColoudFlare</h3>
+                        <br />
+                        <h3 class="">Cosa è?</h3>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div
-                class="section"
-                style="
+        <div class="section" style="
                     background-image: linear-gradient(to bottom, #bab2ff, #b0bdff, #acc6fe, #adcefa, #b3d5f4);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-right my-auto">
-                            <h3 class="display-4">
-                                Come posso configurare<br />CloudFlare e i
-                                server DNS?
-                            </h3>
-                        </div>
-                        <div class="col">
-                            <img
-                                src="imgs\illustration_protect-presence.svg"
-                                class="img-fluid"
-                                alt=""
-                            />
-                        </div>
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-right my-auto">
+                        <h3 class="display-4">
+                            Come posso configurare<br />CloudFlare e i
+                            server DNS?
+                        </h3>
+                    </div>
+                    <div class="col">
+                        <img src="imgs\illustration_protect-presence.svg" class="img-fluid" alt="" />
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- ////////////////////////////////// Web Server -->
-            <div
-                class="section"
-                style="
+        <!-- ////////////////////////////////// Web Server -->
+        <div class="section" style="
                     background-image: linear-gradient(to bottom, #b3d5f4, #a2e0fc, #91ebfe, #88f5f7, #8cfde9);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-center my-auto">
-                            <h3 class="display-1">Installiamo il web server</h3>
-                            <span class="h3">Apache2</span>
-                        </div>
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-center my-auto">
+                        <h3 class="display-1">Installiamo il web server</h3>
+                        <span class="h3">Apache2</span>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- ////////////////////////////////// Shell -->
-            <div
-                class="section"
-                style="
+        <!-- ////////////////////////////////// Shell -->
+        <div class="section" style="
                     background-image: linear-gradient(to bottom, #8cfde9, #7dfddb, #75fdc8, #74fbb3, #7af99b);
-                "
-            >
-                <div class="intro">
-                    <div class="row">
-                        <div class="col mx-auto">
-                            <div
-                                class="mx-auto"
-                                id="termynal"
-                                data-termynal
-                                data-termynal
-                                data-ty-typeDelay="40"
-                                data-ty-lineDelay="700"
-                            >
-                                <span data-ty="input">sudo apt update</span>
-                                <span data-ty="progress"></span>
-                                <span data-ty
-                                    >80 packages can be upgraded.</span
-                                >
-                                <span data-ty="input">sudo apt upgrade</span>
-                                <span data-ty="progress"></span>
-                                <span data-ty>Updated successfully</span>
-                                <span data-ty></span>
-                                <span data-ty="input"
-                                    >sudo apt install apache2</span
-                                >
-                                <span data-ty
-                                    >The following NEW packages will be
-                                    installed: apache2 apache2-bin apache2-data
-                                    apache2-utils libapr1 libaprutil1
-                                    libaprutil1-dbd-sqlite3 libaprutil1-ldap
-                                    ssl-cert<br />
-                                    Do you want to continue?
-                                </span>
-                                <span data-ty="input" data-ty-prompt="[Y/n]"
-                                    >y</span
-                                >
-                                <span data-ty="progress"></span>
+                ">
+            <div class="intro">
+                <div class="row">
+                    <div class="col mx-auto">
+                        <div class="mx-auto" id="termynal" data-termynal data-termynal data-ty-typeDelay="40"
+                            data-ty-lineDelay="700">
+                            <span data-ty="input">sudo apt update</span>
+                            <span data-ty="progress"></span>
+                            <span data-ty>80 packages can be upgraded.</span>
+                            <span data-ty="input">sudo apt upgrade</span>
+                            <span data-ty="progress"></span>
+                            <span data-ty>Updated successfully</span>
+                            <span data-ty></span>
+                            <span data-ty="input">sudo apt install apache2</span>
+                            <span data-ty>The following NEW packages will be
+                                installed: apache2 apache2-bin apache2-data
+                                apache2-utils libapr1 libaprutil1
+                                libaprutil1-dbd-sqlite3 libaprutil1-ldap
+                                ssl-cert<br />
+                                Do you want to continue?
+                            </span>
+                            <span data-ty="input" data-ty-prompt="[Y/n]">y</span>
+                            <span data-ty="progress"></span>
 
-                                <span data-ty></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ////////////////////////////////// Web Server -->
-            <div
-                class="section"
-                style="
-                    background-image: linear-gradient(to bottom, #7af99b, #95fb99, #abfc99, #bffe9b, #d1ff9e);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-center my-auto">
-                            <h3 class="display-1">Pubblichiamo il sito</h3>
-                            <!-- <span class="h3"></span> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="section"
-                style="
-                    background-image: linear-gradient(to bottom, #d1ff9e, #defd9e, #e9fc9f, #f4faa1, #fdf9a4);
-                "
-            >
-                <div class="intro">
-                    <div class="row">
-                        <div class="col mx-auto">
-                            <div
-                                class="mx-auto"
-                                id="termynal-ftp-upload"
-                                data-termynal
-                                data-termynal
-                                data-ty-typeDelay="40"
-                                data-ty-lineDelay="700"
-                            >
-                                <span data-ty="input"
-                                    >scp ilMioBellissimoSito/
-                                    root@152.154.15.514:/var/www/html/</span
-                                >
-                                <span data-ty="input" data-ty-prompt="Password"
-                                    >****************</span
-                                >
-                                <span data-ty></span>
-                                <span data-ty="progress"></span>
-                                <span data-ty>Upload complete</span>
-                                <span data-ty></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ////////////////////////////////// Funziona tutto -->
-            <div
-                class="section"
-                style="
-                    background-image: linear-gradient(to bottom, #fdf9a4, #ffeca1, #ffe0a1, #ffd5a2, #fdcba4);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-center my-auto">
-                            <h3 class="display-4">
-                                Controlliamo se tutto funziona
-                            </h3>
-                            <br />
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div
-                class="section"
-                style="
-                    background-image: linear-gradient(to bottom, #fdcba4, #ffc0a5, #ffb5aa, #ffacb3, #fda4bf);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-center my-auto">
-                            <h3 class="display-4">ESPONETECI LE VOSTRE DOMANDE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div
-                class="section"
-                style="
-                    background-image: linear-gradient(to bottom, #fda4bf, #ffa2cb, #ffa1da, #ffa2eb, #fda4fd);
-                "
-            >
-                <div class="intro text-center">
-                    <div class="row">
-                        <div class="col text-center my-auto">
-                            <h3 class="display-4">GRAZIE</h3>
-                            <h5 class="firme">Alessandro Mieli & Marco Giuseppini</h5>
+                            <span data-ty></span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script type="text/javascript" src="dist/fullpage.js"></script>
-        <script type="text/javascript" src="dist/js/main.js"></script>
-        <script type="text/javascript" src="dist/js/code.js"></script>
+        <!-- ////////////////////////////////// Web Server -->
+        <div class="section" style="
+                    background-image: linear-gradient(to bottom, #7af99b, #95fb99, #abfc99, #bffe9b, #d1ff9e);
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-center my-auto">
+                        <h3 class="display-1">Pubblichiamo il sito</h3>
+                        <!-- <span class="h3"></span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Terminale animato -->
-        <script src="dist/js/termynal.min.js"></script>
+        <div class="section" style="
+                    background-image: linear-gradient(to bottom, #d1ff9e, #defd9e, #e9fc9f, #f4faa1, #fdf9a4);
+                ">
+            <div class="intro">
+                <div class="row">
+                    <div class="col mx-auto">
+                        <div class="mx-auto" id="termynal-ftp-upload" data-termynal data-termynal data-ty-typeDelay="40"
+                            data-ty-lineDelay="700">
+                            <span data-ty="input">scp ilMioBellissimoSito/
+                                root@152.154.15.514:/var/www/html/</span>
+                            <span data-ty="input" data-ty-prompt="Password">****************</span>
+                            <span data-ty></span>
+                            <span data-ty="progress"></span>
+                            <span data-ty>Upload complete</span>
+                            <span data-ty></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Scritte Animate -->
-        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <!-- ////////////////////////////////// Funziona tutto -->
+        <div class="section" style="
+                    background-image: linear-gradient(to bottom, #fdf9a4, #ffeca1, #ffe0a1, #ffd5a2, #fdcba4);
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-center my-auto">
+                        <h3 class="display-4">
+                            Controlliamo se tutto funziona
+                        </h3>
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <div class="section" style="
+                    background-image: linear-gradient(to bottom, #fdcba4, #ffc0a5, #ffb5aa, #ffacb3, #fda4bf);
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-right my-auto">
+                        <h3 class="display-4">Tocca a voi!</h3>
+                    </div>
+                    <div class="col color">
+                        <?xml version="1.0" encoding="utf-8"?>
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            x="0px" y="0px" viewBox="150 0 600 600" style="enable-background:new 0 0 600 600;"
+                            xml:space="preserve">
+                            <style type="text/css">
+                                .st0 {
+                                    fill: #152963;
+                                }
 
-        <!-- terminale animato -->
-        <script>
+                                .st1 {
+                                    fill: blue;
+                                }
+
+                                .st2 {
+                                    fill: #07274A;
+                                }
+
+                                .st3 {
+                                    enable-background: new;
+                                }
+
+                                .st4 {
+                                    fill: #E1B663;
+                                }
+
+                                .st5 {
+                                    fill: #D3A55B;
+                                }
+
+                                .st6 {
+                                    fill: #E9C788;
+                                }
+
+                                .st7 {
+                                    fill: #8590C1;
+                                }
+
+                                .st8 {
+                                    fill: #717BB3;
+                                }
+
+                                .st9 {
+                                    fill: #C5BFBD;
+                                }
+
+                                .st10 {
+                                    fill: #E1DFE1;
+                                }
+
+                                .st11 {
+                                    fill: #515D9F;
+                                }
+
+                                .st12 {
+                                    fill: #4F585F;
+                                }
+
+                                .st13 {
+                                    clip-path: url(#XMLID_200_);
+                                    fill: #FFFFFF;
+                                }
+
+                                .st14 {
+                                    fill: #C3C3C2;
+                                }
+
+                                .st15 {
+                                    fill: #E9EDF0;
+                                }
+
+                                .st16 {
+                                    fill: #D1D3D5;
+                                }
+
+                                .st17 {
+                                    fill-rule: evenodd;
+                                    clip-rule: evenodd;
+                                    fill: #D1D3D5;
+                                }
+
+                                .st18 {
+                                    fill-rule: evenodd;
+                                    clip-rule: evenodd;
+                                    fill: #3B4E96;
+                                }
+
+                                .st19 {
+                                    fill: #F3E0AB;
+                                }
+
+                                .st20 {
+                                    fill: #E4CB88;
+                                }
+
+                                .st21 {
+                                    fill: #C6A56C;
+                                }
+
+                                .st22 {
+                                    fill: #FCF8EA;
+                                }
+
+                                .st23 {
+                                    fill: #575949;
+                                }
+
+                                .st24 {
+                                    fill: #CCA971;
+                                }
+
+                                .st25 {
+                                    fill: #808080;
+                                }
+
+                                .st26 {
+                                    fill: #CCCCCC;
+                                }
+
+                                .st27 {
+                                    fill: #F2F2F2;
+                                }
+
+                                .st28 {
+                                    fill: #B3B3B3;
+                                }
+
+                                .st29 {
+                                    fill: #732874;
+                                }
+
+                                .st30 {
+                                    fill: #ECCDBE;
+                                }
+
+                                .st31 {
+                                    fill: #DDBAAC;
+                                }
+
+                                .st32 {
+                                    fill: #5B453A;
+                                }
+
+                                .st33 {
+                                    fill: #4D4D4D;
+                                }
+
+                                .st34 {
+                                    fill: #999999;
+                                }
+
+                                .st35 {
+                                    fill: #666666;
+                                }
+
+                                .st36 {
+                                    fill: #196C9E;
+                                }
+
+                                .st37 {
+                                    fill: #C67754;
+                                }
+
+                                .st38 {
+                                    fill: none;
+                                    stroke: #196C9E;
+                                    stroke-miterlimit: 10;
+                                }
+
+                                .st39 {
+                                    fill: #0A326D;
+                                }
+
+                                .st40 {
+                                    fill: #125475;
+                                }
+
+                                .st41 {
+                                    fill: #5C5C5B;
+                                }
+
+                                .st42 {
+                                    fill: #3FA9F5;
+                                }
+
+                                .st43 {
+                                    opacity: 0.6;
+                                    fill: #76CBFF;
+                                }
+
+                                .st44 {
+                                    fill: #424242;
+                                }
+
+                                .st45 {
+                                    fill: #3F3F3F;
+                                }
+
+                                .st46 {
+                                    fill: #A83E5D;
+                                }
+
+                                .st47 {
+                                    fill: #C75653;
+                                }
+
+                                .st48 {
+                                    fill: #513C32;
+                                }
+                            </style>
+
+
+
+                            <g id="people">
+                                <polygon id="XMLID_65_" class="st4"
+                                    points="422.21851,405.67865 421.91284,424.33319 557.15057,345.7417 557.45624,327.08734 	" />
+                                <polygon id="XMLID_67_" class="st6" points="557.45624,327.08734 421.35077,248.50677 286.11304,327.09839 422.21851,405.67865 	
+                                  " />
+                                <path id="XMLID_63_" class="st24" d="M496.88345,327.75937c0.85156,17.39182-30.33124,31.49063-69.64868,31.49063
+                                  s-71.88089-14.09882-72.73245-31.49063c-0.85153-17.39178,30.33127-31.4906,69.64871-31.4906
+                                  S496.03192,310.36758,496.88345,327.75937z" />
+                                <g id="XMLID_343_">
+                                    <path id="XMLID_377_" class="st25" d="M449.3707,317.76517c0.13849,4.90796-6.37778,8.88666-14.5545,8.88666
+                                      c-8.1767,0-14.91751-3.9787-15.056-8.88666c-0.13849-4.90799,6.37778-8.88666,14.5545-8.88666
+                                      C442.49139,308.87851,449.23221,312.85718,449.3707,317.76517z" />
+                                    <path id="XMLID_337_" class="st26" d="M449.3707,316.76517c0.13849,4.90796-6.37778,8.88666-14.5545,8.88666
+                                      c-8.1767,0-14.91751-3.9787-15.056-8.88666c-0.13849-4.90799,6.37778-8.88666,14.5545-8.88666
+                                      C442.49139,307.87851,449.23221,311.85718,449.3707,316.76517z" />
+                                    <ellipse id="XMLID_336_" class="st26" cx="434.59189" cy="261.80307" rx="46.81276"
+                                        ry="27.61419" />
+                                    <ellipse id="XMLID_318_" class="st27" cx="434.59189" cy="258.80307" rx="46.81276"
+                                        ry="27.61419" />
+                                    <path id="XMLID_327_" class="st28" d="M437.80432,289.68024v24.77765c0,1.87906-1.40253,3.41647-3.11676,3.41647l0,0
+                                      c-1.71423,0-3.11676-1.53741-3.11676-3.41647v-24.77765" />
+                                </g>
+                                <polygon id="XMLID_66_" class="st5" points="286.11304,327.09839 285.80737,345.75269 421.91284,424.33319 422.21851,405.67865 	
+                                  " />
+                                <g id="XMLID_189_">
+                                    <path id="XMLID_181_" class="st29"
+                                        d="M437.06982,200.82037L437,203c0,0-0.73248,1.58795-3.36719,1.83513
+                                      c0,0-1.052,0.00183-1.39838-0.05571c-0.34637-0.05753-1.93405-0.58636-2.93405-2.28862l-0.00699-1.48656
+                                      c0,0-0.92459,0.11708-1.26117-0.00424c0,0-3.38205-0.1132-7.93362,1.91757c-4.55154,2.03078-6.60172,12.51456-6.60172,12.51456
+                                      s2.52121,4.08321,7.86771,3.47581c0,0-0.68613,8.02501-1.39261,10.92781c0,0-0.1799,1.45305,0.33231,2.70677
+                                      c0,0,12.54053-2.64906,25.61688-0.63068c0,0,0.27579-1.10963,0-2.92816c-0.27576-1.81851-1.23288-10.07574-1.23288-10.07574
+                                      s4.90927,0.66679,7.86768-3.47581l-1.72195-6.86633c0,0-1.42459-6.09106-10.92053-7.51131L437.06982,200.82037z" />
+                                    <path id="XMLID_183_" class="st30" d="M451.85715,216.35109l1.69199,6.16527c0,0,0.61002,2.33397,3.21689,1.31921l9.8959-9.34019
+                                      c0,0,0.22244-6.51018,1.96793-9.41682c0,0,0.60352-0.61586,0.73947,0.71892c0.13593,1.33478,0.09677,2.15497-0.14597,3.60368
+                                      l3.13834-5.10197c0,0,1.07413-1.50897,1.84897-1.54694c0.77481-0.03796,1.6434,1.26041,1.85095,2.08289
+                                      c0.20752,0.82249,0.79263,2.50015-0.52917,6.31073c-1.32178,3.81056-5.11728,6.90329-5.11728,6.90329l-11.10004,11.35101
+                                      c0,0-2.45016,2.48834-5.78702,1.86732c-3.33682-0.621-5.02017-3.95886-5.02017-3.95886l-3.81964-8.40068
+                                      C444.68829,218.90794,447.86682,219.33414,451.85715,216.35109z" />
+                                    <path id="XMLID_180_" class="st30" d="M414.1666,216.3839c0,0,2.6615,2.92543,7.198,2.52405l-4.13034,9.03398
+                                      c0,0-1.56415,3.02896-5.1391,3.41753s-5.60559-2.21503-5.60559-2.21503l-10.1778-10.47076c0,0-4.9046-3.9574-6.26154-8.89465
+                                      c-1.35693-4.93724,1.18054-6.78813,1.18054-6.78813s0.71426-0.57793,1.5697,0.14258
+                                      c0.85544,0.72049,4.02902,6.2677,4.02902,6.2677s-0.69431-2.27148,0.02994-4.16806
+                                      c0.72421-1.89658,2.15558,5.07744,2.15558,5.07744s0.37393,2.87839,0.3768,4.18484l9.8212,9.32195
+                                      c0,0,1.99594,1.24498,3.14462-0.85692L414.1666,216.3839z" />
+                                    <path id="XMLID_184_" class="st31" d="M437,202.75143c0,0-0.15991,1.39517-2.87994,2.01328s-4.58188-1.51933-4.8371-2.27391
+                                      l-0.0332-1.48656c0,0,5.75024-0.92914,7.75024-3.86905V202.75143z" />
+                                    <path id="XMLID_186_" class="st30"
+                                        d="M418.13992,186.75526c0,0,0.13284,9.46457,9.21927,13.98911
+                                      c0,0,1.42133,0.6716,3.55469-0.12923c2.13336-0.80081,6.64352-2.06734,8.28659-7.14566
+                                      c0.63742-1.97009,0.58917-3.76042,0.29132-5.21396c0,0,1.60541,0.23999,2.86365-1.26865
+                                      c1.25824-1.50865,0.33044-3.47328,0.33044-3.47328s-0.85101-1.70116-2.97449-1.75308
+                                      c-1.15295-0.0282-2.03351,0.72507-2.59756,1.41949c0,0-2.66263-1.28911-3.69412-3.46846c0,0-1.13245,3.15318-2.41599,4.5414
+                                      c-1.28354,1.38823-2.30237,1.80473-3.27686,1.77635c-0.97449-0.0284-1.07324-0.65855-0.85037-1.21573
+                                      c0.2229-0.55717,0.80667-1.5771,1.1207-1.97107c0,0-2.12994,2.46165-3.29443,3.14893
+                                      c-1.16446,0.68726-2.55344,1.47627-3.38458,0.87029c-0.24258-0.17688-0.11823-0.42166-0.06494-0.66142
+                                      c0.12918-0.58168,0.68347-1.19669,0.68347-1.19669S420.45438,186.4604,418.13992,186.75526z" />
+                                    <path id="XMLID_187_" class="st32"
+                                        d="M442.35544,186.98688c0,0-0.75385,1.29474-2.86365,1.26865
+                                      c0,0,0.91556,3.37357-1.0343,6.95041c0,0,2.44269-0.69894,3.26602-3.99023S442.35544,186.98688,442.35544,186.98688z" />
+                                    <path id="XMLID_188_" class="st32"
+                                        d="M418.13992,186.75526c1.40958,0.0602,3.64438-1.58063,3.64438-1.58063
+                                      c-0.71124,1.03912-0.94351,1.87453,0.2157,1.81224c2.95834-0.15895,5.99719-4.14438,5.99719-4.14438
+                                      c-0.46112,0.53001-1.21863,2.3893-1.21863,2.3893s-0.02856,1.49738,2.44812,0.45078
+                                      c2.47672-1.04659,4.19302-5.97102,4.19302-5.97102c0.89886,2.0032,3.71017,3.47891,3.71017,3.47891
+                                      c0.47388-0.73395,1.18744-1.39897,2.22427-1.4319c2.35419-0.07477,3.16037,1.45833,3.16037,1.45833
+                                      c-0.29092-2.17163-1.11127-4.81635-2.70932-6.74594c-5.22607-6.3103-13.14896-5.59595-18.21365-2.22769
+                                      c-5.06473,3.36827-5.08258,10.63174-5.08258,10.63174S416.48291,186.68451,418.13992,186.75526z" />
+                                </g>
+                                <g id="XMLID_379_">
+                                    <ellipse id="XMLID_250_" class="st25" cx="476.25806" cy="337.34235" rx="8.90655"
+                                        ry="5.46198" />
+                                    <ellipse id="XMLID_249_" class="st26" cx="476.25806" cy="336.91251" rx="8.90655"
+                                        ry="5.24943" />
+                                    <path id="XMLID_191_" class="st28"
+                                        d="M477.75757,318.22653v17.88852c0,1.05795-0.65036,1.56427-1.70831,1.56427h0.31592
+                                      c-1.05795,0-1.6076-0.50632-1.6076-1.56427v-17.86432C474.75757,318.25073,476.75757,318.34918,477.75757,318.22653z" />
+                                    <path id="XMLID_190_" class="st26" d="M485.16461,337.01862" />
+                                    <path id="XMLID_269_" class="st33"
+                                        d="M492.73825,300.83835l-0.00003,8.11758c0,0,0.13528,9.1163-17.0343,9.51303
+                                      c-16.84494,0.38928-16.05002-9.82892-16.05002-9.82892l-0.06149-6.76395c0,0,3.00702,8.82376,18.47012,8.34766
+                                      c0,0,6.79926-0.30576,11.10751-3.64444C490.95419,305.19672,492.69028,303.68216,492.73825,300.83835z" />
+                                    <path id="XMLID_270_" class="st34" d="M460.24258,300.83835c0,0,1.16257,3.62912,6.01462,5.41049
+                                      c4.85202,1.78137,14.52347,3.36554,22.5575-2.70523c0,0,3.70447-3.52246,2.73941-6.61847c0,0-1.32889,6.46548-11.40073,9.06558
+                                      C470.08151,308.59079,460.24258,300.83835,460.24258,300.83835z" />
+                                    <path id="XMLID_271_" class="st35"
+                                        d="M491.55411,296.92514c0,0,2.22064,2.55548,0.65115,6.31644
+                                      c-1.13242,2.7135-4.83463,5.06573-9.5733,6.26465c-1.82916,0.46277-3.82773,0.67596-5.8703,0.7872
+                                      c-3.52472,0.19199-7.59482-0.69836-10.75595-2.2074c-3.41644-1.63095-5.81073-3.97568-6.4133-6.20993
+                                      c0,0-0.21298-0.93823,0.18637-1.40948l0.46381,0.37173c0,0,1.15256,3.62473,10.43753,6.02402
+                                      c6.68881,1.72842,12.08899-0.14532,12.08899-0.14532S492.05203,303.85172,491.55411,296.92514z" />
+                                    <path id="XMLID_272_" class="st36" d="M468.31354,289.34125l-8.44894-3.84088c0,0-4.43417-0.48987-8.2171,1.62161
+                                      c-3.78296,2.11151-4.03549,6.39105-4.03549,6.39105l0.02689,38.13214c0,0,3.86111,3.3345,10.86111,0.01498V299
+                                      c0,0,8.73337,8.85626,19.63544,7.39755c10.9021-1.45874,15.24762-9.33386,14.49896-15.4003c0,0-3.93658,2.96967-8.67249,3.54987
+                                      c-4.73593,0.58017-9.66861-1.10907-12.82373-3.64606c0,0-1.26016-0.53662-1.64319-0.75424
+                                      C469.16867,289.96143,468.31354,289.34125,468.31354,289.34125z" />
+                                    <path id="XMLID_274_" class="st37" d="M477.11304,253.92532c0,0,3.94092,0.35129,7.03699-1.64894
+                                      c1.66293-1.07434,1.53952-2.08208,1.06894-2.78482c0,0,1.86377-0.08418,4.74991-2.45265c0,0,1.85663-0.37993,4.00497,0.49785
+                                      c2.14832,0.87778,3.24045,3.15787,3.24045,3.15787s0.79681,1.32281,1.58832,6.08873
+                                      c0.79147,4.7659,0.97803,6.12744,0.97803,6.12744s-1.4057,1.72897-3.02097,1.85577c0,0,0.32794,6.25809-0.04282,10.28827
+                                      c-0.37073,4.03018-0.78873,9.72598-2.38492,14.32947c0,0-0.63348,1.14438-3.51154,2.7666s-4.93784,2.02191-6.26889,2.31097
+                                      c-1.33105,0.28903-5.41721,0.40356-8.57297-0.85803c-3.15573-1.26157-4.94171-2.74622-4.94171-2.74622
+                                      s1.42242,0.42654,2.82043-0.82108s2.34555-3.61188,3.13574-6.88928c0.79016-3.27744,1.06952-8.00934,1.06952-8.00934
+                                      s-5.95972,1.74503-8.99805-0.38641c0,0-0.11053-5.34186,0.35318-8.45053c0.46375-3.1087,0.61597-8.11642,5.27771-11.06976
+                                      L477.11304,253.92532z" />
+                                    <path id="XMLID_273_" class="st38" d="M476.08997,252.96947" />
+                                    <path id="XMLID_275_" class="st31"
+                                        d="M478.96802,250.44113c0,0,0.35837,1.69278-1.85498,3.48419
+                                      c0,0,3.07635,0.2296,5.41772-0.8235c2.34134-1.05309,3.02505-1.77261,2.98886-2.81702l-0.30066-0.79324
+                                      c0,0-0.48792,0.13208-0.88391,0.04909C483.93906,249.45764,482.55875,250.43829,478.96802,250.44113z" />
+                                    <path id="XMLID_276_" class="st30"
+                                        d="M470.48795,233.82768c0,0-1.99451,9.77339,5.88031,15.92255
+                                      c0,0,0.53973,0.84814,3.28268,0.66322s4.68411-0.8728,4.68411-0.8728s-2.27094-0.44766-2.89194-2.59203
+                                      c0,0-0.11969-1.85028-0.47528-2.98882c-0.35556-1.13853-0.52066-1.57164-0.52066-1.57164s1.18011-0.49956,1.31686-2.0929
+                                      s-1.53134-2.37801-2.17474-2.32574c-0.64337,0.05226-1.69696,0.47227-1.69696,0.47227s-2.93628,0.48552-4.96524-1.55341
+                                      c0,0-1.51968-1.44464-0.95761-3.92999C471.96948,232.9584,470.55667,233.40674,470.48795,233.82768z" />
+                                    <path id="XMLID_277_" class="st32" d="M470.50095,233.64981c0,0,0.89566-0.60097,1.46854-0.69141
+                                      c0,0-0.56885,2.26042,0.95761,3.92999c1.52643,1.66957,4.96524,1.55341,4.96524,1.55341s1.29117-0.74242,2.4227-0.31313
+                                      s1.46246,1.08064,1.44901,2.1666c-0.01343,1.08597-0.79605,1.79678-1.31686,2.0929c0,0,0.95596,2.07695,0.91251,4.03152
+                                      c-0.04343,1.95457,2.05447,2.90428,3.2207,3.14612c1.16626,0.24182,3.82889-1.04713,5.11768-2.29619
+                                      c1.28876-1.24904,4.22443-3.2536,4.15424-10.13068s-3.19135-11.80045-8.01572-13.63882s-10.84357-0.93202-13.42972,3.17221
+                                      C472.40686,226.67233,468.19888,228.65479,470.50095,233.64981z" />
+                                    <path id="XMLID_279_" class="st39" d="M456.45435,332.54376c0,0,0.52151,0.9317,0.73254,2.59924
+                                      c0.21103,1.66757-0.80945,2.59503-1.67853,2.99295s-4.32083,2.52148-10.18854-1.80099s-6.56641-3.74512-7.98105-6.39755
+                                      c-1.41467-2.65244,1.23932-4.68402,3.71082-4.79721c2.4715-0.11316,4.35068,0.85446,6.5863,2.25226l0.00299,4.25272
+                                      c0,0,2.2251,1.94086,6.65063,1.354L456.45435,332.54376z" />
+                                    <path id="XMLID_278_" class="st39" d="M458.5,316.73163" />
+                                    <path id="XMLID_280_" class="st39"
+                                        d="M471.81348,323.78442c0,0,0.67871,1.24841,0.83459,2.89658
+                                      c0.15588,1.64813-0.936,2.87836-3.40201,3.57996s-5.39825-0.40561-6.65402-1.25159
+                                      c-1.2558-0.84595-4.09204-2.68771-4.09204-2.68771v-9.59003c0,0,2.702,0.80426,4.09204,1.82288l-0.1347,4.55048
+                                      c0,0,2.08441,1.6853,5.21152,1.5126C470.79599,324.44489,471.81348,323.78442,471.81348,323.78442z" />
+                                    <path id="XMLID_281_" class="st28" d="M473.2261,318.44681" />
+                                    <path id="XMLID_287_" class="st40"
+                                        d="M462.44305,314.88388l0.01428,8.2211c1.94601,1.26181,2.92136,1.57578,6.14059,1.46075
+                                      s4.62817-1.46075,4.62817-1.46075l0.00323-4.65884C473.22934,318.44614,467.71368,318.73514,462.44305,314.88388z" />
+                                    <path id="XMLID_286_" class="st33" d="M478.06253,275.13794" />
+                                    <path id="XMLID_294_" class="st30" d="M478.06253,275.13794c0,0-0.31436,6.3056-1.85434,10.86746
+                                      c-1.54001,4.56183-3.64874,5.23782-5.2966,4.79813c-1.64789-0.43967-5.9339-4.17697-6.42621-4.65564
+                                      c-0.49231-0.4787-6.19754-6.7084-7.81387-9.94861c0,0-3.90787-2.22937-5.15927-5.13193
+                                      c-1.25137-2.90256-0.11639-5.24237,0.28952-5.80133c0.40588-0.55893,0.99927-0.48492,1.34097-0.07443
+                                      c0.34174,0.41049,3.45242,4.60037,3.45242,4.60037s-0.85214-3.66284-0.7598-4.21332s0.30499-0.82834,0.67734-0.47531
+                                      c0.37231,0.353,3.51111,4.57239,2.95905,8.98895l9.8501,6.94855c0,0,0.53735,0.11493,0.55206-0.41086l-0.17435-5.54977
+                                      C469.69955,275.0802,472.73993,276.56128,478.06253,275.13794z" />
+                                    <path id="XMLID_295_" class="st30" d="M496.75967,264.76657c0,0,1.63693-0.30707,2.41769-1.29327
+                                      c0,0,0.83783,4.36188,0.54218,10.11169c-0.29562,5.74982-2.47351,6.90039-3.58301,6.81821c0,0,0.57529-5.87616,0.69858-11.87558
+                                      C496.83511,268.52762,496.832,265.34079,496.75967,264.76657z" />
+                                    <path id="XMLID_298_" class="st30"
+                                        d="M470.82217,259.81439c0,0-0.83109,1.78094-1.19928,4.96332
+                                      c0,0-4.21136-2.65817-4.24756-4.34821c0,0,0.30063-0.25851,0.91113,0.07831c0.61047,0.33682,1.81042,0.71576,2.50513,1.19995
+                                      l-2.72763-3.79495C466.06396,257.91281,468.64246,257.66843,470.82217,259.81439z" />
+                                    <path id="XMLID_297_" class="st40"
+                                        d="M462.45734,286.67902c0,0-0.05252-1.50476,0.10248-2.09369l0.27081-0.11307
+                                      c0,0,3.4147,3.51151,5.48291,4.86899C468.31354,289.34125,462.56784,286.72925,462.45734,286.67902z" />
+                                    <path id="XMLID_304_" class="st33" d="M448.7428,257.90439l11.64386-6.18536c0,0,0.71036-0.67851,1.41071,0.2903l6.99423,9.69844
+                                      c0,0-0.67337-0.52875-1.6745-0.90616l-5.64468-7.82054c-0.17825-0.24695-0.51154-0.32428-0.7803-0.18105l-10.55338,5.62375
+                                      c0,0-0.59354,0.35919-0.19501,0.8851l6.08777,8.05383l0.56366,2.42926l-3.45242-4.60037l-4.69623-6.23703
+                                      C448.4465,258.95456,448.21811,258.52829,448.7428,257.90439z" />
+                                    <path id="XMLID_305_" class="st33"
+                                        d="M469.21494,268.2084l-8.53256,4.92578c0,0-0.48102,0.25168-0.73996-0.12186
+                                      l-0.42899-0.62994c0,0,0.04803,1.2807-0.04169,1.7099l1.05948,0.74741l8.58871-4.96295L469.21494,268.2084z" />
+                                    <polygon id="XMLID_303_" class="st41" points="460.53122,274.83969 461.79736,275.71027 469.07034,271.52405 469.11993,269.87674 
+                                              " />
+                                    <path id="XMLID_307_" class="st41" d="M448.4465,258.95456l-0.12357,1.22391c0,0,0.00836,0.22943,0.29349,0.60565
+                                      c0.28516,0.37622,3.29706,4.3504,3.29706,4.3504s0.20047-0.30585,0.65765-0.26382
+                                      c0.45718,0.04199,0.57159,0.32089,0.57159,0.32089L448.4465,258.95456z" />
+                                    <path id="XMLID_310_" class="st42" d="M467.1171,260.80161l-5.64468-7.82054c0,0-0.39725-0.38518-0.7803-0.18105
+                                      c-0.38306,0.20412-10.55338,5.62375-10.55338,5.62375s-0.46808,0.2363-0.19501,0.8851
+                                      c0.27304,0.64877,6.08777,8.05383,6.08777,8.05383l-0.26059-1.33777c0,0-0.06482-1.90683,0.93576-0.69427
+                                      c1.00058,1.21252,2.35352,2.78387,2.80676,7.05173l0.42899,0.62994c0,0,0.30862,0.43939,0.73996,0.12186l8.53256-4.92578
+                                      l0.40796-3.43069c0,0-1.34146-0.69702-2.61578-2.09644c-0.30548-0.33545-1.15094-1.08047-1.35956-1.43439
+                                      C464.60529,259.47885,467.1171,260.80161,467.1171,260.80161z" />
+                                    <polygon id="XMLID_311_" class="st43" points="457.76852,254.38284 459.38531,253.51122 462.94205,271.85214 461.23846,272.82935 
+                                              " />
+                                    <polygon id="XMLID_312_" class="st43" points="460.3479,252.96947 463.83081,271.31662 464.71939,270.80365 460.69211,252.80002 
+                                              " />
+                                </g>
+                                <g id="XMLID_77_">
+                                    <g id="XMLID_383_">
+                                        <polygon id="XMLID_83_" class="st41"
+                                            points="433.03482,268.70139 433.02521,269.64853 418,278.31213 418.01923,277.36334 			" />
+                                        <polygon id="XMLID_84_" class="st41" points="433.02521,268.51971 433.91302,268.18695 437.54034,249.97104 436.66214,250.4857 
+                                                      " />
+                                        <polygon id="XMLID_85_" class="st41" points="437.54034,249.97104 436.66214,250.4857 414.08105,237.44283 414.95972,236.92839 
+                                                      " />
+                                        <polygon id="XMLID_86_" class="st33" points="410.45416,255.65874 433.02521,268.51971 436.66214,250.4857 414.08105,237.44283 
+                                                      " />
+                                        <polygon id="XMLID_87_" class="st42" points="415.27271,240.43282 434.59189,251.64609 431.79456,265.69138 412.47577,254.47873 
+                                                      " />
+                                        <polygon id="XMLID_91_" class="st43" points="434.59189,251.64609 418.01929,257.6962 420.18417,258.9527 434.13303,253.95003 
+                                                      " />
+                                        <polygon id="XMLID_133_" class="st43" points="433.63065,256.47253 433.44766,257.39117 423.2796,260.7493 422.50992,260.30258 
+                                                      " />
+                                        <path id="XMLID_160_" class="st44" d="M433.02521,268.51971l-22.57104-12.86098l-8.10229,4.66481
+                                          c0,0,1.26978-0.24899,3.28854,0.63855c2.01877,0.88757,2.41611,1.50186,2.43994,2.0625s-0.58801,0.66672-0.58801,0.66672
+                                          s-1.12415,0.32239-1.56967,0.56308s-2.048,1.4119-2.42532,1.48389c0,0,0.07199,1.03143-0.03479,1.47659
+                                          c-0.10681,0.44516-0.24393,1.04965-0.41473,1.46329l8.60788,5.0112c0,0,1.58514-3.28275,3.72287-4.21249
+                                          c2.1377-0.92972,4.41571-1.08768,6.3028-0.27441c1.88712,0.81326,0.1033,1.78033,0.1033,1.78033
+                                          s-1.19254,0.83838-2.04068,2.17184c-0.84818,1.3335-4.12646,2.73486-4.12646,2.73486l2.4017,1.47385l15.01559-8.66196
+                                          L433.02521,268.51971z" />
+                                        <path id="XMLID_134_" class="st41"
+                                            d="M428.78671,268.6893l-17.71048-10.22461l-4.86798,2.75513
+                                          c0,0,1.38495,0.81604,1.61517,1.16711c0.23022,0.35104,0.54074,0.74063-0.14233,1.24872l-0.85153,0.2511l-0.67679,0.25906
+                                          l9.2258,5.33105c0,0,1.69632-0.76151,3.04965-0.79871s2.63223,0.05347,3.68237,0.77914
+                                          c1.05014,0.72571-0.32593,1.52548-0.32593,1.52548s-1.06329,0.80093-1.48123,1.33304l1.02756,0.5932L428.78671,268.6893z" />
+                                        <polygon id="XMLID_162_" class="st41" points="407.66586,266.99924 412.47577,269.77673 410.45117,270.92316 405.64041,268.1456 
+                                                      " />
+                                        <polygon id="XMLID_378_" class="st45" points="418.03644,277.25314 418,278.31213 402.63583,269.59378 403.04782,268.67816 			
+                                          " />
+                                    </g>
+                                    <path id="XMLID_62_" class="st46" d="M412.03278,339.55066c0,0,0.25012-1.22922-0.60547-4.32639
+                                      c0,0-0.80377-2.43988-0.85611-2.77927c0,0-1.50546,0.08093-2.22913-0.33701L404,329.76642v4.3551
+                                      c0,0-1.21759,0.00714-1.18433-0.38425c0.03323-0.39139,0.23505-1.21677-1.03159-5.2793
+                                      c-1.26666-4.06256,0.2244-5.44104,1.12143-6.10077l3.49768,3.93469c0,0,2.3858,3.13577,5.72784,1.87869l4.18839,4.69592
+                                      c0,0,2.5419,2.43091,6.18491,0.77951l3.93375,0.36981c0,0,0.6955,0.35504,0.00143,0.75583
+                                      c-0.69409,0.40079-5.37744,3.10565-5.37744,3.10565s-1.25549,0.71017-2.59271,0.19016
+                                      c-1.13565-0.44165-5.19635-2.86554-5.19635-2.86554l0.02518,4.40271C413.29819,339.60464,412.85095,340.13327,412.03278,339.55066
+                                      z" />
+                                    <path id="XMLID_1_" class="st30" d="M422.50531,333.64603c0,0-2.92081-2.58765-3.57001-3.95987
+                                      c-0.64923-1.37222-1.22217-2.09052-0.70535-4.76675c0.51685-2.67624,2.43961-11.08823,2.43961-11.08823
+                                      s4.67126-18.21634,4.48001-24.75293c0,0-7.50623-1.00525-11.65939-2.39386c0,0,1.48441,2.35727,1.39294,6.60727
+                                      c0,0-0.25208,2.69061-0.77795,4.24069l2.46246-1.58762c0,0-3.55606,8.55466-3.29102,17.72162
+                                      c0.26505,9.16699-1.14172,14.50424-1.14172,14.50424l2.60336,2.9202c0,0,1.68674,2.28513,3.20343,2.74301
+                                      C419.45834,334.29166,421.05225,334.41705,422.50531,333.64603z" />
+                                    <path id="XMLID_68_" class="st29"
+                                        d="M407.70544,284.64685c0,0,1.77362,0.75858,5.78473,2.03754
+                                      c0,0,2.88858,4.48663,0.25684,11.82132c0,0-6.26352,5.12952-11.71887,6.92749c-5.45532,1.79794-8.2645,1.17587-10.97571,0.67435
+                                      c-2.71121-0.5015-8.95288-3.34888-10.96524-6.75644s-1.62381-6.49789-1.62381-6.49789s0.18124-3.77206,2.20413-7.58774
+                                      c0,0,3.14874,2.88095,7.41705,3.41489s7.22391-1.55396,7.22391-1.55396s1.10352,2.80389,2.61111,3.45959
+                                      c1.50763,0.6557,2.60281,0.05289,3.0946-0.26511C401.50601,290.00287,405.60913,287.01602,407.70544,284.64685z" />
+                                    <path id="XMLID_69_" class="st33"
+                                        d="M412,303v8c0,0,0.09622,2.06818-1.64526,4.3092s-7.44403,5.73929-16.71509,5.26538
+                                      c-9.27109-0.47394-14.03067-4.63989-14.63965-8.7655V303c0,0,0.41522,6.22836,9.97607,8.63327
+                                      c9.56088,2.40488,16.32095-0.8497,19.58878-2.96445C411.83264,306.55408,412,303,412,303z" />
+                                    <ellipse id="XMLID_73_" class="st25" cx="395.50049" cy="339.66302" rx="8.90655"
+                                        ry="5.46198" />
+                                    <path id="XMLID_72_" class="st34" d="M406.42554,306.57831c3.97552-2.02435,5.19653-3.34528,5.5636-4.03625
+                                      c-0.03174-0.72131-0.14319-1.83624-0.52753-2.39209c0,0-2.77618,2.06769-4.74524,3.065s-5.68829,3.08936-9.83368,3.32184
+                                      c-4.14532,0.23242-11.62445-0.96674-16.79553-7.18573c0,0-0.71191,0.78204-0.9801,2.40973
+                                      C385.45502,310.06281,400.57062,309.55963,406.42554,306.57831z" />
+                                    <ellipse id="XMLID_70_" class="st26" cx="395.50049" cy="339.23318" rx="8.90655"
+                                        ry="5.24943" />
+                                    <path id="XMLID_74_" class="st35"
+                                        d="M386.11328,310.70221c4.53198,1.83954,11.11292,2.4245,16.03571,0.93103
+                                      c4.92285-1.49347,9.0473-3.44934,9.85199-8.41827c0,0,0.00537-0.28094-0.01184-0.67291
+                                      c-0.36707,0.69098-1.58807,2.0119-5.5636,4.03625c-5.85492,2.98132-20.97052,3.4845-27.31848-4.8175
+                                      C379.04565,302.13342,379,302.53601,379,303C379,305.49072,381.5813,308.86267,386.11328,310.70221z" />
+                                    <path id="XMLID_64_" class="st28"
+                                        d="M397,320.54721v17.88852c0,1.05795-0.65039,1.56427-1.70834,1.56427h0.31595
+                                      c-1.05795,0-1.6076-0.50632-1.6076-1.56427v-17.86432C394,320.57141,396,320.66986,397,320.54721z" />
+                                    <path id="XMLID_71_" class="st26" d="M404.40701,339.33929" />
+                                    <path id="XMLID_75_" class="st47"
+                                        d="M395.30847,287.1264c0,0-1.28745,0.82516-2.97348,1.27386
+                                      c-1.68604,0.44867-4.01364,0.53207-5.42252,0.17221c-2.00537-0.51224-4.12726-1.43332-6.24496-3.30701
+                                      c0,0-2.36758-5.73846-2.83823-7.19763c-0.47064-1.45914-3.49966-10.59991-2.99258-18.41199
+                                      c0.50705-7.8121,3.1142-10.00465,4.31064-10.67401c1.19641-0.66934,3.18341-0.47731,3.18341-0.47731
+                                      s1.76636,0.97343,3.15591,1.18188c0,0-1.28122,2.41997,0.18118,3.94023c0.88943,0.92464,2.43137,1.36417,4.26965,1.84857
+                                      c0,0,1.91473-0.18707,3.73862-1.5499c0,0,2.55927,1.31474,4.51971,2.91345c1.96042,1.59872,3.63113,4.38394,4.98328,7.86633
+                                      s-2.05783,7.08374-2.05783,7.08374s0.07443-3.50925-0.60156-8.53967c0,0-0.72092-5.94321-3.32343-5.93994
+                                      c-2.60254,0.00327-5.44733,2.10986-4.98386,9.45062S392.99194,281.75284,395.30847,287.1264z" />
+                                    <path id="XMLID_81_" class="st31"
+                                        d="M385.48666,249.68642c3.0463,1.20964,6.29904,1.20964,6.29904,1.20964
+                                      c0.36508,2.01329,1.89041,3.02927,1.89041,3.02927c-2.0856,1.5499-3.73862,1.5499-3.73862,1.5499
+                                      c-3.3681-0.74701-4.37024-1.75299-4.67935-2.4201C385.25815,253.05511,384.48376,251.76579,385.48666,249.68642" />
+                                    <path id="XMLID_76_" class="st30" d="M399.25577,230.37372c0,0,1.40115,2.88091,1.22894,7.47235
+                                      c-0.17221,4.59143-1.64154,8.47871-5.67252,12.03508c0,0-0.7623,1.00473-2.59976,1.01491
+                                      c-1.83743,0.01019-5.17194-0.41954-6.72577-1.20964c0,0,2.4725-0.00626,3.48337-2.09605
+                                      c0.5484-1.1337,0.56357-1.82135,0.69577-2.51196c0.10825-0.56549,0.07938-1.0988,0.4812-1.72034
+                                      c0,0-2.10211-1.07439-1.397-3.31119s3.03125-1.90625,3.96143-1.18127c0,0,1.98129-0.6824,4.05942-2.76143
+                                      C398.84897,234.02513,399.25577,230.37372,399.25577,230.37372z" />
+                                    <path id="XMLID_79_" class="st48" d="M374.04639,233.02327c0,0,1.96979-1.87939,4.34079-0.60507s2.21802,3.89606,2.18771,4.27547
+                                      c-0.03033,0.37941-0.86942,5.99477-3.6376,9.49725s-5.87933,4.64629-9.83463,3.70262c0,0,2.16791-2.95557,3.52374-6.84816
+                                      C371.98227,239.15277,371.56186,235.02887,374.04639,233.02327z" />
+                                    <path id="XMLID_80_" class="st32"
+                                        d="M377.66263,232.2834c0,0,0.866-0.01794,2.13742,1.59805s0.58405,5.87491-1.55585,10.23849
+                                      c0,0,2.27521,4.72404,7.24246,5.56647c0,0,3.71567,0.26547,4.17914-4.60802c0,0,0.20679-1.29427,0.4812-1.72034
+                                      c0,0-1.57568-0.90883-1.49472-2.37187c0.08099-1.46304,0.64032-2.16939,1.77289-2.56293
+                                      c1.13257-0.39352,2.28625,0.44234,2.28625,0.44234s2.4483-1.06693,3.95874-2.54219
+                                      c1.51047-1.47525,3.03589-4.84865,2.41928-7.43112c-0.61661-2.58249-2.94672-4.82132-6.42419-5.61736
+                                      c-3.47748-0.79602-7.15369,0.21619-9.86072,1.78786C380.09753,226.63446,377.76001,230.75754,377.66263,232.2834z" />
+                                    <path id="XMLID_78_" class="st30" d="M375.01074,257.61951c0,0-1.84225,7.53265-2.11536,11.34167
+                                      c-0.27313,3.80902,0.04956,7.18985,1.88455,8.51175c0.99097,0.7139,2.07056,0.48083,2.85406,0.11539
+                                      C377.634,277.58832,374.08386,268.49237,375.01074,257.61951z" />
+                                    <path id="XMLID_82_" class="st30" d="M393.20929,259.86337c0,0,1.15189-2.81583,4.3024-2.5238
+                                      c3.15054,0.29202,3.49588,10.83231,3.49588,10.83231s0.2493,8.58945-0.12714,12.23593c0,0,0.02722,0.55811,0.57693,0.53986
+                                      c0,0,8.95615-6.17108,10.11261-6.99081c0,0,1.38644-3.7645,4.63364-4.82364c3.24719-1.05911,5.73926-0.08743,6.22195,0.63315
+                                      s-1.02826,1.50348-1.02826,1.50348s-1.30011,0.88553-1.56396,1.71262c-0.26389,0.82712-4.16797,3.39148-5.71652,3.21683
+                                      c0,0-4.82007,8.04675-10.62064,12.26236l-2.48199,1.85925c0,0-1.58557,1.2431-3.53986,0
+                                      c-1.95425-1.24313-3.36658-6.80402-3.36658-6.80402s-1.5495-7.23898-2.05817-14.88504
+                                      C391.59344,261.77579,393.20929,259.86337,393.20929,259.86337z" />
+                                    <path id="XMLID_320_" class="st30" d="M403.37207,265.75076c0,0,1.17618-0.44467,1.85248-1.09729
+                                      c0.6763-0.65265,2.80121-0.57275,2.8558-1.62888c0.05457-1.05612-2.92438-2.37494-4.1958-2.61322s-2.73627,0-2.73627,0
+                                      S403.26331,264.69943,403.37207,265.75076z" />
+                                    <path id="XMLID_385_" class="st30"
+                                        d="M413.74701,298.50571c0,0-1.76874,7.02435-1.75787,7.77927L412,303
+                                      c0,0-0.09177-2.67105-0.53839-2.85004C411.46161,300.14996,413.18475,299.16797,413.74701,298.50571z" />
+                                    <path id="XMLID_395_" class="st30" d="M409.4649,316.24442c0,0-0.67581,3.15027-0.59335,4.39221
+                                      c0.08249,1.24194-0.22742,2.34021,3.53165,6.45071l-0.26831,1.08325c0,0-1.15619,0.52826-2.88812,0.09631
+                                      c-1.73193-0.43198-3.70508-3.11618-6.08139-5.61737l-0.25986-0.29233c0,0,0.5759-1.88657,0.39642-2.83698
+                                      C403.30194,319.52023,407.02264,318.31131,409.4649,316.24442z" />
+                                </g>
+                                <g id="XMLID_384_">
+                                    <path id="XMLID_381_" class="st33" d="M436.341,236.87651l6.51157-2.3766c0,0,0.75034-0.57706,1.30533-0.00421l9.15918,9.45424
+                                      c0,0,0.56161,0.91646-0.2811,1.22414l-7.4299,2.71252c0,0-0.36566,0.28841-0.80975-0.1989l-8.75192-9.60387
+                                      C436.0444,238.08383,435.70514,237.41679,436.341,236.87651z" />
+                                    <path id="XMLID_380_" class="st42" d="M437.78711,237.60596l5.3887-1.96677c0,0,0.62097-0.47755,1.08026-0.00349l7.5798,7.82397
+                                      c0,0,0.46475,0.75842-0.23267,1.01303l-6.14868,2.2448c0,0-0.30261,0.23866-0.6701-0.16461l-7.24277-7.94778
+                                      C437.54166,238.6051,437.26089,238.05309,437.78711,237.60596z" />
+                                    <path id="XMLID_382_" class="st41"
+                                        d="M453.49695,244.54466l0.02808,1.51149c0,0-0.01529,0.45795-0.48904,0.73808
+                                      c-0.47375,0.28012-7.2955,2.66367-7.2955,2.66367s-0.56567,0.26503-0.94415-0.15027
+                                      c-0.37845-0.41528-8.84232-9.72522-8.84232-9.72522s-0.10544-0.31488-0.10526-0.6814l0.04214-1.08414l8.95612,9.97218
+                                      c0,0,0.26614,0.17596,0.67371,0.14296l6.87656-2.61694C452.39728,245.31508,453.20386,245.05707,453.49695,244.54466z" />
+                                </g>
+                            </g>
+
+                            <g id="talk-right-1">
+                                <g id="cuadros">
+                                    <path id="cuadro-3" class="st0" d="M506.20535,160.71487l-39.99164-23.08914c-0.61276-0.35484-0.99158-1.01022-0.99158-1.71902
+                                      V94.85794c0-1.52707,1.65338-2.48246,2.97684-1.71793l39.12524,22.58884c1.14926,0.66369,1.85797,1.89084,1.85797,3.21822
+                                      v40.04877C509.18219,160.52393,507.52682,161.47841,506.20535,160.71487z" />
+                                    <path id="linea-cuadro-3" class="st1" d="M506.60181,158.87747c-0.16058,0-0.31918-0.0426-0.46402-0.12631l-38.61914-22.29623
+                                      c-0.39743-0.23006-0.64313-0.65738-0.64313-1.11548V95.80461c0-0.29861,0.15366-0.56586,0.41119-0.71512
+                                      c0.26031-0.14925,0.56964-0.14925,0.82718,0l38.56808,22.26737c0.52377,0.30093,0.84683,0.86287,0.84683,1.46592v39.12566
+                                      c0,0.3353-0.17331,0.63582-0.46301,0.80272C506.92087,158.83487,506.76038,158.87747,506.60181,158.87747z M467.70169,95.7179
+                                      c-0.01764,0-0.03229,0.00542-0.043,0.01223c-0.01965,0.01133-0.0441,0.03338-0.0441,0.07448v39.53484
+                                      c0,0.19527,0.10675,0.37741,0.27505,0.47475l38.61713,22.29674c0.08521,0.04842,0.15958,0.01564,0.18893,0
+                                      c0.02747-0.01665,0.09402-0.06456,0.09402-0.16249v-39.12566c0-0.34022-0.18402-0.65588-0.47574-0.82578l-38.56918-22.26687
+                                      C467.72916,95.72091,467.71341,95.7179,467.70169,95.7179z" />
+                                    <path id="cuadro-2" class="st0" d="M528.56665,235.06381l-39.99255-23.08965c-0.61276-0.35385-0.99167-1.00882-0.99167-1.71852
+                                      v-41.04828c0-1.52756,1.65338-2.48195,2.97696-1.71841l39.12512,22.58884c1.15118,0.6633,1.85999,1.89084,1.85999,3.21773
+                                      v40.04877C531.54449,234.87195,529.8891,235.82735,528.56665,235.06381z" />
+                                    <path id="linea-cuadro-2" class="st1" d="M528.9621,233.22591c-0.15857,0-0.31915-0.0421-0.46405-0.12581l-38.6181-22.29674
+                                      c-0.39645-0.22905-0.64413-0.65678-0.64413-1.11497v-39.53433c0-0.29861,0.15466-0.56686,0.41217-0.71613
+                                      c0.26035-0.14926,0.56879-0.14926,0.82721,0l38.56821,22.26787c0.52264,0.30103,0.84674,0.86238,0.84674,1.46542v39.12616
+                                      c0,0.3353-0.17426,0.63531-0.46405,0.80272C529.28027,233.18381,529.12067,233.22591,528.9621,233.22591z M490.06207,170.06694
+                                      c-0.01663,0-0.03137,0.00581-0.04309,0.01173c-0.02054,0.01172-0.04312,0.03377-0.04312,0.07538v39.53433
+                                      c0,0.19487,0.10477,0.3774,0.27417,0.47523l38.61905,22.29575c0.08417,0.04851,0.15857,0.01613,0.18604,0
+                                      c0.02936-0.01614,0.09491-0.06456,0.09491-0.16199v-39.12616c0-0.33972-0.18201-0.65587-0.47675-0.82529l-38.56821-22.26726
+                                      C490.09045,170.06984,490.0748,170.06694,490.06207,170.06694z" />
+                                    <path id="cuadro-1" class="st0" d="M565.48138,195.02327l-39.99152-23.08815c-0.61279-0.35434-0.99158-1.01022-0.99158-1.71841
+                                      v-41.04929c0-1.52757,1.65332-2.48255,2.97784-1.71852l39.12421,22.58945c1.15015,0.6642,1.85797,1.89024,1.85797,3.21812
+                                      v40.04887C568.45831,194.83292,566.80493,195.7878,565.48138,195.02327z" />
+                                    <path id="linea-cuadro-1" class="st1" d="M565.87793,193.18585c-0.15961,0-0.31818-0.0416-0.46313-0.12531l-38.62-22.29613
+                                      c-0.39648-0.23006-0.64417-0.65738-0.64417-1.11598V130.114c0-0.29852,0.15466-0.56575,0.41309-0.71512
+                                      c0.26044-0.14926,0.56879-0.14926,0.82617,0l38.56921,22.26688c0.52277,0.30202,0.84583,0.86296,0.84583,1.46591v39.12616
+                                      c0,0.33481-0.17328,0.63533-0.46307,0.80272C566.19598,193.14426,566.0365,193.18585,565.87793,193.18585z M526.97784,130.02689
+                                      c-0.01666,0-0.03229,0.00542-0.04315,0.01173c-0.01953,0.01273-0.04401,0.03429-0.04401,0.07538v39.53444
+                                      c0,0.19476,0.1048,0.3773,0.27509,0.47523l38.61713,22.29674c0.08618,0.04842,0.16058,0.01614,0.18896,0
+                                      c0.02832-0.01663,0.09302-0.06516,0.09302-0.16258v-39.12616c0-0.33961-0.18213-0.65536-0.47577-0.82518l-38.56818-22.26787
+                                      C527.00427,130.0303,526.99158,130.02689,526.97784,130.02689z" />
+                                </g>
+                                <g id="bolas">
+                                    <path id="bola11" class="st1" d="M457.39374,96.5084c0,1.19577-0.8389,1.68084-1.8736,1.0822
+                                      c-1.03769-0.59814-1.87659-2.05233-1.87659-3.248c0-1.19577,0.8389-1.68083,1.87659-1.0832
+                                      C456.55484,93.85804,457.39374,95.31263,457.39374,96.5084z" />
+                                    <path id="bola10" class="st1" d="M519.43732,103.2942c0,1.19627-0.8399,1.68084-1.87469,1.0827
+                                      c-1.03571-0.59764-1.87463-2.05173-1.87463-3.248c0-1.19577,0.83893-1.68034,1.87463-1.0827
+                                      C518.59741,100.64433,519.43732,102.09853,519.43732,103.2942z" />
+                                    <path id="bola9" class="st1" d="M470.10788,170.04588c0,1.19618-0.83994,1.68074-1.8746,1.0831
+                                      c-1.03668-0.59813-1.87662-2.05222-1.87662-3.24799c0-1.19627,0.83994-1.68085,1.87662-1.0827
+                                      C469.26794,167.39592,470.10788,168.85011,470.10788,170.04588z" />
+                                    <path id="bola8" class="st1" d="M578.01147,183.18143c0,0.84183-0.59125,1.18294-1.31958,0.76103
+                                      c-0.73029-0.42041-1.3205-1.44337-1.3205-2.28519c0-0.84142,0.59021-1.18254,1.3205-0.76213
+                                      C577.42023,181.31606,578.01147,182.34001,578.01147,183.18143z" />
+                                    <path id="bola7" class="st1" d="M454.9631,103.99809c0,0.84142-0.5903,1.18254-1.31955,0.76163
+                                      c-0.72928-0.42101-1.31958-1.44396-1.31958-2.28529c0-0.84192,0.5903-1.18304,1.31958-0.76163
+                                      C454.3728,102.13371,454.9631,103.15667,454.9631,103.99809z" />
+                                    <path id="bola6" class="st1" d="M567.38446,134.71294c0,0.84143-0.58936,1.18254-1.31958,0.76213
+                                      c-0.72833-0.42101-1.31866-1.44446-1.31866-2.28578c0-0.84142,0.59033-1.18254,1.31866-0.76213
+                                      C566.7951,132.84816,567.38446,133.87163,567.38446,134.71294z" />
+                                    <path id="bola5" class="st1" d="M554.71735,220.04625c0,0.84193-0.59033,1.18304-1.31958,0.76263
+                                      c-0.72833-0.42101-1.31866-1.44397-1.31866-2.28528c0-0.84193,0.59033-1.18304,1.31866-0.76213
+                                      C554.12701,218.18198,554.71735,219.20494,554.71735,220.04625z" />
+                                    <path id="bola4" class="st1" d="M561.60498,217.21916c0,0.84143-0.59137,1.18254-1.32062,0.76213
+                                      c-0.72833-0.42101-1.31866-1.44437-1.31866-2.28578c0-0.84143,0.59033-1.18304,1.31866-0.76213
+                                      C561.01361,215.35388,561.60498,216.37735,561.60498,217.21916z" />
+                                    <path id="bola3" class="st1" d="M473.54782,159.6395c0,0.84143-0.59131,1.18204-1.31967,0.76112
+                                      c-0.72824-0.42039-1.31955-1.44386-1.31955-2.28528s0.59131-1.18304,1.31955-0.76213
+                                      C472.95651,157.77422,473.54782,158.79768,473.54782,159.6395z" />
+                                    <path id="bola2" class="st1" d="M526.42175,110.93665c0,0.84132-0.59119,1.18204-1.32056,0.76203
+                                      c-0.72821-0.42141-1.31854-1.44437-1.31854-2.28569c0-0.84192,0.59033-1.18304,1.31854-0.76213
+                                      C525.83057,109.07177,526.42175,110.09523,526.42175,110.93665z" />
+                                    <path id="bola1" class="st1" d="M587.37183,207.48189c0,0.84142-0.59021,1.18254-1.3205,0.76163
+                                      c-0.72729-0.42091-1.31866-1.44437-1.31866-2.2858c0-0.84131,0.59137-1.18243,1.31866-0.76102
+                                      C586.78162,205.61711,587.37183,206.64056,587.37183,207.48189z" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" style="
+                    background-image: linear-gradient(to bottom, #fda4bf, #ffa2cb, #ffa1da, #ffa2eb, #fda4fd);
+                ">
+            <div class="intro text-center">
+                <div class="row">
+                    <div class="col text-center my-auto">
+                        <h3 class="display-4">GRAZIE</h3>
+                        <h5 class="firme">Alessandro Mieli & Marco Giuseppini</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="dist/fullpage.js"></script>
+    <script type="text/javascript" src="dist/js/main.js"></script>
+    <script type="text/javascript" src="dist/js/code.js"></script>
+
+    <!-- Terminale animato -->
+    <script src="dist/js/termynal.min.js"></script>
+
+    <!-- Scritte Animate -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- terminale animato -->
+    <script>
             // var termynal = new Termynal("#termynal");
-        </script>
+    </script>
 
-        <!-- Scrittura animata -->
-        <script>
-            //Lista hosting slide5
-            var typed = new Typed("#hostinglist", {
-                strings: [
-                    "Aruba...",
-                    "OVH...",
-                    "GoDaddy...",
-                    "Namecheap...",
-                    "Domain.com...",
-                    "Bluehost...",
-                    "HostGator...",
-                ],
-                loop: true,
-                typeSpeed: 100,
-                backSpeed: 60,
-                backDelay: 1500,
-                loopCount: Infinity,
-                smartBackspace: false,
+    <!-- Scrittura animata -->
+    <script>
+        //Lista hosting slide5
+        var typed = new Typed("#hostinglist", {
+            strings: [
+                "Aruba...",
+                "OVH...",
+                "GoDaddy...",
+                "Namecheap...",
+                "Domain.com...",
+                "Bluehost...",
+                "HostGator...",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 60,
+            backDelay: 1500,
+            loopCount: Infinity,
+            smartBackspace: false,
+        });
+
+        //Lista server
+        var typed = new Typed("#serverlist", {
+            strings: [
+                "Mail Server...",
+                "Server FTP...",
+                "Web Server...",
+                "DHCP Server...",
+                "DNS Server...",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 60,
+            backDelay: 1500,
+            loopCount: Infinity,
+            smartBackspace: false,
+        });
+
+        //Lista hosting server
+        var typed = new Typed("#hostingServerList", {
+            strings: [
+                "Aruba...",
+                "GameHosting...",
+                "OVH...",
+                "NFOServer...",
+                "Contabo...",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 60,
+            backDelay: 1500,
+            loopCount: Infinity,
+            smartBackspace: false,
+        });
+    </script>
+
+    <script type="text/javascript">
+        var myFullpage = new fullpage("#fullpage", {
+            // scrollingSpeed: 0, //da togliere alla fine
+            afterLoad: function (anchorLink, index) {
+                console.log(
+                    "AFTER LOAD - anchorLink:" +
+                    anchorLink +
+                    " index:" +
+                    index
+                );
+            },
+            onLeave: function (index, nextIndex, direction) {
+                if (nextIndex.index == 14 && direction == "down") {
+                    //Crea il terminale animato (install apache)
+                    var termynal = new Termynal("#termynal");
+                }
+
+                if (nextIndex.index == 16 && direction == "down") {
+                    //Crea il terminale animato (trasferimento file)
+                    var termynal = new Termynal("#termynal-ftp-upload");
+                }
+                console.log(
+                    "ONLEAVE - index:" +
+                    index +
+                    " nextIndex:" +
+                    nextIndex +
+                    " direction:" +
+                    direction
+                );
+            },
+        });
+    </script>
+
+    <script>
+        // Prima slide schede che saltellano
+        window.onload = (function () {
+            var interval;
+            setTimeout(function () {
+                interval = setInterval(function () {
+                    $("#last").toggleClass("pokeupMy");
+                }, 400);
+            }, 8000);
+
+            $("#first, #second, #last").hover(function () {
+                clearInterval(interval);
+                $("#last").removeClass("pokeupMy");
             });
+        })();
+    </script>
+</body>
 
-            //Lista server
-            var typed = new Typed("#serverlist", {
-                strings: [
-                    "Mail Server...",
-                    "Server FTP...",
-                    "Web Server...",
-                    "DHCP Server...",
-                    "DNS Server...",
-                ],
-                loop: true,
-                typeSpeed: 100,
-                backSpeed: 60,
-                backDelay: 1500,
-                loopCount: Infinity,
-                smartBackspace: false,
-            });
-
-            //Lista hosting server
-            var typed = new Typed("#hostingServerList", {
-                strings: [
-                    "Aruba...",
-                    "GameHosting...",
-                    "OVH...",
-                    "NFOServer...",
-                    "Contabo...",
-                ],
-                loop: true,
-                typeSpeed: 100,
-                backSpeed: 60,
-                backDelay: 1500,
-                loopCount: Infinity,
-                smartBackspace: false,
-            });
-        </script>
-
-        <script type="text/javascript">
-            var myFullpage = new fullpage("#fullpage", {
-                // scrollingSpeed: 0, //da togliere alla fine
-                afterLoad: function (anchorLink, index) {
-                    console.log(
-                        "AFTER LOAD - anchorLink:" +
-                            anchorLink +
-                            " index:" +
-                            index
-                    );
-                },
-                onLeave: function (index, nextIndex, direction) {
-                    if (nextIndex.index == 14 && direction == "down") {
-                        //Crea il terminale animato (install apache)
-                        var termynal = new Termynal("#termynal");
-                    }
-
-                    if (nextIndex.index == 16 && direction == "down") {
-                        //Crea il terminale animato (trasferimento file)
-                        var termynal = new Termynal("#termynal-ftp-upload");
-                    }
-                    console.log(
-                        "ONLEAVE - index:" +
-                            index +
-                            " nextIndex:" +
-                            nextIndex +
-                            " direction:" +
-                            direction
-                    );
-                },
-            });
-        </script>
-
-        <script>
-            // Prima slide schede che saltellano
-            window.onload = (function () {
-                var interval;
-                setTimeout(function () {
-                    interval = setInterval(function () {
-                        $("#last").toggleClass("pokeupMy");
-                    }, 400);
-                }, 8000);
-
-                $("#first, #second, #last").hover(function () {
-                    clearInterval(interval);
-                    $("#last").removeClass("pokeupMy");
-                });
-            })();
-        </script>
-    </body>
 </html>
