@@ -112,7 +112,9 @@ Il dominio di secondo livello, riamendo nell'esempio sopracitato, è `google`; q
 All’estrema sinistra troviamo `www.`, ovvero un dominio di terzo livello; non essendoci altri sottodomini, questo, prende il nome di *dominio radice*.
 
 
-I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name System (DNS)*. Quest'ultimo rappresenta una risorsa IP, come un server che ospita un sito web o il sito web stesso.
+I nomi di dominio sono formati dalle regole e dalle procedure del *Domain Name System (DNS)*.
+In generale, un nome di dominio rappresenta una risorsa IP, ad esempio un server che ospita un sito web o il sito web stesso.
+
 
 
 ***Come comprare un dominio?***<br />
